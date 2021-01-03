@@ -1,0 +1,25 @@
+
+state={
+	id=805
+	name="STATE_805"
+
+	history={
+		owner = ITA
+		victory_points = {
+			914 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ITA
+
+	}
+
+	provinces={
+		914 3448 6900 11767 
+	}
+	manpower=262200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
