@@ -2,16 +2,28 @@
 state={
 	id=633
 	name="STATE_633"
-	manpower=52517
+	manpower=53517
 	
 	state_category = small_island
 
 	history={
 		owner = JAP
-		add_core_of = FSM
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 3
 			air_base = 2
+			13021 = {
+				naval_base = 1
+			}
+			4387 = {
+				naval_base = 1
+			}
+			7393 = {
+				naval_base = 1
+			}
+			13020 = {
+				naval_base = 1
+			}
 			13040 = {
 				naval_base = 1
 
@@ -26,7 +38,6 @@ state={
 			}
 			13046 = {
 				naval_base = 1
-
 			}
 			1002 = {
 				naval_base = 1
@@ -38,16 +49,13 @@ state={
 				naval_base = 1
 			}
 		}
-		victory_points = {
-			13041 3 
-		}
-		victory_points = {
-			13046 1 
-		}
+		victory_points = { 13041 3 }
+		victory_points = { 13046 1 }
+		victory_points = { 13021 1 }
 
 	}
 
 	provinces={
-		1002 13039 13040 13041 13042 13043 13044 13045 13046 
+		1002 4387 7393 13020 13021 13022 13039 13040 13041 13042 13043 13044 13045 13046 
 	}
 }

@@ -1,0 +1,222 @@
+﻿capital = 121
+
+oob = ""
+
+diplomatic_relation = {
+	country = ULS
+	relation = docking_rights
+	active = yes
+
+}
+
+set_research_slots = 3
+set_convoys = 100
+
+set_stability = 0.60
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1961.11.14"
+	elections_allowed = no 
+}
+
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 35
+    social_liberal = 55
+    democratic = 0
+    social_conservative = 10
+    neutrality = 0
+    despotist = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+
+
+create_navy_leader = {
+    name = "Edmund Walter Anstice"
+    picture = "Sir_Edmund_Walter_Anstice.dds"
+    traits = { air_controller }
+    skill = 4
+	id = 685
+	attack_skill = 4
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 4
+}
+
+create_field_marshal = {
+	name = "Douglas Wimberley"
+	picture = "Douglas_Wimberly.dds"
+	traits = {old_guard war_hero }
+
+	skill = 3
+	id = 675
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Bernard Gordon Lennox"
+	picture = "Bernard_Charles_Gordon_Lennox.dds"
+	traits = {combined_arms_expert }
+	skill = 2
+	id = 676
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ronald Bramwell-Davis"
+	picture = "Ronald_Bramwell-Davis.dds"
+	traits = {skilled_staffer }
+	skill = 2
+	id = 677
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Henry Leask"
+	picture = "Henry_Leask.dds"
+	traits = {paratrooper }
+	skill = 2
+	id = 678
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Bill Speakman"
+	picture = "Bill_Speakman.dds"
+	traits = { }
+	skill = 1
+	id = 679
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Eric Miles"
+	picture = "Eric_Grant_Miles.dds"
+	traits = {old_guard }
+	skill = 3
+	id = 680
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Bernard Fergusson"
+	picture = "Bernard_Fergusson.dds"
+	traits = { }
+	skill = 2
+	id = 681
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Lorne Maclaine Campbell"
+	picture = "Lorne_MacLaine_Campbell.dds"
+	traits = {old_guard }
+	skill = 3
+	id = 682
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Derek Boileau Lang"
+	picture = Sir_Derek_Lang.dds
+	traits = {infantry_expert }
+	skill = 3
+	id = 683
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Alexander Boswell"
+	picture = "Alexander_Boswell.dds"
+	traits = {armor_officer panzer_expert }
+	skill = 2
+	id = 684
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_country_leader = {
+	name = "Robert Mcintyre"
+	desc = "POLITICS_ROBERT_MCINTYRE_DESC"
+	picture = "Robert_Mcintyre.dds"
+	expire = "1975.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+#create_country_leader = {
+#	name = "John MacCormick"
+#	desc = "POLITICS_JOHN_MACCORMICK_DESC"
+#	picture = "Portrait_JohnMacCormick.dds"
+#	expire = "1975.1.1"
+#	ideology = social_liberal_subtype
+#	traits = {
+#	}
+#}
+
+
+create_country_leader = {
+	name = "William Wolfe"
+	desc = "POLITICS_WILLIAM_WOLFE_DESC"
+	picture = "Portrait_SCO_William_Wolfe.dds"
+	expire = "1975.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+#create_country_leader = {
+#	name = "Willie Ross"
+#	desc = "POLITICS_WILLIE_ROSS_DESC"
+#	picture = "Willie_Ross.dds"
+#	expire = "1975.1.1"
+#	ideology = social_democrat_subtype
+#	traits = {
+#	}
+#}
+
+create_country_leader = {
+	name = "Priscilla Buchan"
+	desc = "POLITICS_PRISCILLA_BUCHAN_DESC"
+	picture = "Priscilla_Buchan.dds"
+	expire = "1975.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+

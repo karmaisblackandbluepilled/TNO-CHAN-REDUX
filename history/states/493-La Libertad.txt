@@ -4,7 +4,7 @@ state={
 	name="STATE_493"
 	manpower = 2826781
 	resources={
-		oil=15 # was: 20
+		oil=11
 	}
 	
 	state_category = town
@@ -23,12 +23,8 @@ state={
 			}
 		}
 		add_core_of = COL
-		victory_points = {
-			2023 1 
-		}
-		victory_points = {
-			12790 5 
-		}
+		victory_points = { 2023 1 }
+		victory_points = { 12790 5 }
 
 	}
 

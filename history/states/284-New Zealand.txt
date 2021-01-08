@@ -1,8 +1,8 @@
-
+###POP DONE
 state={
 	id=284
 	name="STATE_284" # North Island
-	manpower = 899836
+	manpower = 1923219
 	
 	state_category = city
 	
@@ -10,7 +10,7 @@ state={
 		owner = NZL
 		buildings = {
 			infrastructure = 6
-			arms_factory = 1
+			arms_factory = 2
 			industrial_complex = 4
 			air_base = 3
 			4543 = {
@@ -20,12 +20,8 @@ state={
 				naval_base = 2
 			}
 		}
-		victory_points = {
-			1814 10
-		}
-		victory_points = {
-			4543 5 
-		}
+		victory_points = { 1814 10 }
+		victory_points = { 4543 5 }
 		add_core_of = NZL
 	}
 

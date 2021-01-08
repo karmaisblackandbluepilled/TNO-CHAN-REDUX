@@ -1,21 +1,21 @@
-
+###POP DONE 
 state={
 	id=263
 	name="STATE_263"
-	manpower = 1092577
+	manpower = 589223
 	
 	state_category = town
 
 	history={
-		owner = RKM
-		victory_points = {
-			117 5 
-		}
+		owner = MCW
+		victory_points = { 117 5 }
 		buildings = {
 			infrastructure = 5
 			air_base = 2
 		}
-		add_core_of = RKM
+		
+		add_core_of = MCW
+		add_core_of = PSK
 	}
 
 	provinces={

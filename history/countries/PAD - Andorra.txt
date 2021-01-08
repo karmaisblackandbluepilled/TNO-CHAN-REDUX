@@ -1,0 +1,37 @@
+﻿capital = 1378
+
+
+set_politics = {	
+	ruling_party = despotist
+	last_election = "1962.6.5"
+	election_frequency = 0
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 0
+    neutrality = 0
+    despotist = 100
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Co-Princes"
+	desc = "POLITICS_Co_Princes_DESC"
+	picture = "TNO_Andorra_CoPrinces.dds"
+	expire = "2005.4.6"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+diplomatic_relation = { country = IBR relation = non_aggression_pact }
+diplomatic_relation = { country = FRA relation = non_aggression_pact }

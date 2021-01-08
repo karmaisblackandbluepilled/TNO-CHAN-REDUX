@@ -4,7 +4,7 @@ state={
 	name="STATE_510"
 	manpower = 3497169
 	resources={
-		oil=8 # was: 12
+		oil=6
 	}
 	
 	state_category = large_town
@@ -17,9 +17,7 @@ state={
 			air_base = 1
 			arms_factory = 1
 		}
-		victory_points = {
-			7500 1 
-		}
+		victory_points = { 7500 1 }
 		add_core_of = ARG
 	}
 

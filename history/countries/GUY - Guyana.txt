@@ -1,0 +1,59 @@
+﻿capital = 309
+
+oob = ""
+set_stability = 0.7
+
+
+set_politics = {	
+	ruling_party = neutrality
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communism = 3
+    ultranational_socialism = 0
+    socialist = 9
+    social_democrat = 4
+    social_liberal = 12
+    democratic = 0
+    social_conservative = 16
+    neutrality = 38
+    despotist = 12
+    fascism = 6
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+
+create_country_leader = {
+	name = "Forbes Burnham"
+	picture = "Portrait_Guyana_Forbes_Burnham.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Forbes Burnham"
+	picture = "Portrait_Guyana_Forbes_Burnham.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Cheddi Jagan"
+	picture = "Portrait_Guyana_Cheddi_Jagan.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}

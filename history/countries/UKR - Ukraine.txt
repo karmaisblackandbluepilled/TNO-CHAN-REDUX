@@ -1,0 +1,127 @@
+﻿capital = 202 #Kiev
+
+oob = ""
+
+set_research_slots = 3
+set_convoys = 120
+
+
+set_politics = {	
+	ruling_party = national_socialism
+	last_election = "1941.4.17"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 10
+    socialist = 8
+    social_democrat = 0
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 0
+    neutrality = 11
+    despotist = 5
+    fascism = 21
+    national_socialism = 45
+    ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Erich Koch"
+	desc = "POLITICS_ERICH_KOCH_DESC"
+	picture = "Portrait_Ukraine_Erich_Koch.dds"
+	expire = "1983.4.24"
+	ideology = national_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Georg Leibbrandt"
+	desc = "POLITICS_GEORG_LEIBBRANDT_DESC"
+	picture = "Portrait_UKR_Georg_Leibbrandt.dds"
+	expire = "1982.6.16"
+	ideology = fascism_subtype
+}
+
+create_country_leader = {
+	name = "Yuriy Horlis"
+	desc = "POLITICS_YURIY_HORLIS_DESC"
+	picture = "Portrait_UKR_Yuriy_Horlis.dds"
+	expire = "1983.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+
+### Unit Leaders ###
+create_field_marshal = {
+	name = "Theodor Kretschmer"
+	picture = "Portrait_Ukraine_Theodor_Kretschmer.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
+}
+
+create_field_marshal = {
+	name = "Paul Reichelt"
+	picture = "Portrait_Ukraine_Paul_Reichelt.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
+}
+
+create_corps_commander = {
+	name = "Albert Brux"
+	picture = "Portrait_Ukraine_Albert_Brux.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
+}
+
+create_corps_commander = {
+	name = "Albrecht Mertz von Quirnheim"
+	picture = "Portrait_Ukraine_Albrecht_Mertz_von_Quirnheim.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
+}
+
+create_corps_commander = {
+	name = "Willy Riedel"
+	picture = "Portrait_Ukraine_Willy_Riedel.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
+}
+
+create_corps_commander = { 
+	name = "Alfred Frauenfeld"
+	picture = "Portrait_Ukraine_Alfred_Frauenfeld.dds"
+	traits = { trait_engineer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 192
+}
+

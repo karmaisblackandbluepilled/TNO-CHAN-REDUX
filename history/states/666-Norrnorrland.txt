@@ -1,21 +1,19 @@
 
 state={
 	id=666
-	name="STATE_666" # Lappland
-	manpower = 415327
+	name="STATE_666" # Lappland 121141, norrbotten 178442, västerbotten 183781
+	manpower = 483364
 	resources={
-		tungsten=40 # was: 70
-		steel= 50 # was: 80
-		chromium = 25 # was: 40
+		tungsten=70
+		steel= 80
+		chromium = 40
 	}
 	
 	state_category = rural
 
 	history={
 		owner = SWE
-		victory_points = {
-			9108 1 
-		}
+		victory_points = { 9108 1 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

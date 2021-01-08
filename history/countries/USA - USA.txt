@@ -1,0 +1,407 @@
+﻿capital = 992
+
+oob = ""
+
+set_research_slots = 4
+set_stability = 0.75
+set_war_support = 0
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	cv_CAS1 = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	superior_firepower = 1
+	base_strike = 1
+	motorised_infantry = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	marines = 1
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+	}
+	add_ideas = MTG_naval_treaty_adherent
+}
+
+create_faction = "Organization of Free Nations"
+add_to_faction = USA
+add_to_faction = CAN
+add_to_faction = AST
+add_to_faction = ICE
+add_to_faction = NZL
+add_to_faction = WIN
+add_to_faction = GUY
+add_to_faction = BLZ
+
+puppet = ICE
+set_autonomy = {
+	target = WIN
+	autonomous_state =  autonomy_puppet
+}
+set_autonomy = {
+	target = GUY
+	autonomous_state =  autonomy_puppet
+}
+
+set_convoys = 500
+
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1960.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 0
+    socialist = 1
+    social_democrat = 15
+    social_liberal = 41
+    democratic = 0
+    social_conservative = 25
+    neutrality = 17
+    despotist = 0
+    fascism = 1
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Richard Nixon"
+	desc = "POLITICS_RICHARD_NIXON_DESC"
+	picture = "Portrait_USA_Richard_Nixon.dds"
+	expire = "1994.4.20"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "John F. Kennedy"
+	desc = "POLITICS_JFK_DESC"
+	picture = "Portrait_USA_John_Fitzgerald_Kennedy.dds"
+	expire = "1994.4.20"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Francis Parker Yockey"
+	desc = "POLITICS_FRANCIS_YOCKEY_DESC"
+	picture = "Portrait_USA_Francis_Parker_Yockey.dds"
+	expire = "1994.4.20"
+	ideology = fascism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "George Wallace"
+	desc = "POLITICS_GEORGE_WALLACE_DESC"
+	picture = "Portrait_USA_George_Wallace.dds"
+	expire = "1994.4.20"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Henry M. Jackson"
+	desc = "POLITICS_SCP_DESC"
+	picture = "Portrait_USA_Henry_M_Jackson.dds"
+	expire = "1994.4.20"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gus Hall"
+	desc = "POLITICS_GUS_HALL_DESC"
+	picture = "Portrait_USA_Gus_Hall.dds"
+	expire = "1994.4.20"
+	ideology = socialist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Andrew McAllister"
+	#desc = "POLITICS_GUS_HALL_DESC"
+	#picture = "Portrait_USA_Gus_Hall.dds"
+	expire = "1994.4.20"
+	ideology = national_socialism_subtype
+	traits = {
+	}
+}
+
+
+create_corps_commander = {
+	name = "Wallace M. Greene Jr."
+	picture = "Portrait_USA_GEN_Wallace_M_Green_Jr.dds"
+	traits = { naval_invader invader_ii }
+
+	skill = 2
+	id = 1000
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Lyman Lemnitzer"
+	picture = "Portrait_USA_Lyman_Lemnitzer.dds"
+	traits = { war_hero brilliant_strategist expert_delegator }
+
+	skill = 4
+	id = 1001
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Robert W. Porter Jr."
+	picture = "Portrait_USA_GEN_Robert_W_Porter_Jr.dds"
+	traits = { infantry_expert }
+
+	skill = 2
+	id = 1002
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Earle Wheeler"
+	picture = "Portrait_USA_GEN_Earle_Wheeler.dds"
+	traits = { offensive_doctrine }
+
+	skill = 4
+	id = 1003
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Frank S. Besson Jr."
+	picture = "Portrait_USA_Frank_S_Besson_Jr.dds"
+	traits = { organizer }
+
+	skill = 3
+	id = 1004
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "William Westmoreland"
+	picture = "Portrait_USA_GEN_William_Westmoreland.dds"
+	traits = { offensive_doctrine  fast_planner aggressive_assaulter }
+
+	skill = 5
+	id = 1005
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Leonard F. Chapman Jr."
+	picture = "Portrait_USA_GEN_Leonard_F_Chapman_Jr.dds"
+	traits = { naval_invader war_hero }
+
+	skill = 3
+	id = 1006
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "John D. Lavelle"
+	picture = "Portrait_USA_GEN_John_D_Lavelle.dds" #removed in 72 but that's not hooked up yet
+	traits = { paratrooper }
+
+	skill = 2
+	id = 1016
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Ben Harrell"
+	picture = "Portrait_USA_Ben_Harrell.dds"
+	traits = { paratrooper }
+
+	skill = 2
+	id = 1017
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Berton E. Spivy Jr."
+	picture = "Portrait_USA_Berton_E_Spivy_Jr.dds"
+	traits = { armor_officer commando }
+
+	skill = 3
+	id = 1018
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "James K. Woolnough"
+	picture = "Portrait_USA_James_K_Woolnough.dds"
+	traits = { organizer }
+
+	skill = 2
+	id = 1021
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Dwight E. Beach"
+	picture = "Portrait_USA_Dwight_E_Beach.dds"
+	traits = { naval_invader invader_ii }
+
+	skill = 3
+	id = 1022
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Maxwell D. Taylor"
+	picture = "Portrait_USA_Maxwell_D_Taylor.dds"
+	traits = { old_guard trickster }
+
+	skill = 4
+	id = 1023
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Charles H. Bonesteel III"
+	picture = "Portrait_USA_Charles_H_Bonesteel_III.dds"
+	traits = { infantry_expert trickster }
+
+	skill = 2
+	id = 1028
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "David L. McDonald"
+	#picture = "Portrait_USA_Earnest_King.dds"
+	traits = { flight_deck_manager gunnery_expert blue_water_expert }
+
+	skill = 4
+	id = 1100
+}
+
+create_navy_leader = {
+	name = "Thomas H. Moorer"
+	picture = "Portrait_USA_ADM_Thomas_Hinman_Moorer.dds"
+	traits = { aviation_enthusiast air_controller dive_bomber }
+
+	skill = 4
+	id = 1101
+}
+
+create_navy_leader = {
+	name = "Horacio Rivero Jr."
+	picture = "Portrait_USA_ADM_Horacio_Rivero.dds"
+	traits = { navy_career_officer battleship_adherent gunnery_expert gentlemanly}
+
+	skill = 3
+	id = 1102
+}
+create_navy_leader = {
+	name = "John Thach"
+	picture = "Portrait_USA_John_Thach.dds"
+	traits = {}
+
+	skill = 1
+	id = 1113
+}

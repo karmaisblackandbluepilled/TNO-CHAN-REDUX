@@ -1,0 +1,102 @@
+﻿capital = 119
+
+oob = ""
+
+set_research_slots = 1
+set_stability = 0.12
+set_war_support = 0.89
+
+diplomatic_relation = {
+	country = SCO
+	relation = docking_rights
+	active = yes
+
+}
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1933.1.24"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 2
+    national_socialism = 0
+    ultranational_socialism = 4
+    socialist = 4
+    social_democrat = 11
+    social_liberal = 10
+    democratic = 0
+    social_conservative = 22
+    neutrality = 37
+    despotist = 10
+    fascism = 0
+    burgundian_system = 0
+}
+
+set_popularities = {
+	communism = 0
+	national_socialism = 0
+	ultranational_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 60
+	despotist = 40
+	fascism = 0
+	burgundian_system = 0
+}
+
+set_politics = {	
+	ruling_party = neutrality
+	last_election = "1933.1.24"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Sir Alan Gordon Cunningham"
+	desc = ""
+	picture = "Portrait_Ulster_Sir_Alan_Gordon_Cunningham.dds"
+	expire = "1983.1.1"
+	ideology = despotism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Basil Brooke"
+	desc = "POLITICS_basil_desc"
+	picture = "Portrait_Ulster_Basil_Brooke.dds"
+	expire = "1973.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Neil Ritchie"
+	picture = "Neil_Ritchie.dds"
+	traits = { old_guard infantry_leader}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 648
+}
+
+create_field_marshal = {
+	name = "Alan Gordon Cunningham"
+	picture = "Portrait_Ulster_Sir_Alan_Gordon_Cunningham.dds"
+	traits = { defensive_doctrine }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+	id = 649
+}

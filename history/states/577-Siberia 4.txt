@@ -1,20 +1,21 @@
-
+#POP DONE
 state={
 	id=577 # Surgut
-	manpower = 29299
+	manpower = 121000
 	name="STATE_577"
-	resources={
-		oil=13 # was: 14
+	state_category = rural
+	resources = {
+		oil = 14
 	}
-	
-	state_category = wasteland
-
 	history={
-		owner = SOV
+		owner = ERS
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
 		}
-		add_core_of = SOV
+		victory_points = { 4771 1 }
+		victory_points = { 12514 1 }
+		add_core_of = ERS
 	}
 
 	provinces={

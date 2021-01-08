@@ -1,25 +1,26 @@
+###POP DONE
 state={
 	id=545
-	
-	state_category = pastoral
-	
 	name="STATE_545"
-
+	resources={
+		chromium=64.000
+		tungsten=16.000
+	}
+	
 	history={
-		owner = ENG
+		owner = MZB
+		add_core_of = MZB
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 2
 		}
-		victory_points = {
-			10929 1 
-		}
-		add_core_of = ZIM
+		victory_points = { 13666 10 }
 	}
-
+	state_category=rural
+	manpower = 48981
 	provinces={
-		1874 2151 2216 4851 7842 10929
+		13206 13666 13674
 	}
-	manpower=1171336
+
 	buildings_max_level_factor=1.000
+
 }

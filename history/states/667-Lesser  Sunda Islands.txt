@@ -1,36 +1,41 @@
+###POP DONE
+###VPS DONE
 state={
 	id=667
 	name="STATE_667"
 	resources={
-		rubber=12 # was: 16
+		rubber=16
 	}
 
 	history={
 		owner = INS
 		add_core_of = INS
 		buildings = {
-			infrastructure = 3
-			1355 = {
-				naval_base = 1
-
-			}
-			10175 = {
-				naval_base = 1
-
+			infrastructure = 5
+			4301 = {
+				naval_base = 3
 			}
 			12234 = {
 				naval_base = 1
-
 			}
-
+			4273 = {
+				naval_base = 5
+			}
+			7293 = {
+				naval_base = 4
+			}
 		}
-
+		victory_points = { 4273 20 }
+		victory_points = { 7293 15 }
+		victory_points = { 12162 5 }
+		victory_points = { 4301 5 }
+		victory_points = { 12234 5 }
 	}
 
 	provinces={
-		1298 1339 1355 4273 4301 4358 7293 7321 10175 10191 10219 12151 12162 12219 12234 
+		1298 4273 4301 7293 7321 10175 10191 10219 12151 12162 12219 12234 
 	}
-	manpower=3460200
+	manpower=989770
 	buildings_max_level_factor=1
-	state_category="town"
+	state_category = town
 }

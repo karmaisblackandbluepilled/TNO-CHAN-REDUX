@@ -1,0 +1,147 @@
+﻿capital = 1272
+
+oob = ""
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1962.1.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communism = 5
+    ultranational_socialism = 5
+    socialist = 7
+    social_democrat = 14
+    social_liberal = 18
+    democratic = 0
+    social_conservative = 18
+    neutrality = 3
+    despotist = 6
+    fascism = 24
+    burgundian_system = 0
+}
+
+set_stability = 0.6
+
+#AuthSoc
+create_country_leader = {
+	name = "Aleksandar Ranković"
+	desc = "POLITICS_ALEKSANDAR_RANKOVIC_DESC"
+	picture = "gfx/leaders/SER/Portrait_SER_Aleksandar_Rankovic.dds"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+	}
+}
+
+#LibSoc
+create_country_leader = {
+	name = "Vladimir Dedijer"
+	desc = "POLITICS_VLADIMIR_DEDIJER_DESC"
+	picture = "gfx/leaders/SER/Portrait_SER_Vladimir_Dedijer.dds"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+	}
+}
+
+#SocDem
+create_country_leader = {
+	name = "Borisav Jović"
+	desc = "POLITICS_BORISAV_JOVIC_DESC"
+	picture = "gfx/leaders/SER/Portrait_SER_Borislav_Jovic.dds"
+	expire = "1985.5.17"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+#LibDem
+create_country_leader = {
+	name = "Borisav Pekić"
+	desc = "POLITICS_BORISAV_PEKIC_DESC"
+	picture = "gfx/leaders/SER/Portrait_SER_Borislav_Pekic.dds"
+	expire = "1985.5.17"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+#ConDem
+create_country_leader = {
+	name = "Nikola Milošević"
+	desc = "POLITICS_NIKOLA_MILOSEVIC_DESC"
+	picture = "gfx/leaders/SER/Portrait_SER_Nikola_Milosevic.dds"
+	expire = "1985.5.17"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+#AutDem
+create_country_leader = {
+	name = "Vlada Zečević"
+	desc = "POLITICS_VLADA_ZECEVIC_DESC"
+	picture = "gfx/leaders/SER/Portrait_SER_Vlada_Zecevic.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+#Despotist
+create_country_leader = {
+	name = "Nikola Kavaja"
+	desc = "POLITICS_NIKOLA_KAVAJA_DESC"
+	picture = "gfx/leaders/SER/Portrait_SER_Nikola_Kavaja.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+	}
+}
+
+#Fascist
+create_country_leader = {
+	name = "Milan Aćimović"
+	desc = "POLITICS_MILAN_ACIMOVIC_DESC"
+	picture = "gfx/leaders/SER/Portrait_SER_Milan_Acimovic.dds"
+	expire = "1965.1.1"
+	ideology = fascism_subtype
+	traits = {
+	}
+}
+
+#NatSoc
+create_country_leader = {
+	name = "Hartwig von Ludwiger"
+	desc = "POLITICS_HARTWIG_VON_LUDWIGER_DESC"
+	picture = "gfx/leaders/SER/Portrait_GMS_Hartwig_von_Ludwiger.dds"
+	expire = "1965.1.1"
+	ideology = national_socialism_subtype
+	traits = {
+	}
+}
+
+#UltNat
+create_country_leader = {
+	name = "Emanuel Schäfer"
+	desc = "POLITICS_EMANUEL_SCHAFER_DESC"
+	picture = "gfx/leaders/SER/Portrait_GMS_Emanuel_Schafer.dds"
+	expire = "1965.1.1"
+	ideology = ultranational_socialism_subtype
+	traits = {
+	}
+}
+
+#BurSys
+create_country_leader = {
+	name = "Emanuel Schäfer"
+	desc = "POLITICS_EMANUEL_SCHAFER_DESC"
+	picture = "gfx/leaders/SER/Portrait_GMS_Emanuel_Schafer.dds"
+	expire = "1965.1.1"
+	ideology = burgundian_system_subtype
+	traits = {
+	}
+}

@@ -1,28 +1,28 @@
-
+###POP DONE
 state={
 	id=542
 	name="STATE_542"
-	manpower = 234000
-	
-	state_category = wasteland
-	
 	resources={
-		chromium=90 # was: 168
+		chromium=168.000
 	}
 
 	history={
-		owner = ENG
+		owner = SAF
+		add_core_of = SAF
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			8214 {
+				bunker = 3
+			}
 		}
-		add_core_of = BOT
-		victory_points = {
-			8214 1
-		}
-
+		victory_points = { 13640 10 }
 	}
-
+	state_category=wasteland
+	manpower=679510
 	provinces={
-		1580 8214 10525 12940 12963 
+		8214 13632 13635 13637 13640 13649 13656
 	}
+
+	buildings_max_level_factor=1.000
+
 }

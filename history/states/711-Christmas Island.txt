@@ -1,12 +1,14 @@
+###POP DONE
+###VPS DONE
 state={
 	id=711
 	name="STATE_711"
-	manpower=1625	
+	manpower=615	
 	state_category = tiny_island
 	
-	history=
-	{
-		owner = ENG
+	history = {
+		owner = INS
+		add_core_of = INS
 		buildings = {
 			infrastructure = 3
 			13005 = {

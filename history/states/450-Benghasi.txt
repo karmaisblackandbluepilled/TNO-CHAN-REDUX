@@ -2,24 +2,22 @@
 state={
 	id=450
 	name="STATE_450"
-	manpower = 82535
+	manpower = 721110
 	
-	state_category = enclave
+	state_category = pastoral
 
 	history={
 		owner = ITA
-		
-		victory_points = {
-			11954 3 
-		}
+		victory_points = { 11954 3 }
+		victory_points = { 1127 1 }
 		buildings = {
 			infrastructure = 3
-			air_base = 1
+			air_base = 4
 			11954 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = LBA
+		add_core_of = ITA
 	}
 
 	provinces={

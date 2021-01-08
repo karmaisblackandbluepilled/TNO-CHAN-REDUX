@@ -1,14 +1,14 @@
-
+###POP DONE 
 state={
 	id=32
 	name="STATE_32" 
-	manpower = 1007500
+	manpower = 1033550
 	
 	state_category = town
 	
 	resources={
-		steel=30 # was: 56
-		aluminium=30 # was: 58
+		steel=56
+		aluminium=58
 	}
 
 	history={
@@ -16,15 +16,12 @@ state={
 		buildings = {
 			infrastructure = 4
 		}
-		victory_points = {
-			3768 1 
-		}
-		add_core_of = OCC
+		victory_points = { 3768 5 }
 		add_core_of = FRA
 		add_core_of = BRG
 	}
 
 	provinces={
-		762 780 3589 3768 6784 11713 
+		762 764 780 3589 3768 6784 11713 
 	}
 }

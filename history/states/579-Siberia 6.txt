@@ -1,20 +1,29 @@
-
+#POP DONE
 state={
 	id=579
-	name="STATE_579" # Salekhard
-	manpower = 45484
-	
-	state_category = wasteland
+	name="STATE_579"
 
 	history={
-		owner = SOV
+		owner = FAV
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			air_base = 3
 		}
-		add_core_of = SOV
+		victory_points = { 7689 1 }
+		victory_points = { 7867 15 }
+		add_core_of = FAV
+
+	}
+	
+	resources={
+		oil = 8
+		aluminium = 9
 	}
 
 	provinces={
-		1664 1684 3169 4669 7689 7738 8461 9142 
+	 4715 7689 7738 9142 10592 10620 12602 7867
 	}
+	manpower=85000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

@@ -1,0 +1,37 @@
+﻿capital = 446
+
+oob = ""
+
+
+
+set_politics = {
+	ruling_party = despotist
+	last_election = "1958.1.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	ultranational_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 15
+	democratic = 0
+	social_conservative = 15
+	neutrality = 15
+	despotist = 50
+	fascism = 5
+	national_socialism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Farouk I"
+	desc = "POLITICS_FAROUK_I_DESC"
+	picture = "king_farouk.dds"
+	expire = "1968.12.25"
+	ideology = despotism_subtype
+	traits = {
+	}
+}

@@ -2,29 +2,27 @@
 state={
 	id=659
 	name="STATE_659"
-	manpower = 891505
-
-	state_category = pastoral
 
 	history={
-		owner = ENG
-		victory_points = {
-			5074 1 
-		}
+		owner = YEM
+		victory_points = { 13422 1 }
 		buildings = {
 			infrastructure = 3
 			air_base = 4
-			5074 = {
+			industrial_complex = 1
+			arms_factory = 1
+			13422 = {
 				naval_base = 3
-			}
-			8000 = {
-				naval_base = 1
 			}
 		}
 		add_core_of = YEM
+
 	}
 
 	provinces={
-		2029 4976 5074 8000 12821 12894 13079 
+		5074 13422 13423 
 	}
+	manpower=1305421
+	buildings_max_level_factor=1.000
+	state_category=town
 }

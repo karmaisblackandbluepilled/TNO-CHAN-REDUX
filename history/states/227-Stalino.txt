@@ -2,19 +2,20 @@
 state={
 	id=227
 	name="STATE_227"
-	manpower = 3767336
+	manpower = 4959544
 	
 	state_category = city
 
 	history={
-		owner = RKU
+		owner = UKR
+		victory_points = { 6420 1 }
+		victory_points = { 6474 1 }
 		buildings = {
 			infrastructure = 5
 		}
-		victory_points = {
-			6474 10
-		}
-		add_core_of = RKU
+		victory_points = { 6474 10 }
+		
+		add_core_of = UKR
 	}
 
 	provinces={

@@ -1,0 +1,36 @@
+﻿capital = 48
+
+#oob = ""
+
+set_politics = {	
+	ruling_party = despotist
+	last_election = "1931.6.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    national_socialism = 10
+    communism = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 20
+    neutrality = 0
+    despotist = 70
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Boris III"
+	desc = "POLITICS_BORIS_III_DESC"
+	picture = "Portrait_Bulgaria_Boris_III.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}

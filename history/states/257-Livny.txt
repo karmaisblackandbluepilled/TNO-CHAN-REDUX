@@ -1,24 +1,27 @@
-
+###POP DONE 
 state={
 	id=257
 	name="STATE_257" # Tambov
-	manpower = 1779583
+	manpower = 1239200
 	
 	state_category = rural
 	
 	resources={
-		chromium=7 # was: 10
+		chromium=10
 	}
 
 	history={
-		owner = RKM
+		owner = MCW
+		victory_points = { 11566 3 }
+		victory_points = {
+			367  1
+		}
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = RKM
-		victory_points = {
-			11351 1
-		}
+		
+		add_core_of = MCW
+		add_core_of = PEN
 	}
 
 	provinces={

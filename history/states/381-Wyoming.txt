@@ -1,8 +1,8 @@
-
+##POP DONE
 state={
 	id=381
 	name="STATE_381"
-	manpower = 225564
+	manpower = 331048
 	state_category = rural
 	
 	history={
@@ -11,6 +11,15 @@ state={
 			infrastructure = 3
 		}
 		add_core_of = USA
+		victory_points = { #Cheyenne
+			4723 5
+		}
+		victory_points = { #Casper
+			10640 5
+		}
+		victory_points = { #Yellowstone
+			12651 5
+		}
 	}
 
 	provinces={

@@ -1,0 +1,39 @@
+﻿capital = 100 #Iceland
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1960.11.11"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 0
+    socialist = 20
+    social_democrat = 0
+    social_liberal = 30
+    democratic = 0
+    social_conservative = 35
+    neutrality = 10
+    despotist = 0
+    fascism = 0
+    national_socialism = 5
+    burgundian_system = 0
+}
+
+set_cosmetic_tag = ICE_USA
+
+create_country_leader = {
+	name = "Guy S. Meloy"
+	desc = ""
+	picture = "gfx/leaders/ICE/Portrait_Iceland_Guy_S_Meloy.dds"
+	expire = "1968.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+oob = ""

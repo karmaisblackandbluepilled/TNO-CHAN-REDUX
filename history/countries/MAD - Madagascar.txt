@@ -1,0 +1,182 @@
+﻿capital = 944
+
+oob = ""
+
+set_research_slots = 3
+set_convoys = 100
+
+set_politics = {	
+	ruling_party = national_socialism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 0
+    neutrality = 10
+    despotist = 0
+    fascism = 23
+    national_socialism = 67
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Willi Stoph"
+	picture = "Portrait_Madagascar_Willi_Stoph.dds"
+	expire = "1972.2.6"
+	desc = "POLITICS_WILLI_STOPH_DESC"
+	ideology = fascism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Emil Maurice"
+	picture = "Portrait_MAD_Emil_Maurice.dds"
+	expire = "1972.2.6"
+	desc = "POLITICS_EMIL_MAURICE_DESC"
+	ideology = national_socialism_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Erhard Milch"
+	picture = "Portrait_Madagascar_Erhard_Milch.dds"
+	expire = "1972.2.6"
+	desc = "POLITICS_ERHARD_MILCH_DESC"
+	ideology = ultranational_socialism_subtype
+	traits = {
+		
+	}
+}
+
+create_field_marshal = {
+	name = "Horst von Oppenfeld"
+	picture = "Portrait_Madagascar_Horst_von_Oppenfeld.dds"
+	traits = { war_hero trickster }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Willi Stoph"
+	picture = "Portrait_Madagascar_Willi_Stoph.dds"
+	traits = { politically_connected infantry_leader jungle_rat }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Alexander Löhr"
+	picture = "Portrait_Madagascar_Alexander_Lohr.dds"
+	traits = { old_guard }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Hans-Joachim Marseille"
+	picture = "Portrait_Madagascar_Hans_Joachim_Marseille.dds"
+	traits = { war_hero brilliant_strategist }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Felix Zymalkowski"
+	picture = "Portrait_Madagascar_Felix_Zymalkowski.dds"
+	traits = { spotter }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+### DISLOYAL GENERALS
+
+create_field_marshal = {
+	name = "Erhard Milch"
+	picture = "Portrait_Madagascar_Erhard_Milch.dds"
+	traits = { old_guard trait_engineer scavenger }
+	id = 401
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Gabriel Ramanantsoa"
+	picture = "Portrait_Madagascar_Gabriel_Ramanantsoa_SS.dds"
+	traits = { career_officer infantry_leader }
+	id = 4040
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Werner Goldberg"
+	picture = "Portrait_Madagascar_Werner_Goldberg.dds"
+	traits = { media_personality trait_cautious trickster }
+	id = 400
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Walter Hollaender"
+	picture = "Portrait_Madagascar_Walter_Hollaender.dds"
+	traits = { infantry_leader }
+	id = 402
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Jürgen Wattenberg"
+	picture = "Portrait_Madagascar_Jurgen_Wattenberg.dds"
+	traits = { seawolf }
+	id = 4030
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+set_cosmetic_tag = MAD_GER
+

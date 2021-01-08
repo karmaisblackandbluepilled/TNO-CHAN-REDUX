@@ -1,0 +1,39 @@
+﻿capital = 109
+
+oob = ""
+add_manpower = 60000
+
+
+set_politics = {
+	ruling_party = despotist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	ultranational_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 5
+	despotist = 55
+	fascism = 20
+	national_socialism = 20
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Tomislav II"
+	desc = "POLITICS_TOMISLAV_II_DESC"
+	picture = "Portrait_Croatia_Tomislav_II.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+
+	}
+}
+

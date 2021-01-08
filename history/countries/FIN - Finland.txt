@@ -1,0 +1,162 @@
+﻿capital = 111
+
+oob = ""
+
+add_manpower = 100000
+
+set_politics = {	
+	ruling_party = neutrality
+	last_election = "1933.7.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 0
+    socialist = 7
+    social_democrat = 21
+    social_liberal = 23
+    democratic = 0
+    social_conservative = 22
+    neutrality = 21
+    despotist = 6
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Karl Lennart Oesch"
+	desc = "POLITICS_KARL_LENNART_OESCH_DESC"
+	picture = "Portrait_Finland_Karl_Lennart_Oesch.dds"
+	expire = "1972.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Teuvo Aura"
+	desc = "POLITICS_TEUVO_AURA_DESC"
+	picture = "Portrait_Finland_Teuvo_Aura.dds"
+	expire = "1974.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Karl-August Fagerholm"
+	desc = "POLITICS_KARL_AUGUST_FAGERHOLM_DESC"
+	picture = "Portrait_Finland_Karl_August_Fagerholm.dds"
+	expire = "1974.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Urho Kekkonen"
+	desc = "POLITICS_URHO_KEKKONEN_DESC"
+	picture = "Portrait_Finland_Urho_Kekkonen.dds"
+	expire = "1974.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Paavo Susitaival"
+	desc = "POLITICS_PAAVO_SUSITAIVAL_DESC"
+	picture = "Portrait_Finland_Paavo_Susitaival.dds"
+	expire = "1974.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Aimo Aaltonen"
+	desc = "POLITICS_AIMO_AALTONEN_DESC"
+	picture = "Portrait_Finland_Aimo_Aaltonen.dds"
+	expire = "1974.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+
+create_corps_commander = {
+	name = "Kaarlo Olavi Leinonen"
+	picture = "Portrait_Finland_Kaarlo_Olavi_Leinonen.dds"
+	traits = { trait_engineer fortress_buster }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 6000
+}
+create_field_marshal = {
+	name = "Yrjö Ilmari Keinonen"
+	picture = "Portrait_Finland_Yrjö_Ilmari_Keinonen.dds"
+	traits = { politically_connected media_personality defensive_doctrine }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	id = 6001
+}
+create_corps_commander = {
+	name = "Armas-Eino Martola"
+	picture = "Portrait_Finland_Armas-Eino_Martola.dds"
+	traits = { infantry_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 6002
+}
+create_corps_commander = {
+	name = "Sakari Simelius"
+	picture = "Portrait_Finland_Sakari_Simelius.dds"
+	traits = { infantry_leader  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 6003
+}
+create_corps_commander = {
+	name = "Ensio Siilasvuo"
+	picture = "Portrait_Finland_Ensio_Siilasvuo.dds"
+	traits = { ambusher }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 6004
+}
+create_corps_commander = {
+	name = "Adolf Ehrnrooth"
+	picture = "Portrait_Finland_Adolf_Ehrnrooth.dds"
+	traits = { panzer_leader politically_connected }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	id = 6005
+}
+
+give_guarantee = VTY

@@ -3,8 +3,8 @@ state={
 	name="STATE_634"
 
 	history={
-		owner = AST
-		add_core_of = SOL
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 2
 			1269 = {
@@ -21,12 +21,8 @@ state={
 			}
 
 		}
-		victory_points = {
-			1269 3 
-		}
-		victory_points = {
-			4226 1 
-		}
+		victory_points = { 1269 3 }
+		victory_points = { 4226 1 }
 
 	}
 

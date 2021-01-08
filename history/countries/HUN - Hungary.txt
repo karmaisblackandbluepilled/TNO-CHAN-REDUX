@@ -1,0 +1,167 @@
+﻿capital = 1290
+
+oob = ""
+
+set_stability = 0.62
+
+set_war_support = 0.12
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1961.9.12"
+	election_frequency = 96
+	elections_allowed = no
+
+}
+
+set_popularities = {
+	communism = 0
+	socialist = 0
+	social_democrat = 5
+	social_liberal = 3
+	democratic = 0
+	social_conservative = 8
+	neutrality = 16
+	despotist = 6
+	fascism = 29
+	national_socialism = 26
+	ultranational_socialism = 7
+	burgundian_system = 0
+}
+
+### POLITICAL LEADERS ###
+#KMP
+create_country_leader = {
+	name = "Mátyás Rákosi"
+	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
+	picture = "Portrait_HUN_Matyas_Rakoski.dds"
+	expire = "1989.1.1"
+	ideology = communist_subtype
+	traits = { }
+}
+
+#MSM
+create_country_leader = {
+	name = "István Vági"
+	desc = "POLITICS_ISTVAN_VAGI_DESC"
+	picture = "Portrait_HUN_Istvan_Vagi.dds"
+	expire = "1989.1.1"
+	ideology = socialist_subtype
+	traits = { }
+}
+
+#MSZDP Nerd
+create_country_leader = {
+	name = "Anna Kéthly"
+	desc = "POLITICS_ANNA_KETHLY_DESC"
+	picture = "Portrait_HUN_Anna_Kethly.dds"
+	expire = "1985.5.17"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+#PDP
+create_country_leader = {
+	name = "Géza Teleki"
+	desc = "POLITICS_GEZA_TELEKI_DESC"
+	picture = "Portrait_HUN_Geza_Teleki.dds"
+	expire = "1985.5.17"
+	ideology = social_liberal_subtype
+	traits = { }
+}
+
+#FKGP
+create_country_leader = {
+	name = "Ferenc Nagy"
+	desc = "POLITICS_FERENC_NAGY_DESC"
+	picture = "Portrait_HUN_Ferenc_Nagy.dds"
+	expire = "1985.5.17"
+	ideology = social_conservative_subtype
+	traits = { }
+}
+
+#MEP
+create_country_leader = {
+	name = "István Horthy"
+	desc = "POLITICS_ISTVAN_HORTHY_DESC"
+	picture = "Portrait_HUN_Istvan_Horthy.dds"
+	expire = "1993.3.28"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+
+#MKH
+create_country_leader = {
+	name = "Béla Miklós"
+	desc = "POLITICS_BELA_MIKLOS_DESC"
+	picture = "Portrait_HUN_Bela_Miklos.dds"
+	expire = "1993.3.28"
+	ideology = despotism_subtype
+	traits = { }
+}
+
+#This Guy! :))))
+create_country_leader = {
+	name = "Béla Imrédy"
+	desc = "POLITICS_BELA_IMREDY_DESC"
+	picture = "Portrait_HUN_Bela_Imredy.dds"
+	expire = "1993.3.28"
+	ideology = fascism_subtype
+	traits = { }
+}
+
+#VB
+create_country_leader = {
+	name = "Franz Anton Basch"
+	desc = "POLITICS_FRANZ_ANTON_BASCH_DESC"
+	picture = "Portrait_HUN_Franz_Anton_Basch.dds"
+	expire = "1993.3.28"
+	ideology = national_socialism_subtype
+	traits = { }
+}
+
+#NYKP Time
+create_country_leader = {
+	name = "Ferenc Szálasi"
+	desc = "POLITICS_FERENC_SZALASI_DESC"
+	picture = "Portrait_HUN_Ferenc_Szalasi.dds"
+	expire = "1993.3.28"
+	ideology = ultranational_socialism_subtype
+	traits = { }
+}
+
+### MILITARY LEADERS ###
+create_corps_commander = { 
+	name = "István Oláh"
+	portrait_path = "gfx/leaders/HUN/Portrait_Hungary_Istvan_Olah.tga"
+	traits = { armor_officer career_officer }
+	skill = 3
+	id = 740
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = { 
+	name = "István Bata"
+	portrait_path = "gfx/leaders/HUN/Portrait_Hungary_Istvan_Bata.tga"
+	traits = { trait_cautious }
+	skill = 2
+	id = 741
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Ferenc Kárpáti"
+	portrait_path = "gfx/leaders/HUN/Portrait_Hungary_Ferenc_Karpati.tga"
+	traits = { trait_cautious }
+	skill = 2
+	id = 742
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}

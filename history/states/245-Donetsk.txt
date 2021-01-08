@@ -1,20 +1,23 @@
-
+###POP DONE 
 state={
 	id=245
 	name="STATE_245" # Millerovo
-	manpower = 761769
+	manpower = 1527642
 	
 	state_category = rural
 
 	history={
-		owner = RKM
+		owner = MCW
+		victory_points = { 6544 1 }
+		victory_points = {
+			3519  3
+		}
 		buildings = {
 			infrastructure = 5
 		}
-		add_core_of = RKM
-		victory_points = {
-			11476 1
-		}
+		
+		add_core_of = MCW
+		add_core_of = VNH
 	}
 
 	provinces={

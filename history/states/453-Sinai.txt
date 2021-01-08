@@ -2,25 +2,30 @@
 state={
 	id=453
 	name="STATE_453"
-	manpower = 15359
+	manpower = 28510
 	
-	state_category = wasteland
+	state_category = pastoral
 	
 	
 	history = {
-		owner = ENG
+		owner = IME
+		victory_points = { 
+			11979 1 
+		}
+        victory_points = { 10099 1 }
 		buildings = {
 			infrastructure = 2
-		}
-
-		victory_points = {
-			4161 3
-		}
-		victory_points = {
-			10099 1
+			industrial_complex = 1
+			11979 = {
+				naval_base = 2
+			}
+			10099 = {
+				naval_base = 2
+			}
 		}
 
 		add_core_of = EGY
+		add_core_of = IME
 
 	}
 

@@ -1,22 +1,16 @@
 
-state={
+state={ ###POPS DONE
 	id=356
 	name="STATE_356" # Kastamonu
-	manpower = 860589
+	manpower = 1697012
 	state_category = rural
 
 	history={
 		owner = TUR
-		victory_points = {
-			6938 10
-		}
-		victory_points = {
-			6995 3 
-		}
 		buildings = {
 			infrastructure = 3
-			6995 = {
-				naval_base = 1
+			3982 = {
+				naval_base = 3
 			}
 		}
 		add_core_of = TUR

@@ -2,19 +2,22 @@
 state={
 	id=200
 	name="STATE_200" # Zaporozhe
-	manpower = 1294082
+	manpower = 1535002
 	state_category = town
 
 	history={
-		owner = RKU
-		victory_points = {
-			11405 1
-		}
+		owner = UKR
+		victory_points = { 11405 1 }
+		victory_points = { 11700 1 }
 		buildings = {
 			infrastructure = 5
 			air_base = 3
+			11700 ={
+				naval_base = 1
+			}
 		}
-		add_core_of = RKU
+		
+		add_core_of = UKR
 	}
 
 	provinces={

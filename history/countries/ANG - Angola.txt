@@ -1,0 +1,142 @@
+﻿capital = 778
+
+oob = ""
+
+set_cosmetic_tag = ANG_GER
+
+
+set_research_slots = 3
+set_convoys = 200
+set_stability = 0.9
+set_war_support = 0.9
+add_manpower = 88743
+
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 0
+    neutrality = 20
+    despotist = 0
+    fascism = 10
+    national_socialism = 70
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Wolfgang Schenck"
+	desc = "POLITICS_WOLFGANG_SCHENCK_DESC"
+	picture = "Portrait_Sudwestafrika_Wolfgang_Schenck.dds"
+	expire = "1999.1.1"
+	ideology = national_socialism_subtype
+	traits = { 
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Hellmut von Leipzig"
+	picture = "Portrait_Sudwestafrika_Hellmut_von_Leipzig.dds"
+	traits = { war_hero commando desert_fox }
+	id = 187
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Hans-Ulrich Rudel"
+	picture = "Portrait_Sudwestafrika_Hans_Ulrich_Rudel.dds"
+	traits = { war_hero trickster expert_improviser }
+	id = 188
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Walter Nowotny"
+	picture = "Portrait_Sudwestafrika_Walter_Nowotny.dds"
+	traits = { war_hero trait_engineer }
+	id = 189
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Adolf Galland"
+	picture = "Portrait_Sudwestafrika_Adolf_Galland.dds"
+	traits = { war_hero commando camouflage_expert }
+	id = 190
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Gordon Gollob"
+	picture = "Portrait_Sudwestafrika_Gordon_Gollob.dds"
+	traits = { politically_connected commando skirmisher }
+	id = 191
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Victor Oehrn"
+	picture = "Portrait_Sudwestafrika_Victor_Oehrn.dds"
+	traits = { navy_career_officer seawolf silent_hunter }
+	id = 5000
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Wilhelm Rollmann"
+	picture = "Portrait_Sudwestafrika_Wilhelm_Rollmann.dds"
+	traits = { seawolf }
+	id = 5001
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Jürgen Oesten"
+	picture = "Portrait_Sudwestafrika_Jurgen_Oesten.dds"
+	traits = { seawolf spotter }
+	skill = 3
+	id = 5002
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 2
+}

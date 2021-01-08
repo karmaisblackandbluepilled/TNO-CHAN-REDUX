@@ -1,0 +1,243 @@
+﻿capital = 271
+
+set_research_slots = 2
+set_convoys = 50
+set_stability = 0.5
+set_war_support = 0.5
+
+oob = ""
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	ultranational_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 30
+	despotist = 10
+	fascism = 60
+	national_socialism = 0
+	burgundian_system = 0
+}
+
+create_field_marshal = {
+	name = "Amedeo Guillet"
+	portrait_path = "gfx/leaders/IEA/Portrait_IEA_Amedeo_Guillet.dds"
+	traits = {
+
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+	#id = 1
+}
+
+create_field_marshal = {
+	name = "Viceroy Amedeo"
+	portrait_path = "gfx/leaders/IEA/portrait_IEA_Viceroy_Amedeo.dds"
+	traits = {
+
+	}
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+	#id = 2
+}
+
+create_corps_commander = {
+	name = "Alfredo Arnera"
+	picture = "Portrait_IEA_Alfredo_Arnera.dds"
+	traits = {
+		old_guard
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Angelo Bastiani"
+	picture = "Portrait_IEA_Angelo_Bastiani.dds"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Camillo Bechis"
+	picture = "Portrait_IEA_Camillo_Bechis.dds"
+	traits = {
+		old_guard
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Daud Abdulle Hersi"
+	picture = "Portrait_IEA_Daud_Abdulle_Hersi.dds"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Domenico Mondelli"
+	picture = "Portrait_IEA_Domenico_Mondelli.dds"
+	traits = {
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Elio Antenucci"
+	picture = "Portrait_IEA_Elio_Antenucci.dds"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Enrico Anzilotti"
+	picture = "Portrait_IEA_Enrico_Anzilotti.dds"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hamid Idris Awate"
+	picture = "Portrait_IEA_Hamid_Idris_Awate.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ibrahim Ali"
+	picture = "Portrait_IEA_Ibrahim_Ali.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ibrahim Mohammed Farag"
+	picture = "Portrait_IEA_Ibrahim_Mohammed_Farag.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Mohamed Abshirt Muse"
+	picture = "Portrait_IEA_Mohamed_Abshir_Muse.dds"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Mohammed Siad Barre"
+	picture = "Portrait_IEA_Mohammed_Siad_Barre.dds"
+	traits = {
+		politically_connected
+		inflexible_strategist
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Orlando Lorenzini"
+	picture = "Portrait_IEA_Orlando_Lorenzini.dds"
+	traits = {
+		old_guard
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Saverio Maraventano"
+	picture = "Portrait_IEA_Saverio_Maraventano.dds"
+	traits = {
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+
+create_country_leader = {
+	name = "Viceroy Amedeo"
+	desc = "POLITICS_VICEROY_AMEDEO_DESC"
+	picture = "portrait_IEA_Viceroy_Amedeo.dds"
+	expire = "1965.1.1"
+	ideology = fascism_subtype
+	traits = {
+
+	}
+}

@@ -1,8 +1,9 @@
+###POP DONE
 state=
 {
 	id=327
-	name="STATE_327" # Luzon
-	manpower = 3548684
+	name="STATE_327" # Manila
+	manpower = 9163406
 	
 	state_category = town
 	history=
@@ -17,12 +18,8 @@ state=
 				naval_base = 5
 			}
 		}
-		victory_points = {
-			10265 15 
-		}
-		victory_points = {
-			1221 1 
-		}
+		victory_points = { 10265 15 }
+		victory_points = { 1221 1 }
 		add_core_of = PHI
 	}
 

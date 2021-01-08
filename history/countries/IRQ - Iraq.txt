@@ -1,0 +1,41 @@
+﻿capital = 291
+
+oob = ""
+
+set_stability = 0.4
+set_war_support = 0.1
+
+diplomatic_relation = { country = PER relation = non_aggression_pact }
+
+set_politics = {	
+	ruling_party = neutrality
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 5
+    democratic = 0
+    social_conservative = 10
+    neutrality = 35
+    despotist = 10
+    fascism = 20
+    national_socialism = 20
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Abd al-Karim Qasim"
+	desc = "POLITICS_Abd_al_Karim_Qasim_DESC"
+	picture = "gfx/leaders/IRQ/Abd_al-Karim_Qasim.dds"
+	expire = "1990.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

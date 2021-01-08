@@ -1,22 +1,28 @@
 
 state={
 	id=538
-	name="STATE_538" # Central Congo
-	manpower = 1693974
-	
-	state_category = wasteland
+	name="STATE_538"
 	resources={
-		rubber=5 # was: 5
+		rubber=5.000
 	}
+
 	history={
-		owner = BEL
+		owner = COG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			arms_factory = 2
 		}
 		add_core_of = COG
+		victory_points = {
+			12830 5
+		}
+		add_extra_state_shared_building_slots = 1
 	}
 
 	provinces={
-		988 7219 7931 8016 8048 10071 10883 10951 12741 12775 12824 
+		11108 12830 14003 14007 14016 14036
 	}
+	manpower = 669656
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

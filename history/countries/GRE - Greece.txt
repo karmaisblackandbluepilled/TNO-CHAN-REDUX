@@ -1,0 +1,119 @@
+﻿capital = 1262
+
+oob = ""
+
+set_country_flag = GRE_ITA
+
+set_stability = 0.5
+set_war_support = 0.0
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 15
+	despotist = 0
+	socialist = 15
+	social_democrat = 0
+	social_liberal = 10
+	democratic = 0
+	social_conservative = 10
+	neutrality = 0
+	fascism = 35
+	national_socialism = 15
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Sotirios Gotzamanis"
+	desc = "POLITICS_SOTIRIOS_DESC"
+	picture = "Portrait_Greece_Sotirios_Gotzamanis.dds"
+	expire = "1963.6.1"
+	ideology = fascism_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Dimitrios Ioannidis"
+	desc = "POLITICS_DIMITRIOS_DESC"
+	picture = "Portrait_Greece_Dimitrios_Ionnidis.dds"
+	expire = "1985.1.1"
+	ideology = national_socialism_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Nikos Zachariadis"
+	desc = "POLITICS_NIKOS_DESC"
+	picture = "Portrait_Greece_Nikos_Zachariadis.dds"
+	expire = "1985.1.1"
+	ideology = socialist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Athanasios Klaras"
+	desc = "POLITICS_ATHANASIOS_DESC"
+	picture = "Portrait_Greece_Athanasios_Klaras.dds"
+	expire = "1985.1.1"
+	ideology = communist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Konstantions Karamanlis"
+	desc = "POLITICS_KONSTANTINOS_DESC"
+	picture = "Portrait_Greece_Konstantinos_Karamanlis.dds"
+	expire = "1985.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Konstantions Karamanlis"
+	desc = "POLITICS_KONSTANTINOS_DESC"
+	picture = "Portrait_Greece_Konstantinos_Karamanlis.dds"
+	expire = "1985.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Georgios Grivas"
+	desc = "POLITICS_GEORGIOS_DESC"
+	picture = "Portrait_Greece_Georgios_Grivas.dds"
+	expire = "1985.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Andreas Georgios Papandreou"
+	desc = "POLITICS_ANDREAS_DESC"
+	picture = "Portrait_Greece_Andreas_Georgios_Papandreou.dds"
+	expire = "1985.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+
+	}
+}

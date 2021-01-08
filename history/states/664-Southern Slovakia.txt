@@ -1,10 +1,11 @@
+###POP DONE
 state={
 	id=664
 	name="STATE_664"
-	manpower = 854300
+	manpower = 1031035
 	resources={
-		steel=13 # was: 20
-		chromium = 3 # was: 4
+		steel=20
+		chromium = 4
 	}
 	
 	state_category = town
@@ -15,12 +16,9 @@ state={
 			infrastructure = 6
 			industrial_complex = 3
 		}
-		victory_points = {
-			6573 1 
-		}
+		victory_points = { 6573 1 }
 		add_core_of = SLO
-		add_claim_by = HUN
-
+		add_core_of = HUN
 	}
 	
 	provinces={

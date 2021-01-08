@@ -1,0 +1,169 @@
+﻿capital = 897
+
+oob = ""
+
+set_research_slots = 3
+set_convoys = 100
+
+set_stability = 0.4
+set_war_support = 0.15
+
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1933.10.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 20
+    neutrality = 0
+    despotist = 10
+    fascism = 40
+    national_socialism = 30
+    ultranational_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Knut Møyen"
+	desc = "POLITICS_KNUT_MOYEN_DESC"
+	picture = "Portrait_Norway_Knut_Moyen.dds"
+	expire = "1984.3.20"
+	ideology = authoritarian_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Per Borten"
+	desc = "POLITICS_PER_BORTEN_DESC"
+	picture = "Portrait_Norway_Per_Borten.dds"
+	expire = "2005.1.20"
+	ideology = despotism_subtype
+}
+
+create_country_leader = {
+	name = "Josef Terboven"
+	desc = "POLITICS_JOSEF_TERBOVEN_DESC"
+	picture = "Portrait_Norway_Josef_Terboven.dds"
+	expire = "1972.5.6"
+	ideology = fascism_subtype
+}
+
+create_country_leader = {
+	name = "Jonas Lie"
+	desc = "POLITICS_JONAS_LIE_DESC"
+	picture = "Portrait_Norway_Jonas_Lie.dds"
+	expire = "1973.11.5"
+	ideology = national_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Einar Gerhardsen"
+	desc = "POLITICS_EINAR_GERHARDSEN_DESC"
+	picture = "Portrait_Norway_Einar_Gerhardsen.dds"
+	expire = "1987.9.19"
+	ideology = social_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Gunnar Garbo"
+	desc = "POLITICS_GUNNAR_GARBO_DESC"
+	picture = "Portrait_Norway_Gunnar_Garbo.dds"
+	expire = "2016.6.29"
+	ideology = social_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Alv Kjøs"
+	desc = "POLITICS_ALV_KJOS_DESC"
+	picture = "Portrait_Norway_Alv_Kjos.dds"
+	expire = "1990.4.14"
+	ideology = social_conservative_subtype
+}
+
+create_country_leader = {
+	name = "Knut Løfsnes"
+	desc = "POLITICS_KNUT_LOFSNES_DESC"
+	picture = "Portrait_Norway_Knut_Lofsnes.dds"
+	expire = "1996.1.5"
+	ideology = socialist_subtype
+}
+
+### Unit Leaders ###
+create_field_marshal = {
+	name = "Eduard Dietl"
+	picture = "Portrait_Norway_Eduard_Dietl.dds"
+	traits = { trait_mountaineer organisational_leader politically_connected }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	id = 790
+}
+
+create_corps_commander = {
+	name = "Max-Josef Pemsel"
+	picture = "Portrait_Norway_Max_Josef_Pemsel.dds"
+	traits = { infantry_leader career_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	id = 784
+}
+
+create_corps_commander = {
+	name = "Paul Klatt"
+	picture = "Portrait_Norway_Paul_Klatt.dds"
+	traits = { trait_mountaineer infantry_leader }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 785
+}
+
+# create_corps_commander = {
+# 	name = "Jürgen Bennecke"
+# 	picture = "Portrait_Norway_Jurgen_Bennecke.dds"
+# 	traits = { career_officer organizer infantry_officer }
+# 	skill = 4
+# 	attack_skill = 2
+# 	defense_skill = 3
+# 	planning_skill = 4
+# 	logistics_skill = 3
+# 	# id = 
+# }
+
+create_navy_leader = {
+	name = "Helmut Möhlmann"
+	picture = "Portrait_Norway_Helmut_Mohlmann.dds"
+	traits = { seawolf silent_hunter }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 1
+	id = 791
+}
+
+create_navy_leader = {
+	name = "Hans-Georg Hess"
+	picture = "Portrait_Norway_Hans_Georg_Hess.dds"
+	traits = { seawolf mine_sweeper }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 2
+	id = 792
+}

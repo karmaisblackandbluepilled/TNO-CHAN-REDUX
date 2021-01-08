@@ -1,23 +1,29 @@
+#POP DONE
 state={
 	id=757
 	name="STATE_757"
 	provinces={
-		1991 2014 2098 4900 5033 8121 12807 
+		1816 10580 10639 10649 10712 13294 13312 4711 1850 4724 7886 7815 1777
 	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category = rural
+	resources = {
+		tungsten = 9
+		steel = 19
+		oil = 7
+	}
 	history={
-		owner = TIB
+		owner = SAH
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			arms_factory = 2
 			industrial_complex = 1
-			arms_factory = 1
 		}
-		victory_points = {
-			5033 5 
-		}
-		add_core_of = TIB
-
+		victory_points = { 1777 25 }
+		victory_points = { 10649 3 }
+		victory_points = { 7815 1 }
+		add_core_of = SAH
+		
 	}
+	state_category="city"
+	manpower=1627000
+	buildings_max_level_factor=1.000
 }

@@ -1,0 +1,105 @@
+﻿capital = 1306
+
+oob = ""
+
+set_research_slots = 2
+set_convoys = 50
+set_stability = 0.5
+set_war_support = 0.5
+
+
+
+set_politics = {
+	ruling_party = despotist
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	ultranational_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 10
+	despotist = 60
+	fascism = 30
+	national_socialism = 0
+	burgundian_system = 0
+}
+
+
+
+create_country_leader = {
+	name = "Carlo Alberto dalla Chiesa"
+	desc = "POLITICS_GG_CHIESA_DESC"
+	picture = "Portrait_IME_Carlo_Chiesa.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		
+
+	}
+}
+
+create_field_marshal = {
+	name = "Carlo Alberto dalla Chiesa"
+	picture = "Portrait_IME_Carlo_Chiesa.dds"
+	traits = {
+		career_officer
+		media_personality
+		organizer
+		inspirational_leader
+		organisational_leader
+	}
+
+	skill = 4
+	id = 1868
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 5
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Alberto Fantacone"
+	picture = "Portrait_IME_Alberto_Fantacone.dds"
+	traits = {
+		infantry_officer
+		war_hero
+		trait_mountaineer
+		infantry_leader
+	}
+
+	skill = 3
+	id = 1866
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Goffredo Tonini"
+	picture = "Portrait_IME_Goffredo_Tonini.dds"
+	traits = {
+		infantry_officer
+		war_hero
+		trait_reckless
+		commando
+		paratrooper
+		trickster
+		infantry_leader
+	}
+
+	skill = 4
+	id = 1867
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 4
+}
+

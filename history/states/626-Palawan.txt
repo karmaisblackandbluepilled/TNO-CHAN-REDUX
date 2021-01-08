@@ -1,8 +1,9 @@
+###POP DONE
 state=
 {
 	id=626
 	name="STATE_626"
-	manpower = 83041
+	manpower = 276146
 	
 	state_category = rural
 	
@@ -16,6 +17,7 @@ state=
 			}
 		}
 		add_core_of = PHI
+		set_demilitarized_zone = yes
 	}
 	provinces={
 		4429 7419 10145 

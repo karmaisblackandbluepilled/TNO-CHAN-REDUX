@@ -5,22 +5,18 @@ state={
 
 	history={
 		owner = ITA
+		victory_points = { 11816 1 }
 		buildings = {
 			infrastructure = 5
-			3943 = {
-				naval_base = 1
-
-			}
 
 		}
-		add_core_of = ITA
 
 	}
 
 	provinces={
-		984 3868 3924 3943 3974 11901 
+		1950 2176 2220 3868 4201 4941 9962 11735 11816 12907 13227 13278 
 	}
-	manpower=18000
+	manpower=77500
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=wasteland
 }

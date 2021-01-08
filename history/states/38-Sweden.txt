@@ -1,10 +1,10 @@
-
+###POP DONE 
 state={
-	id=38
-	name="STATE_38"
-	manpower=931955
+	id=38 
+	name="STATE_38" #jämtland 123763, ångermanland 184389, medelpad 119164, härjedalen 13723, dalarna 287353, gästerike, 140732 
+	manpower=995124
 	resources={
-		steel=40 # was: 62
+		steel=62
 	}
 	
 	state_category = town
@@ -12,9 +12,7 @@ state={
 
 	history={
 		owner = SWE
-		victory_points = {
-			156 1 
-		}
+		victory_points = { 156 1 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

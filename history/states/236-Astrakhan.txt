@@ -1,21 +1,23 @@
-
+###POP DONE 
 state={
 	id=236
 	name="STATE_236"
-	manpower = 647208
+	manpower = 561579
 	
 	state_category = rural
-
+	resources={
+		oil=15
+	}
 	history={
-		owner = RKM
-		victory_points = {
-			9753 3 
-		}
+		owner = MCW
+		victory_points = { 9753 3 }
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 		}
-		add_core_of = RKM
+		
+		add_core_of = MCW
+		add_core_of = VRS
 	}
 
 	provinces={

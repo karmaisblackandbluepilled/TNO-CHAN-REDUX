@@ -1,0 +1,26 @@
+﻿capital = 1297
+set_research_slots = 0
+
+set_politics = {	
+	ruling_party = socialist
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    socialist = 100
+}
+
+create_country_leader = {
+	name = "Anarchy"
+	desc = "POLITICS_ANARCHY_DESC"
+	picture = "Portrait_ZZZ_Anarchy.dds"
+	expire = "3000.1.1"
+	ideology = socialist_subtype
+	traits = {
+	}
+}
+
+set_political_power = 1999

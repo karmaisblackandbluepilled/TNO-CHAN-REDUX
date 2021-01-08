@@ -2,9 +2,6 @@
 state={
 	id=364
 	name="STATE_364"
-	manpower = 1738764
-	
-	state_category = city
 
 	history={
 		owner = USA
@@ -17,13 +14,14 @@ state={
 			}
 		}
 		add_core_of = USA
-		victory_points = {
-			7202 1 
-		}
+		victory_points = { 7202 1 }
 
 	}
 
 	provinces={
-		1485 1547 3994 4491 4653 7012 7134 7202 7527 10029 10047 11927 
+		1485 3994 4491 4653 7012 7134 7527 10029 1547 7202 10047 11927 
 	}
+	manpower=2430200
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

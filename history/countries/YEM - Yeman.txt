@@ -1,0 +1,46 @@
+﻿capital = 293
+
+oob = ""
+
+YEM = {
+ 	set_cosmetic_tag = YEM_FIXED
+}
+
+
+set_politics = {	
+	ruling_party = despotist
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+diplomatic_relation = {
+    country = ITA
+    relation = docking_rights
+    active = yes
+}
+
+set_popularities = {
+    communism = 2
+    ultranational_socialism = 15
+    socialist = 3
+    social_democrat = 10
+    social_liberal = 5
+    democratic = 0
+    social_conservative = 20
+    neutrality = 0
+    despotist = 35
+    fascism = 10
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Emir Ahmad Bin Yaha"
+	desc = "POLITICS_YAHA_DESC"
+	picture = "portrait_Yemen_Ahmad_bin_Yaha.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		
+	}
+}

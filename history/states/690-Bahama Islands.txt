@@ -1,16 +1,14 @@
+##POP DONE
 state={
 	id=690
 	name="STATE_690"
-	manpower = 40000
+	manpower = 96738
 	
 	state_category = tiny_island
 
 	history={
+		owner = USA
 		add_core_of = BAH
-		owner = ENG
-		victory_points = {
-			10254 1
-		}
 		buildings = {
 			infrastructure = 4
 			10254 = {
@@ -23,6 +21,7 @@ state={
 				naval_base = 1
 			}
 		}
+		victory_points = { 10254 1 }
 	}
 
 	provinces={

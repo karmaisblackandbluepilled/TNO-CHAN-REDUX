@@ -1,0 +1,91 @@
+﻿capital = 123
+
+oob = ""
+
+set_cosmetic_tag = CRN_GER
+
+set_research_slots = 3
+set_convoys = 60
+add_manpower = 29000
+
+set_politics = {	
+	ruling_party = national_socialism
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    national_socialism = 70
+    burgundian_system = 30
+}
+
+
+create_country_leader = {
+	name = "Franz Halder"
+	desc = "POLITICS_FRANZ_HALDER_DESC"
+	picture = "Portrait_Cornwall_Franz_Halder.dds"
+	expire = "1972.3.12"
+	ideology = national_socialism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Heinz Jost"
+	desc = "POLITICS_HEINZ_JOST_DESC"
+	picture = "Portrait_Cornwall_Heinz_Jost.dds"
+	expire = "1972.3.12"
+	ideology = burgundian_system_subtype
+	traits = {
+	}
+}
+
+create_field_marshal = {
+	name = "Franz Halder"
+	picture = "Portrait_Cornwall_Franz_Halder.dds"
+	traits = { skilled_staffer old_guard brilliant_strategist organisational_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+	id = 696
+}
+
+create_corps_commander = {
+	name = "Eberhard Kinzel"
+	picture = "Portrait_Cornwall_Eberhard_Kinzel.dds"
+	traits = { infantry_officer trait_cautious old_guard }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	id = 697
+}
+
+create_corps_commander = {
+	name = "Max Sachsenheimer"
+	picture = "Portrait_Cornwall_Max_Sachsenheimer.dds"
+	traits = { trait_engineer career_officer trait_reckless inflexible_strategist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	id = 698
+}
+
+create_corps_commander = {
+	name = "Rudolf Schmundt"
+	picture = "Portrait_Cornwall_Rudolf_Schmundt.dds"
+	traits = { politically_connected old_guard infantry_officer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 699
+}

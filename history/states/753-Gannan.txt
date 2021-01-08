@@ -1,37 +1,27 @@
+#POP DONE
 state={
 	id=753
 	name="STATE_753"
-	provinces={
-		1257 2045 4375 4403 5193 9966 10787 10903 
+	resources={
+		steel = 19
 	}
-	manpower=3000000
-	buildings_max_level_factor=1.000
-	state_category = rural
 	history={
-		owner = XSM
-		add_core_of = XSM
-		add_core_of = CHI
-		add_core_of = PRC
-		victory_points = {
-			2045 1 
-		}
+		owner = PRM
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 5
+			arms_factory = 1
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger"
-					}
+		victory_points = { 7375 20 }
+		victory_points = { 12216 5 }
+		victory_points = { 3280 5 }
+		add_core_of = PRM
 
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-			}
-		}
 	}
+
+	provinces={
+		 1754 4372 7375 12626 10286 10314 361 3280 237 13326 11228 12216
+	}
+	manpower=1113068
+	buildings_max_level_factor=1.000
+	state_category=city
 }

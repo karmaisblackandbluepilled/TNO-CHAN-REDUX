@@ -2,129 +2,317 @@
 
 oob = ""
 
-set_fuel_ratio = 0.8
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_recon = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_mountaineers = 1
-	motorised_infantry = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
-	improved_light_tank = 1
-	basic_heavy_tank = 1
-	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-	tactical_bomber1 = 1
-	strategic_bomber1 = 1
-	CAS1 = 1
-	naval_bomber1 = 1
-	
-	mobile_warfare = 1
-	trade_interdiction = 1
-	formation_flying = 1
-	synth_oil_experiments = 1
-	fuel_silos = 1
-	fuel_refining = 1
-}
-
-if = {
-	limit = {
-		not = { has_dlc = "Man the Guns" }
-	}
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		basic_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		basic_heavy_cruiser = 1
-		early_battleship = 1
-		basic_battleship = 1
-		early_battlecruiser = 1
-		transport = 1
-	}
-	set_naval_oob = "GER_1936_naval"
-}
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_cruiser = 1
-		basic_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		basic_ship_hull_heavy = 1
-		panzerschiffe = 1
-		pre_dreadnoughts = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		mtg_transport = 1
-		basic_torpedo = 1
-		improved_ship_torpedo_launcher = 1
-		basic_battery = 1
-		basic_light_battery = 1
-		basic_medium_battery = 1
-		basic_heavy_battery = 1
-		basic_secondary_battery = 1
-		improved_secondary_battery = 1
-		basic_depth_charges = 1
-		sonar = 1
-		basic_cruiser_armor_scheme = 1
-	}
-	set_naval_oob = "GER_1936_naval_mtg"
-}
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	set_technology = {
-		armored_car1 = 1
-	}
-}
-
-
-set_variable = { var = wehrmacht_anger value = 0 }
-set_variable = { var = ss_anger value = 0 }
-set_research_slots = 4
+set_research_slots = 3
 set_convoys = 200
-set_stability = 0.75 
-set_war_support = 0.3
+add_stability = 0.46
+add_war_support = 0.75
 
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_intelligence_agency = {
+		name = "Schutzstaffel"
+		icon = "GFX_intelligence_agency_logo_brg"
+	}
+}
+
+set_cosmetic_tag = BRG_SS
+
+diplomatic_relation = { country = GER relation = non_aggression_pact }
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = burgundian_system
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
+
 }
+
 set_popularities = {
-	fascism = 100
+    communism = 0
+    ultranational_socialism = 10
+    national_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 0
+    neutrality = 0
+    despotist = 0
+    fascism = 0
+    burgundian_system = 90
 }
 
 create_country_leader = {
 	name = "Heinrich Himmler"
-	desc = "POLITICS_HIMMLER_DESC"
-	picture = "gfx/leaders/GER/Portrait_Germany_Heinrich_Himmler.dds"
-	expire = "1965.1.1"
-	ideology = nazism
+	desc = "POLITICS_HEINRICH_HIMMLER_DESC"
+	picture = "Portrait_Burgundy_Heinrich_Himmler.dds"
+	expire = "1999.1.1"
+	ideology = burgundian_system_subtype
 	traits = {
+		dictator
 	}
 }
 
+create_country_leader = {
+	name = "Léon Degrelle"
+	desc = "POLITICS_LEON_DEGRELLE_DESC"
+	picture = "Portrait_Burgundy_Leon_Degrelle.dds"
+	expire = "1999.1.1"
+	ideology = ultranational_socialism_subtype
+	traits = {
 
+	}
+}
 
+create_field_marshal = {
+	name = "Sepp Dietrich"
+	picture = "Portrait_Burgundy_Sepp_Dietrich.dds"
+	traits = { war_hero trait_reckless panzer_leader }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+	id = 301
+}
+
+create_field_marshal = {
+	name = "Gustav Krukenberg"
+	picture = "Portrait_Burgundy_Gustav_Krukenberg.dds"
+	traits = { inflexible_strategist infantry_leader urban_assault_specialist }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+	id = 302
+}
+
+create_field_marshal = {
+	name = "Léon Degrelle"
+	picture = "Portrait_Burgundy_Leon_Degrelle.dds"
+	traits = { media_personality hidden_sympathies organizer commando }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 303
+}
+
+create_field_marshal = {
+	name = "Theodor Eicke"
+	picture = "Portrait_Burgundy_Theodor_Eicke.dds"
+	traits = { harsh_leader aggressive_assaulter winter_specialist }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 304
+}
+
+create_corps_commander = {
+	name = "Otto Skorzeny"
+	picture = "Portrait_Burgundy_Otto_Skorenzy.dds"
+	traits = { war_hero trait_reckless commando  }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+	id = 305
+}
+
+create_corps_commander = {
+	name = "Fritz Klingenberg"
+	picture = "Portrait_Burgundy_Fritz_Klingenberg.dds"
+	traits = { trait_reckless trickster commando }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+	id = 306
+}
+
+create_corps_commander = {
+	name = "Jean Bassompierre"
+	picture = "Portrait_Burgundy_Jean_Bassompierre.dds"
+	traits = { trait_engineer trait_mountaineer substance_abuser }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 307
+}
+
+create_corps_commander = {
+	name = "Jacques Corrèze"
+	picture = "Portrait_Burgundy_Jacques_Correze.dds"
+	traits = { politically_connected }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 308
+}
+
+create_corps_commander = {
+	name = "Henri Fenet"
+	picture = "Portrait_Burgundy_Henri_Fenet.dds"
+	traits = { career_officer panzer_leader substance_abuser }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 309
+}
+
+create_corps_commander = {
+	name = "Léon Gaultier"
+	picture = "Portrait_Burgundy_Leon_Gaultier.dds"
+	traits = { infantry_leader winter_specialist substance_addict }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 310
+}
+
+create_corps_commander = {
+	name = "Edgar Puaud"
+	picture = "Portrait_Burgundy_Edgar_Puaud.dds"
+	traits = { career_officer desert_fox }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 311
+}
+create_corps_commander = {
+	name = "Bert Eriksson"
+	picture = "Portrait_Burgundy_Bert_Eriksson.dds"
+	traits = { career_officer hill_fighter }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	id = 1909
+}
+create_corps_commander = {
+	name = "Jean de Vaugelas"
+	picture = "Portrait_Burgundy_Jean_de_Vaugelas.dds"
+	traits = { skilled_staffer hill_fighter }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 312
+}
+
+create_corps_commander = {
+	name = "Marc 'Saint-Loup' Augier"
+	picture = "Portrait_Burgundy_Marc_Augier.dds"
+	traits = { old_guard politically_connected winter_specialist }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 313
+}
+
+create_corps_commander = {
+	name = "Josephus François"
+	picture = "Portrait_Burgundy_Jef_Francois.dds"
+	traits = { politically_connected panzer_leader }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	id = 314
+}
+
+create_navy_leader = {
+	name = "Georg Lassen"
+	picture = "Portrait_Burgundy_Georg_Lassen.dds"
+	traits = { navy_career_officer seawolf }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Hans Erich Voss"
+	picture = "Portrait_Burgundy_Hans_Erich_Voss.dds"
+	traits = { old_guard_navy battleship_adherent ironside }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 3
+	id = 316
+}
+
+create_navy_leader = {
+	name = "Herbert Kuppisch"
+	picture = "Portrait_Burgundy_Herbert_Kuppisch.dds"
+	traits = { bold seawolf }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Klaus Scholtz"
+	picture = "Portrait_Burgundy_Klaus_Scholtz.dds"
+	traits = { navy_career_officer superior_tactician }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Siegfried von Forstner"
+	picture = "Portrait_Burgundy_Siegfried_von_Forstner.dds"
+	traits = { naval_lineage seawolf }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Theodor Krancke"
+	picture = "Portrait_Burgundy_Theodor_Krancke.dds"
+	traits = { old_guard_navy spotter }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 2
+	id = 315
+}
+
+add_namespace = {
+	name = "ger_unit_leader"
+	type = unit_leader
+}

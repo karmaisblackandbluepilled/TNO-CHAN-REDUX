@@ -7,7 +7,7 @@ state={
 
 	history={
 		owner = JAP
-		add_core_of = FSM
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 3
 			air_base = 3
@@ -37,12 +37,8 @@ state={
 				naval_base = 1
 			}
 		}
-		victory_points = {
-			2489 5 
-		}
-		victory_points = {
-			13028 1 
-		}
+		victory_points = { 2489 5 }
+		victory_points = { 13028 1 }
 
 	}
 

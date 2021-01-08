@@ -1,0 +1,144 @@
+﻿capital = 88
+
+oob = ""
+
+set_stability = 0.62
+
+
+set_politics = {	
+	ruling_party = national_socialism
+	last_election = "1939.10.6"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communism = 2
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 0
+    neutrality = 82
+    despotist = 15
+    fascism = 0
+    national_socialism = 1
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Hans Frank"
+	desc = "POLITICS_HANS_FRANK_DESC"
+	picture = "Portrait_Generalgovernment_Hans_Frank.dds"
+	expire = "1974.4.4"
+	ideology = national_socialism_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Tadeusz Bór-Komorowski"
+	desc = ""
+	picture = ""
+	expire = "1974.4.4"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Stanisław Kasznica"
+	desc = ""
+	picture = ""
+	expire = "1974.4.4"
+	ideology = despotism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Franciszek Jóźwiak"
+	desc = ""
+	picture = ""
+	expire = "1974.4.4"
+	ideology = communist_subtype
+	traits = {
+	}
+}
+
+create_field_marshal = { #Auto-Generated
+	name = "Georg Von Kuchler"
+	portrait_path = "gfx/leaders/GGN/Portrait_Generalgouvernment_George_Von_Kuchler.dds"
+	traits = {
+	old_guard
+	bearer_of_artillery
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+	id = 708
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Eccard Freiherr Von Gablenz"
+	portrait_path = "gfx/leaders/GGN/Portrait_Generalgouvernment_Eccard_Freiherr_von_Gablenz.dds"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 709
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Walter Fries"
+	portrait_path = "gfx/leaders/GGN/Portrait_Generalgouvernment_Walter_Fries.dds"
+	traits = {
+	ranger
+	trickster
+	}
+	skill = 3
+	attack_skill = 5
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+	id = 710
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Walter Lichel"
+	portrait_path = "gfx/leaders/GGN/Portrait_Generalgouvernment_Walter_Lichel.dds"
+	traits = {
+
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 711
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Leo Geyr Von Schweppenburg"
+	portrait_path = "gfx/leaders/GGN/Portrait_Generalgouvernment_Leo_Geyr_von_Schweppenburg.dds"
+	traits = {
+	armor_officer
+	panzer_leader
+	panzer_expert
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 3
+	id = 712 
+}
+

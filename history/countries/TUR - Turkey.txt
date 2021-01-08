@@ -1,0 +1,154 @@
+﻿capital = 49
+
+oob = ""
+
+set_convoys = 200
+add_stability = 0.40
+add_war_support = 0.10
+set_research_slots = 3
+
+set_politics = {	
+	ruling_party = national_socialism
+	last_election = "1958.1.8"
+	election_frequency = 96
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 30
+	despotist = 0
+	fascism = 0
+	national_socialism = 58
+	ultranational_socialism = 12
+	burgundian_system = 0
+}
+
+##LEADERS##
+
+create_country_leader = {
+	name = "Adnan Menderes"
+	desc = "POLITICS_ADNAN_MENDERES_DESC"
+	picture = "Portrait_Turkey_Adnan_Menderes.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Ismet Inönü"
+	desc = "POLITICS_ISMET_INONU_DESC"
+	picture = "Portrait_Turkey_Ismet_Inonu.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kenan Evren"
+	desc = "POLITICS_KENAN_EVREN_DESC"
+	picture = "Portrait_Turkey_Kenan_Evren.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Muzaffer Özdağ"
+	desc = "POLITICS_MUZAFFER_OZDAG_DESC"
+	picture = "Portrait_Turkey_Muzaffer_Ozdag.dds"
+	expire = "1999.1.1"
+	ideology = fascism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Alparslan Türkeş"
+	desc = "POLITICS_ALPARSLAN_TURKES_DESC"
+	picture = "Portrait_Turkey_Alparslan_Turkes.dds"
+	expire = "1999.1.1"
+	ideology = national_socialism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Nihal Atsız"
+	desc = "POLITICS_NİHAL_ATSIZ_DESC"
+	picture = "Portrait_Turkey_Nihal_Atsiz.dds"
+	expire = "1999.1.1"
+	ideology = ultranational_socialism_subtype
+	traits = {
+	}
+}
+
+##COMMANDERS##
+
+create_field_marshal = {
+	name = "Cemal Gürsel"
+	picture = "Portrait_Turkey_Cemal_Gursel.dds"
+	traits = { trait_cautious organizer fast_planner }
+	skill = 4
+	id = 530
+	attack_skill = 2
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Rüştü Erdelhun"
+	picture = "Portrait_Turkey_Rustu_Erdelhun.dds"
+	traits = { old_guard war_hero aggressive_assaulter }
+	skill = 3
+	id = 531
+	attack_skill = 3
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kenan Evren"
+	picture = "Portrait_Turkey_Kenan_Evren.dds"
+	traits = { media_personality guerilla_fighter }
+	skill = 2
+	id = 532
+	attack_skill = 1
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Cemal Tural"
+	picture = "Portrait_Turkey_Cemal_Tural.dds"
+	traits = { infantry_expert }
+	skill = 2
+	id = 533
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Memduh Tağmaç"
+	picture = "Portrait_Turkey_Memduh_Tagmac.dds"
+	traits = { panzer_leader }
+	skill = 1
+	id = 534
+	attack_skill = 3
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 2
+}

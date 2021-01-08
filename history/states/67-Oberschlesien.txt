@@ -1,35 +1,31 @@
+###POP DONE 
+state = {
+	id = 67
+	name = "STATE_67"
 
-state={
-	id=67
-	name="STATE_67"
-	resources={
-		steel=19.000
-		aluminium=6.000
+	resources = {
+		steel = 60
+		aluminium = 20
 	}
+	
+	manpower = 3341394
+	state_category = city
 
-	history={
-		victory_points = {
-			11467 5 
-		}
-		victory_points = {
-			9511 3 
-		}
-		victory_points = {
-			6464 5 
-		}
+	history = {
 		owner = GER
-		buildings = {
-			infrastructure = 6
-
-		}
 		add_core_of = GER
 
+		victory_points = { 11467 5 }
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+		}
 	}
 
-	provinces={
-		479 506 6464 6512 9412 9457 9511 9551 9567 11467 13205 
+	provinces = {
+		479 6512 9457 9511 11467 506 6464 9412 9551 9567
+
 	}
-	manpower=1402591
-	buildings_max_level_factor=1.000
-	state_category=city
 }

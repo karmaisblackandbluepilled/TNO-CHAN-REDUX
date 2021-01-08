@@ -2,7 +2,7 @@ state={
 	id=492
 	name="STATE_492"
 	resources={
-		tungsten=2 # was: 2.000
+		tungsten=2.000
 	}
 	
 	state_category = rural
@@ -16,9 +16,7 @@ state={
 
 		}
 		add_core_of = PRU
-		victory_points = {
-			2210 1 
-		}
+		victory_points = { 2210 1 }
 
 	}
 

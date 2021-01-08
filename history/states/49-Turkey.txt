@@ -1,31 +1,23 @@
-
+###POP DONE 
 state={
 	id=49
 	name="STATE_49" # Ankara
-	manpower = 810284
+	manpower = 1524676
 	resources={
-		chromium=11 # was: 16
-		steel = 28
+		chromium=16
 	}
 	
-	state_category = town
+	state_category = city
 
 	history={
 		owner = TUR
-		victory_points = {
-			11747 15
-		}
-		victory_points = {
-			804 5 
-		}
-		victory_points = {
-			3951 1
-		}
+		
+		victory_points = { 11747 10 }
 		buildings = {
 			infrastructure = 4
-			arms_factory = 2
-			industrial_complex = 2
+			industrial_complex = 3
 			air_base = 3
+			arms_factory = 2
 		}
 		add_core_of = TUR
 	}

@@ -1,0 +1,212 @@
+﻿capital = 691
+
+oob = ""
+
+set_fuel_ratio = 0.8
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+	set_naval_oob = ""
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		panzerschiffe = 1
+		pre_dreadnoughts = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		mtg_transport = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_depth_charges = 1
+		sonar = 1
+		basic_cruiser_armor_scheme = 1
+	}
+	set_naval_oob = ""
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+
+set_research_slots = 2
+set_convoys = 100
+set_stability = 0.75 
+set_war_support = 0.3
+
+
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1961.5.16"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communism = 3
+    socialist = 6
+    social_democrat = 35
+    social_liberal = 42
+    democratic = 0
+    social_conservative = 8
+    neutrality = 6
+    despotist = 0
+    fascism = 0
+    national_socialism = 0
+    ultranational_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "David Hartman Smith"
+	desc = "POLITICS_DAVID_HARTMAN_SMITH_DESC"
+	picture = "Portrait_WIN_David_Hartman_Smith.dds"
+	expire = "1971.10.28"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Eric Williams"
+	desc = "POLITICS_ERIC_WILLIAMS_DESC"
+	picture = "Portrait_WIN_Eric_Williams.dds"
+	expire = "1971.10.28"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Grantley Herbert Adams"
+	desc = "POLITICS_GRANTLEY_ADAMS_DESC"
+	picture = "Portrait_WIN_Grantley_Adams.dds"
+	expire = "1971.10.28"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Grantley Herbert Adams"
+	desc = "POLITICS_GRANTLEY_ADAMS_DESC"
+	picture = "Portrait_WIN_Grantley_Adams.dds"
+	expire = "1971.10.28"
+	ideology = market_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Grantley Herbert Adams"
+	desc = "POLITICS_GRANTLEY_ADAMS_DESC"
+	picture = "Portrait_WIN_Grantley_Adams.dds"
+	expire = "1971.10.28"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Bustamante"
+	desc = "POLITICS_ALEXANDER_BUSTAMANTE_DESC"
+	picture = "Portrait_WIN_Alexander_Bustamante.dds"
+	expire = "1971.10.28"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+
+create_country_leader = {
+	name = "Aimé Césaire"
+	desc = "POLITICS_AIME_CESAIRE_DESC"
+	picture = "Portrait_WIN_Aime_Cesaire.dds"
+	expire = "1971.10.28"
+	ideology = socialist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Léopold Bissol"
+	desc = "POLITICS_LEOPOLD_BISSOL_DESC"
+	picture = "Portrait_WIN_Leopold_Bissol.dds"
+	expire = "1971.10.28"
+	ideology = communist_subtype
+	traits = {
+	}
+}
+
+
+

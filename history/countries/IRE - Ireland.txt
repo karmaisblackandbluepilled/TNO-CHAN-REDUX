@@ -1,0 +1,137 @@
+﻿capital = 113
+
+oob = ""
+
+add_manpower = 7500
+
+set_research_slots = 2
+set_stability = 0.26
+set_war_support = 0.23
+
+
+puppet = ULS
+
+set_politics = {	
+	ruling_party = neutrality
+	last_election = "1933.1.24"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	despotist = 5
+	socialist = 0
+	social_democrat = 5
+	social_liberal = 20
+	democratic = 0
+	social_conservative = 15
+	neutrality = 25
+	fascism = 30
+	national_socialism = 0
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Éamon de Valera"
+	desc = "POLITICS_Eamon_De_Valera_desc"
+	picture = "Portrait_IRE_Eamon_de_Valera.dds"
+	expire = "2222.2.2"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Jack Lynch"
+	desc = "POLITICS_John_Mary_Lynch.desc"
+	picture = "Portrait_IRE_Jack_Lynch.dds"
+	expire = "2222.2.2"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Neil Blaney"
+	desc = "POLITICS_Neil_Blaney_desc"
+	picture = "Portrait_IRE_Neil_Blaney.dds"
+	expire = "2222.2.2"
+	ideology = despotism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Oliver James Flanagan"
+	desc = "POLITICS_Oliver_James_Flanagan_desc"
+	picture = "Portrait_IRE_Oliver_James_Flanagan.dds"
+	expire = "2222.2.2"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Oliver James Flanagan"
+	desc = "POLITICS_Oliver_James_Flanagan_desc"
+	picture = "Portrait_IRE_Oliver_James_Flanagan.dds"
+	expire = "2222.2.2"
+	ideology = national_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Liam Cosgrave"
+	desc = "POLITICS_Liam_Cosgrave_desc"
+	picture = "Portrait_IRE_Liam_Cosgrave.dds"
+	expire = "2222.2.2"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Brendan Corish"
+	desc = "POLITICS_Brendan_Corish_desc"
+	picture = "Portrait_IRE_Brendan_Corish.dds"
+	expire = "2222.2.2"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Pat Quinlan"
+	portrait_path = "gfx/leaders/IRE/Pat_Quinlan.dds"
+	traits = {
+		commando
+	}
+	skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 646
+}
+
+create_field_marshal = {
+	name = "Carl O'Sullivan"
+	portrait_path = "gfx/leaders/IRE/Carl_O_Sullivan.dds"
+	traits = {
+		
+	}
+	skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 647
+}
+

@@ -1,0 +1,41 @@
+﻿capital = 141	
+
+oob = ""
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1960.11.11"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communism = 2
+    ultranational_socialism = 3
+    socialist = 3
+    social_democrat = 35
+    social_liberal = 30
+    democratic = 0
+    social_conservative = 5
+    neutrality = 15
+    despotist = 1
+    fascism = 4
+    national_socialism = 2
+    burgundian_system = 0
+}
+
+set_stability = 0.8
+set_war_support	= 0.3
+
+create_country_leader = {
+	name = "Tage Erlander"
+	desc = "POLITICS_TAGE_ERLANDER_DESC"
+	picture = "gfx/leaders/SWE/Portrait_Sweden_Tage_Erlander.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}

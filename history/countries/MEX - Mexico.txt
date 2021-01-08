@@ -1,0 +1,121 @@
+﻿capital = 277
+
+oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		coastal_defense_ships = 1
+	}
+}
+
+
+set_convoys = 45
+set_stability = 0.2
+set_war_support = 0.1
+
+
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1960.7.1"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+set_popularities = {
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 33
+    social_liberal = 27
+    neutrality = 28
+    democratic = 0
+    social_conservative = 8
+    communism = 4
+    despotist = 0
+    fascism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Adolfo López Mateos"
+	desc = "POLITICS_ADOLFO_LOPEZ_MATEOS_DESC"
+	picture = "Portrait_Mexico_Adolfo_Lopez_Mateos.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+
+create_country_leader = {
+	name = "Gustavo Díaz Ordaz"
+#	desc = "POLITICS_ADOLFO_LOPEZ_MATEOS_DESC"
+	picture = "Portrait_Mexico_Gustavo_Ordaz.dds"
+	expire = "1990.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Raúl Salinas Lozano"
+	#desc =
+	picture = "Portrait_Mexico_Raul_Lozano.dds"
+	expire = "1990.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Luis Álvarez"
+	desc = "POLITICS_ADOLFO_LOPEZ_MATEOS_DESC"
+	picture = "Portrait_Mexico_Adolfo_Lopez_Mateos.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lucio Cabañas"
+	desc = "POLITICS_ADOLFO_LOPEZ_MATEOS_DESC"
+	picture = "Portrait_Mexico_Adolfo_Lopez_Mateos.dds"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+

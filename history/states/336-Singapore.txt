@@ -2,47 +2,31 @@
 state={
 	id=336
 	name="STATE_336"
-	manpower = 2893200
+	manpower = 2593200
 	
-	state_category = large_town
+	state_category = city
 	
 	resources={
-		rubber=342 # was: 848
-		steel=20 # was: 32
-		tungsten=189 # was: 308
-		aluminium = 15 # was: 25
+		rubber=208
+		steel=12
+		tungsten=157
+		aluminium = 13
 	}
 
 	history={
-		owner = MAL
-		victory_points = {
-			12299 10
-		}
-		victory_points = {
-			7329 1 
-		}
-		victory_points = {
-			10297 1 
-		}
+		owner = SYO
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
 			air_base = 6
-			12299 = {
-				naval_base = 8
-				coastal_bunker = 3
-			}
-			7329 = {
-				naval_base = 1
-			}
-			10297 = {
-				naval_base = 5
-			}
 		}
-		add_core_of = MAL
+		victory_points = { 4384 5 }
+		victory_points = { 1376 5 }
+		victory_points = { 10297 10 }
+		add_core_of = SYO
 	}
-
 	provinces={
-		1291 1348 1364 1376 1392 4310 4355 4367 4384 4412 4424 7329 7342 7399 7427 10227 10297 10313 12113 12144 12199 12215 12255 12271 12299 
+		1376 4384 10297 
 	}
 }
+

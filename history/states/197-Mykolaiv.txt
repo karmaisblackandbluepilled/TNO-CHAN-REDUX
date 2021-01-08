@@ -2,25 +2,23 @@
 state={
 	id=197
 	name="STATE_197"
+	manpower = 1217821
+	
+	state_category = rural
 
-	history={
-		victory_points = {
-			11683 3 
-		}
-		owner = RKU
+	history= {
+		owner = UKR
 		buildings = {
 			infrastructure = 5
 			dockyard = 1
-
 		}
-		add_core_of = RKU
-
+	victory_points = { 3755 1 }
+	victory_points = { 11546 1 }
+		
+		add_core_of = UKR
 	}
 
 	provinces={
-		409 574 3403 3755 6597 9573 11546 11683 11715 
+		409 574 3403 3755 6597 9573 11546 11683 
 	}
-	manpower=896311
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

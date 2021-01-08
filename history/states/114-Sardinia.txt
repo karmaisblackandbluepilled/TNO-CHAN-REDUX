@@ -1,23 +1,23 @@
+##POP DONE
 state=
 {
 	id=114
 	name="STATE_114"
-	manpower = 991921
+	manpower = 1190305
 	
 	state_category = town
 	
 	history=
 	{
 		owner = ITA
-		victory_points = {
-			11773 3 
-		}
+		victory_points = { 902 5 }
+		victory_points = { 9772 3 }
 		buildings = {
 			infrastructure = 5
 			arms_factory = 0
 			industrial_complex = 1
 			air_base = 5
-			11773 = {
+			902 = {
 				naval_base = 3
 			}
 			6891 = {

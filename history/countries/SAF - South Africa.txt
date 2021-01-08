@@ -1,0 +1,245 @@
+﻿capital = 681
+
+oob = ""
+
+set_research_slots = 3
+set_convoys = 200
+add_war_support = 0.15
+add_manpower = 180000
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_intelligence_agency = {
+		name = "Bureau of State Security"
+		icon = "GFX_intelligence_agency_logo_saf"
+	}
+}
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    communism = 6
+    ultranational_socialism = 0
+    socialist = 12
+    social_democrat = 4
+    social_liberal = 9
+    democratic = 0
+    social_conservative = 36
+    neutrality = 26
+    despotist = 3
+    fascism = 4
+    burgundian_system = 0
+}
+
+
+create_country_leader = {
+	name = "Sir De Villiers Graaff"
+	desc = "POLITICS_VILLIERS_GRAAFF_DESC"
+	picture = "Portrait_South_Africa_Sir_de_Viller_Graaf.dds"
+	expire = "1999.4.20"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_field_marshal = {
+	name = "Charles Fraser"
+	picture = "Portrait_South_Africa_Charles_Fraser.dds"
+	traits = { old_guard bearer_of_artillery organisational_leader desert_fox }
+	id = 3801
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Constand Viljoen"
+	picture = "Portrait_South_Africa_Constand_Viljoen.dds"
+	traits = { trait_reckless commando paratrooper }
+	id = 3802
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Georg Meiring"
+	picture = "Portrait_South_Africa_Georg_Meiring.dds"
+	traits = { career_officer trickster }
+	id = 3803
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Johannes Geldenhuys"
+	picture = "Portrait_South_Africa_Johannes_Geldenhuys.dds"
+	traits = { trait_engineer infantry_leader }
+	id = 3804
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { 
+	name = "Nick Bierman"
+	picture = "Portrait_South_Africa_Nick_Bierman.dds"
+	traits = { war_hero desert_fox }
+	id = 3805
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Pieter Grobbelaar"
+	picture = "Portrait_South_Africa_Pieter_Grobbelaar.dds"
+	traits = { war_hero panzer_leader hill_fighter }
+	id = 3806
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Hendrik Klopper"
+	picture = "Portrait_South_Africa_Hendrik_Klopper.dds"
+	traits = { media_personality defensive_doctrine infantry_leader desert_fox }
+	id = 3807
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Christiaan du Toit"
+	picture = "Portrait_South_Africa_Christiaan_du_Toit.dds"
+	traits = { career_officer infantry_leader }
+	id = 3808
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Hugo Biermann"
+	picture = "Portrait_South_Africa_Hugo_Biermann.dds"
+	traits = { fleet_protector superior_tactician }
+	id = 3809
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 1
+	coordination_skill = 4
+}
+
+create_navy_leader = {
+	name = "James Johnson"
+	picture = "Portrait_South_Africa_James_Johnson.dds"
+	traits = { spotter destroyer_leader mine_layer }
+	id = 3810
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Ronald Edwards"
+	picture = "Portrait_South_Africa_Ronald_Edwards.dds"
+	traits = { seawolf silent_hunter blockade_runner }
+	id = 3811
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+### Defectors to the Boers###
+
+create_corps_commander = {
+	name = "Andreas Liebenberg"
+	picture = "Portrait_South_Africa_Andreas_Liebenberg.dds"
+	traits = { harsh_leader infantry_leader }
+	id = 3812
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Magnus Malan"
+	picture = "Portrait_South_Africa_Magnus_Malan.dds"
+	traits = { politically_connected media_personality infantry_leader organizer }
+	id = 3813
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Sybrand Engelbrecht"
+	picture = "Portrait_South_Africa_Sybrand_Engelbrecht.dds"
+	traits = { old_guard inflexible_strategist trait_engineer  }
+	id = 3814
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Willem Louw"
+	picture = "Portrait_South_Africa_Willem_Louw.dds"
+	traits = { war_hero panzer_leader desert_fox }
+	id = 3815
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Johan Charl Walters"
+	picture = "Portrait_South_Africa_Johan_Charl_Walters.dds"
+	traits = { blockade_runner fly_swatter }
+	id = 3816
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 1
+}

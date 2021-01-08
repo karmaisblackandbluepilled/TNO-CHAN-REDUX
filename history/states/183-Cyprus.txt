@@ -1,32 +1,32 @@
-state= {
+
+state={
 	id=183
 	name="STATE_183"
-	manpower = 347959
-	
-	state_category = rural
 	resources={
-		chromium=3 # was: 4
+		chromium=4.000
 	}
 
-	history=
-	{
+	history={
 		owner = GRE
-		add_core_of = GRE
-		add_core_of = TUR
-		victory_points = {
-			11984 5
-		}
-		victory_points = {
-			7193 3
-		}
+		victory_points = { 11984 5 }
 		buildings = {
 			infrastructure = 4
+			industrial_complex = 2
 			air_base = 1
-			7193 = {
+			11984 = {
 				naval_base = 2
 			}
-		}
 
+		}
+		add_core_of = GRE
+		add_claim_by = TUR
+		set_demilitarized_zone = yes
 	}
-	provinces= { 7193 11984 }
+
+	provinces={
+		11984 
+	}
+	manpower=287550
+	buildings_max_level_factor=1.000
+	state_category= large_town
 }

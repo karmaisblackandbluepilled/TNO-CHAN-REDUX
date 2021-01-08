@@ -1,8 +1,9 @@
+###POP DONE
 state=
 {
 	id=628
 	name="STATE_628"
-	manpower = 3525715
+	manpower = 3806516
 	
 	state_category = rural
 	
@@ -16,10 +17,9 @@ state=
 			}
 		}
 		
-		victory_points = {
-			12118 1 
-		}
+		victory_points = { 12118 1 }
 		add_core_of = PHI
+		set_demilitarized_zone = yes
 	}
 
 	provinces={

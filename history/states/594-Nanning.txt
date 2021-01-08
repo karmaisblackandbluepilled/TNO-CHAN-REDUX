@@ -2,41 +2,27 @@
 state={
 	id=594
 	name="STATE_594"
-	manpower = 6550000
+	manpower = 7550000
 	state_category = town
 	resources={
-		tungsten=11 # was: 14
-		steel = 8 # was: 10
-		chromium = 3 # was: 4
+		tungsten=4
+		steel = 24
+		chromium = 8
 	}
 
 	history={
 		owner = GXC
 		add_core_of = GXC
-		add_core_of = CHI
-		add_core_of = PRC
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+			arms_factory = 1
 		}
 		victory_points = { 
-			7137 10 
+			7137 20 
 		}
-
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = { has_dlc = "Waking the Tiger" }
-				}
-				remove_core_of = GXC
-				CHI = { transfer_state = PREV }
-			}
-			JAP = {
-				set_province_controller = 1018
-				set_province_controller = 4023
-				set_province_controller = 10004
-			} 			
-		}
+		victory_points = { 10004 10 }
 	}
 
 	provinces={

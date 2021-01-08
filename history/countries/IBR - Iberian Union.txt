@@ -1,0 +1,435 @@
+﻿capital = 1013
+
+set_war_support = 0.8
+set_stability = 0.4
+add_manpower = 10000 
+
+oob = ""
+
+
+set_research_slots = 3
+
+set_convoys = 200
+
+set_country_flag = IBR_manuel_elices_dam
+
+set_politics = {
+	ruling_party = despotist
+	last_election = "1936.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 2
+    ultranational_socialism = 0
+    socialist = 8
+    social_democrat = 0
+    social_liberal = 5
+    democratic = 10
+    social_conservative = 10
+    neutrality = 20
+    despotist = 40
+    fascism = 5
+    burgundian_system = 0
+}
+
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = SLG
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = SLG
+	}
+}
+
+
+create_country_leader = {
+	name = "Francisco Franco"
+	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+	picture = "Portrait_Iberia_Francisco_Franco.dds"
+	expire = "1975.10.20"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Alejandro Rodríguez de Valcárcel"
+	desc = "POLITICS_ALEJANDRO_DE_VALCARCEL_DESC"
+	picture = "Portrait_Iberia_Alejandro_Rodriguez_de_Valcarcel.dds"
+	expire = "1975.10.20"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+#create_country_leader = {
+#	name = "José Solís Ruiz"
+#	desc = "POLITICS_JOSE_SOLIS_RUIZ_DESC"
+#	picture = "Portrait_Iberia_Jose_Solis_Ruiz.dds"
+#	expire = "1975.10.20"
+#	ideology = social_conservative_subtype
+#	traits = {
+#		#
+#	}
+#}
+
+create_country_leader = {
+	name = "Manuel Fraga"
+	desc = "POLITICS_MANUEL_FRAGA_DESC"
+	picture = "Portrait_Iberia_Manuel_Fraga.dds"
+	expire = "1975.10.20"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Torcuato Fernández-Miranda"
+	desc = "POLITICS_TORQUATO_FERNANDEZ_MIRANDA_DESC"
+	picture = "Portrait_Iberia_Torcuato_Fernandez_Miranda.dds"
+	expire = "1975.10.20"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Alberto Ullastres Calvo"
+	desc = "POLITICS_ALBERTO_ULLASTRES_CALVO_DESC"
+	picture = "Portrait_Iberia_Alberto_Ullastres_Calvo.dds"
+	expire = "1975.10.20"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Agustín Muñoz Grandes"
+	desc = "POLITICS_AGUSTIN_MUNOZ_GRANDES_DESC"
+	picture = "Portrait_Iberia_Agustin_Munoz_Grandes.dds"
+	expire = "1975.10.20"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Felipe González"
+	desc = "POLITICS_FELIPE_GONZALEZ_DESC"
+	picture = "Portrait_Iberia_Felipe_Gonzalez.dds"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Álvaro Cunhal"
+	desc = "POLITICS_ALVARO_CUNHAL_DESC"
+	picture = "Franco_Portrait.tga"
+	expire = "1975.10.20"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Vítor Alves"
+	desc = "POLITICS_VITOR_ALVES_DESC"
+	picture = "Franco_Portrait.tga"
+	expire = "1975.10.20"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = { 
+	name = "Agustín Muñoz Grandes"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Agustin_Munoz_Grandes.dds"
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+	traits = { 
+		organizer
+	    thorough_planner
+	    old_guard 
+	}
+	id = 1301
+}
+
+create_corps_commander = { 
+	name = "Carlos Asensio Cabanillas"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Carlos_Cabanillas.dds"
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+	traits = {
+	    desert_fox
+        old_guard
+	}
+	id = 1302
+}
+
+create_corps_commander = { 
+	name = "Francisco Coloma Gallegos"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Francisco_Coloma_Gallegos.dds"
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	traits = {
+	    desert_fox
+	}
+	id = 1303
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Mohamed Meziane"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Mohammed_Meziane.dds"
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+	traits = {
+		old_guard
+		cavalry_officer
+	}
+	id = 1304
+}
+
+create_corps_commander = { 
+	name = "Alfonso Armada"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Afonso_Armada.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	traits = {
+		politically_connected
+	}
+	id = 1305
+}
+
+create_corps_commander = { 
+	name = "António de Spínola"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Antonio_Spinola.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	traits = {
+	}
+	id = 1306
+}
+
+create_corps_commander = { 
+	name = "Francisco da Costa Gomes"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Francisco_Gomes.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	traits = {
+		infantry_officer
+	}
+	id = 1307
+}
+
+create_corps_commander = { 
+	name = "Rafael García Valiño"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Rafael_Valino.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 4
+	traits = {
+	    old_guard
+	}
+	id = 1308
+}
+
+create_corps_commander = { 
+	name = "Afonso de Almeida Fernandes"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Afonso_de_Almeida_Fernandes.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	traits = { 
+		trait_engineer
+	}
+	id = 1309
+}
+
+create_corps_commander = { 
+	name = "Manuel Díez-Alegría Gutiérrez"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Manuel_Diez_Alegria.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+	traits = { 
+		trait_engineer
+	}
+	id = 1312
+}
+
+create_corps_commander = { 
+	name = "Camilo Alonso Vega"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Camilo_Vega.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+	traits = {
+	    old_guard
+	}
+	id = 1317
+}
+
+create_corps_commander = { 
+	name = "Santiago Amado Lóriga"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Santiago_Amado_Loriga.dds"
+	skill = 3
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 3
+	traits = {
+		old_guard
+		trait_mountaineer
+	}
+	id = 1319
+}
+
+create_navy_leader = { #Auto-Generated
+	name = "Luis Carrero Blanco"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Luis_Carrero_Blanco.dds"
+	skill = 3
+    attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 5
+	traits = {
+		media_personality
+	} 
+	id = 1310
+}
+
+create_navy_leader = { 
+	name = "Ángel Liberal Lucini"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Angel_Liberal_Lucini.dds"
+	skill = 2
+    attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+	traits = {
+		
+	} 
+	id = 1311
+}
+
+create_navy_leader = { 
+	name = "Gabriel Pita da Veiga"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Gabriel_Pita_da_Veiga.dds"
+	skill = 2
+    attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 4
+	traits = {
+	} 
+	id = 1313
+}
+
+create_navy_leader = { 
+	name = "Américo Tomás"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Americo_Tomas.dds"
+	skill = 3
+    attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 3
+	traits = {
+	} 
+	id = 1314
+}
+
+create_navy_leader = { 
+	name = "Henrique Tenreiro"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Henrique_Tenreiro.dds"
+	skill = 2
+    attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 1
+	traits = {
+	} 
+	id = 1315
+}
+
+create_navy_leader = { 
+	name = "Adolfo Baturone Colombo"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Adolfo_Baturone_Colombo.dds"
+	skill = 2
+    attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+	traits = {
+	} 
+	id = 1316
+}
+
+create_navy_leader = { 
+	name = "Pedro Nieto Antúnez"
+	portrait_path = "gfx/leaders/IBR/Portrait_Iberia_Pedro_Nieto_Antunez.dds"
+	skill = 2
+    attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+	traits = {
+	} 
+	id = 1318
+}

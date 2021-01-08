@@ -1,0 +1,39 @@
+﻿capital = 919
+
+oob = ""
+
+set_convoys = 200
+add_manpower = 5631
+create_faction = "Arab League"
+
+set_politics = {	
+	ruling_party = despotist
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 2
+    ultranational_socialism = 0
+    socialist = 3
+    social_democrat = 10
+    social_liberal = 5
+    democratic = 0
+    social_conservative = 0
+    neutrality = 0
+    despotist = 70
+    fascism = 10
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Saud bin Abdulaziz"
+	desc = "POLITICS_SAUD_DESC"
+	picture = "gfx/leaders/SAU/Portrait_SAU_King_Saud.dds"
+	expire = "1980.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}

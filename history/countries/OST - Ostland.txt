@@ -1,0 +1,408 @@
+﻿capital = 12
+
+oob = ""
+
+set_stability = 0.45
+set_war_support = 0.32
+set_convoys = 200
+
+
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1939.9.12"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 0
+    neutrality = 0
+    despotist = 0
+    fascism = 0
+    national_socialism = 100
+}
+
+create_country_leader = {
+	name = "Karl-Siegmund Litzmann"
+	desc = "POLITICS_KARL_SIEGMUND_LITZMANN_DESC"
+	picture = "Portrait_Ostland_Karl_Siegmund_Litzmann.dds"
+	expire = "1986.10.12"
+	ideology = national_socialism_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Hinrich Lohse"
+	desc = "POLITICS_HINRICH_LOHSE_DESC"
+	picture = "Portrait_Ostland_Gauleiter_Hinrich_Lohse.dds"
+	expire = "1986.10.12"
+	ideology = national_socialism_subtype
+	traits = {
+		dictator
+	}
+}
+
+### Unit Leaders ###
+
+### MEYER LANRUT ###
+
+create_field_marshal = {
+	name = "Karl Plagge"
+	picture = "Portrait_Ostland_Karl_Plagge.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Wilm Hosenfeld"
+	picture = "Portrait_Ostland_Wilm_Hosenfeld.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Max Liedtke"
+	picture = "Portrait_Ostland_Max_Liedtke.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Gert Bastian"
+	picture = "Portrait_Ostland_Gert_Jeschonnek.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Oskar-Hubert Dennhardt"
+	picture = "Portrait_Ostland_Oskar_Hubert_Dennhardt.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+every_unit_leader = { set_unit_leader_flag = OST_MST_unit_leader }
+
+### DRESCHLER ###
+
+create_field_marshal = {
+	name = "Otto Heinrich Drechsler"
+	picture = "Portrait_Ostland_Otto_Heinrich_Drechsler.dds"
+	traits = { offensive_doctrine }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+	id = 151
+}
+
+create_field_marshal = {
+	name = "Ernst-Günther Baade"
+	picture = "Portrait_Ostland_Ernst_Gunther_Baade.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+#create_field_marshal = {
+	#name = "Arno von Lenski"
+	#picture = "Portrait_Ostland_Arno_von_Lenski.dds"
+	#traits = {  }
+	#skill = 1
+	#attack_skill = 1
+	#defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
+	#id = 1
+#}
+
+create_corps_commander = {
+	name = "Günther Pape"
+	picture = "Portrait_Ostland_Gunther_Pape.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+#create_corps_commander = {
+	#name = "Hellmuth Mäder"
+	#picture = "Portrait_Ostland_Hellmuth_Mader.dds"
+	#traits = {  }
+	#skill = 1
+	#attack_skill = 1
+	#defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
+	#id = 1
+#}
+
+create_corps_commander = {
+	name = "Heinrich Borgmann"
+	picture = "Portrait_Ostland_Heinrich_Borgmann.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Wolf Hagemann"
+	picture = "Portrait_Ostland_Wolf_Hagemann.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}	
+
+create_navy_leader = {
+	name = "Friedrich Kemnade"
+	picture = "Portrait_Ostland_Friedrich_Kemnade.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Rolf Thomsen"
+	picture = "Portrait_Ostland_Rolf_Thomsen.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Bernd Klug"
+	picture = "Portrait_Ostland_Bernd_Klug.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+every_unit_leader = {
+	limit = {
+		NOT = { has_unit_leader_flag = OST_MST_unit_leader }
+	}
+	set_unit_leader_flag = OST_DST_unit_leader
+}
+
+### JECKELN ### 
+
+create_field_marshal = {
+	name = "Friedrich Jeckeln"
+	picture = "Portrait_Ostland_Friedrich_Jeckeln.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+	id = 152
+}
+
+#create_field_marshal = {
+	#name = "Curt von Gottberg"
+	#picture = "Portrait_Ostland_Curt_von_Gottberg.dds"
+	#traits = {  }
+	#skill = 1
+	#attack_skill = 1
+	#defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
+	#id = 1
+#}
+
+create_field_marshal = {
+	name = "Nikolaus Heilmann"
+	picture = "Portrait_Ostland_Nikolaus_Heilmann.dds"
+	traits = {  }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Adolf Ax"
+	picture = "Portrait_Ostland_Adolf_Ax.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Franz Augsberger"
+	picture = "Portrait_Ostland_Franz_Augsberger.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Kārlis Lobe"
+	picture = "Portrait_Ostland_Karlis_Lobe.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Claus von Trotha"
+	picture = "Portrait_Ostland_Claus_von_Trotha.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+every_unit_leader = {
+	limit = {
+		NOT = { has_unit_leader_flag = OST_MST_unit_leader }
+		NOT = { has_unit_leader_flag = OST_DST_unit_leader }
+	}
+	set_unit_leader_flag = OST_JST_unit_leader
+}
+
+### STAHLDECKER ###
+
+create_field_marshal = {
+	name = "Maximilian von Edelsheim"
+	picture = "Portrait_Ostland_Maximilian_von_Edelsheim.dds"
+	traits = {  }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	#id = 1
+}
+
+create_field_marshal = {
+	name = "Franz Bäke"
+	picture = "Portrait_Ostland_Franz_Bake.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	#id = 1
+}
+
+#create_corps_commander = {
+	#name = "Karl-Theodor Molinari"
+	#picture = "Portrait_Ostland_Karl_Theodor_Molinari.dds"
+	#traits = {  }
+	#skill = 1
+	#attack_skill = 1
+	#defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
+	#id = 1
+#}
+
+create_corps_commander = {
+	name = "Heinz Brandt"
+	picture = "Portrait_Ostland_Heinz_Brandt.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	#id = 1
+}
+
+create_corps_commander = {
+	name = "Josef Moll"
+	picture = "Portrait_Ostland_Josef_Moll.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
+}
+
+create_navy_leader = {
+	name = "Karl-Adolf Zenker"
+	picture = "Portrait_Ostland_Karl_Adolf_Zenker.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 3
+	#id = 1
+}
+
+create_navy_leader = {
+	name = "Wolfgang Lüth"
+	picture = "Portrait_Ostland_Wolfgang_Luth.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+	#id = 1
+}

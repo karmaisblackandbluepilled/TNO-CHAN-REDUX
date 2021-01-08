@@ -1,0 +1,177 @@
+﻿capital = 234
+
+oob = ""
+
+give_resource_rights = { 
+	receiver = GER 
+	state = 229 
+}
+
+give_resource_rights = { 
+	receiver = BRG
+	state = 232 
+}
+
+
+set_research_slots = 3
+set_convoys = 75
+add_manpower = 60000
+
+set_stability = 0.8
+set_war_support = 0.6
+
+
+set_politics = {
+	ruling_party = burgundian_system
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 8
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 0
+    neutrality = 0
+    despotist = 0
+    fascism = 0
+    national_socialism = 18
+    burgundian_system = 74
+}
+
+create_country_leader = {
+	name = "Josias zu Waldeck und Pyrmont"
+	desc = "POLITICS_REICHSKOMMISSAR_JOSIAS_DESC"
+	picture = "Portrait_Caucasus_Josias.dds"
+	expire = "1999.1.1"
+	ideology = burgundian_system_subtype
+	traits = {
+
+ 	}
+}
+create_country_leader = {
+	name = "Josias I"
+	desc = "POLITICS_KAISER_JOSIAS_DESC"
+	picture = "Portrait_Caucasus_Josias_Kaiser.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}
+create_country_leader = {
+	name = "Josias zu Waldeck und Pyrmont"
+	desc = "POLITICS_REICHSKOMMISSAR_JOSIAS_DESC"
+	picture = "Portrait_Caucasus_Josias.dds"
+	expire = "1999.1.1"
+	ideology = ultranational_socialism_subtype
+}
+create_country_leader = {
+	name = "Paul Pleiger"
+	desc = "POLITICS_PAUL_PLEIGER_DESC"
+	picture = "Portrait_Caucasus_Paul_Pleiger.dds"
+	expire = "1999.1.1"
+	ideology = national_socialism_subtype
+}
+
+create_field_marshal = {
+	name = "Josias zu Waldeck und Pyrmont"
+	picture = "Portrait_Caucasus_Josias.dds"
+	traits = { old_guard harsh_leader }
+	skill = 2
+	id = 700
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Hubert Lanz"
+	picture = "Portrait_Caucasus_General_Hubert_Lanz.tga"
+	traits = { old_guard career_officer offensive_doctrine }
+	skill = 3
+	id = 701
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Rudolf Konrad"
+	picture = "Portrait_Caucasus_Rudolf_Konrad.tga"
+	traits = { old_guard trait_mountaineer }
+	skill = 2
+	id = 702
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Eduard Deisenhofer"
+	picture = "Portrait_Caucasus_Eduard_Deisenhofer.tga"
+	traits = { panzer_leader brilliant_strategist }
+	skill = 4
+	id = 703
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Josef Salminger"
+	picture = "Portrait_Caucasus_Josef_Salminger.tga"
+	traits = { infantry_leader trait_mountaineer ambusher }
+	skill = 3
+	id = 704
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Heinz Groth"
+	picture = "Portrait_Caucasus_Heinz_Groth.tga"
+	traits = { winter_specialist trait_mountaineer }
+	skill = 3
+	id = 705
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Hermann Kreß"
+	picture = "Portrait_Caucasus_Hermann_Kress.tga"
+	traits = { old_guard trait_mountaineer }
+	skill = 2
+	id = 706
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Wittekind zu Waldeck und Pyrmont"
+	picture = "Portrait_Caucasus_Wittekind.dds"
+	traits = { politically_connected }
+	skill = 1
+	id = 707
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Guda zu Waldeck und Pyrmont"
+	picture = "Portrait_Caucasus_Guda.dds"
+	traits = { politically_connected }
+	skill = 1
+	id = 7080
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

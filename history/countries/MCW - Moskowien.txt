@@ -1,0 +1,93 @@
+﻿capital = 219
+
+oob = ""
+
+
+set_research_slots = 3
+set_convoys = 200
+
+set_stability = 0.74
+
+set_politics = {	
+	ruling_party = national_socialism
+	last_election = "1941.4.17"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    communism = 10
+    ultranational_socialism = 0
+    national_socialism = 70
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 0
+    neutrality = 0
+    despotist = 0
+    fascism = 20
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Siegfried Kasche"
+	desc = "POLITICS_SIEGFRIED_KASCHE_DESC"
+	picture = "Portrait_Moskowien_Siegfried_Kasche.dds"
+	expire = "1983.4.24"
+	ideology = national_socialism_subtype
+	traits = {
+		
+	}
+}
+
+
+
+create_field_marshal = { 
+	name = "Erich von dem Bach"
+	picture = "Portrait_Moskowien_Erich_von_dem_Bach.dds"
+	traits = { trait_cautious organizer defensive_doctrine }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+	id = 173
+}
+
+create_corps_commander = { 
+	name = "Bronislav Kaminski"
+	picture = "Portrait_Moskowien_Bronislaw_Kaminski.dds"
+	traits = { infantry_leader winter_specialist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 174
+}
+
+create_corps_commander = { 
+	name = "Odilo Globočnik"
+	picture = "Portrait_Moskowien_Odilo_Globotschnig.dds"
+	traits = { politically_connected urban_assault_specialist }
+	skill = 1 
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 175
+}
+
+create_corps_commander = { 
+	name = "Otto Herfurth"
+	picture = "Portrait_Moskowien_Otto_Herfurth.dds"
+	traits = { infantry_officer career_officer }
+	skill = 2 
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	id = 176
+}

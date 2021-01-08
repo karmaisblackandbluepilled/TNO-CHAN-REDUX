@@ -1,215 +1,170 @@
-﻿capital = 924
+﻿capital = 37
 
-oob = "DEN_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "DEN_1936_naval_mtg"
-	else = {
-		set_naval_oob = "DEN_1936_naval_legacy"
-	}
-}
+oob = ""
 
-set_research_slots = 3
-set_stability = 0.9
-set_war_support = 0.1
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_recon = 1
-	tech_engineers = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	early_fighter = 1
-	cv_early_fighter = 1
-}
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		early_destroyer = 1
-		early_heavy_cruiser = 1
-		transport = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		early_ship_hull_cruiser = 1
-		basic_battery = 1
-		basic_secondary_battery = 1
-		basic_cruiser_armor_scheme = 1
-		basic_torpedo = 1
-		coastal_defense_ships = 1
-		mtg_transport = 1
-	}
-}
-
-
-
-set_politics = {
+set_politics = {	
 	ruling_party = neutrality
 	last_election = "1935.10.22"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
+
 set_popularities = {
-	neutrality = 97
-	fascism = 1
-	communism = 2
+    communism = 0
+    socialist = 0
+    social_democrat = 12
+    social_liberal = 7
+    democratic = 0
+    social_conservative = 5
+    neutrality = 33
+    despotist = 8
+    fascism = 12
+    national_socialism = 23
+    ultranational_socialism = 0
+    burgundian_system = 0
 }
-
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1939.4.3"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-}
-
-set_convoys = 40
 
 create_country_leader = {
-	name = "Thorvald Stauning"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
-	expire = "1965.1.1"
-	ideology = socialism
+	name = "Jens Otto Krag"
+	desc = "POLITICS_JENS_KRAG_DESC"
+	picture = "Portrait_Denmark_Werner_Best.dds"
+	expire = "1986.10.12"
+	ideology = social_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Erik Eriksen"
+	desc = "POLITICS_ERIK_ERIKSEN_DESC"
+	picture = "Portrait_Denmark_Werner_Best.dds"
+	expire = "1986.10.12"
+	ideology = social_liberal_subtype
+}
+
+# create_country_leader = {
+# 	name = "Poul Møller"
+# 	desc = "POLITICS_POUL_MOLLER_DESC"
+# 	picture = "Portrait_Denmark_Werner_Best.dds"
+# 	expire = "1986.10.12"
+# 	ideology = social_conservative_subtype
+# 	traits = {
+# 	}
+# }
+
+create_country_leader = {
+	name = "Nils Svenningsen"
+	desc = "POLITICS_NILS_SVENNINGSEN_DESC"
+	picture = "Portrait_Denmark_Nils_Svenningsen.dds"
+	expire = "1983.1.1"
+	ideology = social_conservative_subtype
+}
+
+create_country_leader = {
+	name = "Werner Best"
+	desc = "POLITICS_WERNER_BEST_DESC"
+	picture = "Portrait_Denmark_Werner_Best.dds"
+	expire = "1986.10.12"
+	ideology = authoritarian_democrat_subtype
 	traits = {
-		#
+
 	}
 }
 
 create_country_leader = {
-	name = "Frits Clausen"
+	name = "Hermann von Hanneken"
+	desc = "POLITICS_HERMANN_HANNEKEN_DESC"
+	picture = "Portrait_Denmark_Herman_Von_Hanneken.dds"
+	expire = "1986.10.12"
+	ideology = despotism_subtype
+}
+
+create_country_leader = {
+	name = "Carl Popp-Madsen"
 	desc = "POLITICS_FRITS_CLAUSEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
+	picture = "Portrait_Denmark_Carl_Popp_Madsen.dds"
+	expire = "1986.10.12"
+	ideology = fascism_subtype
 }
 
 create_country_leader = {
-	name = "Aksel Larsen"
-	desc = "POLITICS_AKSEL_LARSEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = leninism
+	name = "Knud Børge Martinsen"
+	desc = "POLITICS_KNUD_MARTINSEN_DESC"
+	picture = "Portrait_Denmark_Knud_Borge_Martinsen.dds"
+	expire = "1986.10.12"
+	ideology = national_socialism_subtype
 	traits = {
-		#
+		dictator
 	}
 }
 
-create_country_leader = {
-	name = "Peter Rochegune Munch"
-	desc = "POLITICS_PETER_ROCHEGUNE_MUNCH_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
+### Unit Leaders ###
+create_field_marshal = {
+	name = "Hermann von Hanneken"
+	picture = "Portrait_Denmark_Herman_Von_Hanneken.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
 }
-
 
 create_corps_commander = {
-	name = "Wilhelm Wain Prior"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { trickster }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
+	name = "Knud Børge Martinsen"
+	picture = "Portrait_Denmark_Knud_Borge_Martinsen.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
 }
 
-### VARIANTS ###
-# 1936 Start #
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	### Ship Variants ###
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	# Submarines #
-	create_equipment_variant = {
-		name = "Rota Class"								# represents Rota and Daphne classes
-		type = ship_hull_submarine_1
-		name_group = DEN_DD_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
-			fixed_ship_engine_slot = sub_ship_engine_1
-			rear_1_custom_slot = empty
-		}
-	}
-	# Heavy Cruisers #
-	create_equipment_variant = {
-		name = "Herluf Trolle Class"				
-		type = ship_hull_cruiser_coastal_defense_ship
-		name_group = DEN_CA_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_medium_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_armor_slot = ship_armor_cruiser_2
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			mid_1_custom_slot = empty
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = ship_torpedo_1
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Niels Iuel Class"				
-		type = ship_hull_cruiser_coastal_defense_ship
-		name_group = DEN_CA_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_light_medium_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
-			fixed_ship_armor_slot = ship_armor_cruiser_2
-			fixed_ship_secondaries_slot = empty
-			mid_1_custom_slot = ship_anti_air_1
-			mid_2_custom_slot = empty
-			rear_1_custom_slot = ship_light_medium_battery_1
-		}
-	}
+create_corps_commander = {
+	name = "Günther Pancke"
+	picture = "Portrait_Denmark_Gunther_Pancke.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
 }
 
-# 1939 Start #
-1939.1.1 = {
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		# Ship variants #
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		# Submarines #
-		create_equipment_variant = {
-			name = "Havmanden Class"				
-			type = ship_hull_submarine_1
-			name_group = DEN_DD_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_1
-				fixed_ship_engine_slot = sub_ship_engine_2
-				rear_1_custom_slot = empty
-			}
-		}
-	}
+create_corps_commander = {
+	name = "Christian Frederik von Schalburg"
+	picture = "Portrait_Denmark_Christian_Frederik_von_Schalburg.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
+}
+
+create_navy_leader = {
+	name = "Erhard Qvistgaard"
+	picture = "Portrait_Denmark_Erhard_Qvistgaard.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+	#id = 1
+}
+
+create_navy_leader = {
+	name = "Jørgen Hviid"
+	picture = "Portrait_Denmark_Jorgen_Hviid.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+	#id = 1
 }

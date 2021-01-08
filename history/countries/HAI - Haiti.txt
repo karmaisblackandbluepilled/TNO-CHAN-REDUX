@@ -1,0 +1,75 @@
+﻿capital = 318
+
+oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_stability = 0.72
+set_war_support = 0.78
+set_convoys = 5
+
+
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 0
+    socialist = 4
+    social_democrat = 7
+    social_liberal = 12
+    democratic = 0
+    social_conservative = 20
+    neutrality = 24
+    despotist = 0
+    fascism = 33
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "François Duvalier"
+	picture = "Portrait_Haiti_Francois_Duvalier.dds"
+	expire = "2000.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "François Duvalier"
+	picture = "Portrait_Haiti_Francois_Duvalier.dds"
+	expire = "2000.1.1"
+	ideology = ultranational_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "François Duvalier"
+	picture = "Portrait_Haiti_Francois_Duvalier.dds"
+	expire = "2000.1.1"
+	ideology = burgundian_system_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "René Théodore"
+	picture = "Portrait_Haiti_Rene_Theodore.dds"
+	expire = "2000.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}

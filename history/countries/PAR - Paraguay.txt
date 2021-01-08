@@ -1,0 +1,100 @@
+﻿capital = 301
+
+oob = ""
+
+set_politics = {	
+	ruling_party = despotist
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 10
+	socialist = 0
+	social_democrat = 17
+	social_liberal = 8
+	democratic = 0
+	social_conservative = 28
+	neutrality = 11
+	despotist = 26
+	fascism = 0
+	national_socialism = 0
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+
+### Leaders ###
+#AuthSoc
+create_country_leader = {
+	name = "Antonio Maidana"
+	picture = "Portrait_Paraguay_Antonio_Maidana.dds"
+	desc = "Paraguay_Antonio_Maidana_desc"
+	expire = "1990.1.1"
+	ideology = communist_subtype
+	traits = { }
+}
+#SocDem
+create_country_leader = {
+	name = "Rafael Franco"
+	picture = "Portrait_Paraguay_Rafael_Franco.dds"
+	desc = "Paraguay_Rafael_Franco_desc"
+	expire = "1990.1.1"
+	ideology = social_democrat_subtype
+	traits = { }
+}
+#LibDem
+create_country_leader = {
+	name = "Domingo Laíno"
+	picture = "Portrait_Paraguay_Domingo_Laino.dds"
+	desc = "Paraguay_Domingo_Laino_desc"
+	expire = "1990.1.1"
+	ideology = social_liberal_subtype
+	traits = { }
+}
+#ConDem
+create_country_leader = {
+	name = "Frederico Chávez"
+	picture = "Portrait_Paraguay_Frederico_Chavez.dds"
+	desc = "Paraguay_Frederico_Chavez_desc"
+	expire = "1990.1.1"
+	ideology = social_conservative_subtype
+	traits = { }
+}
+#AuthDem
+create_country_leader = {
+	name = "Juan Natalicio González"
+	picture = "Portrait_Paraguay_Juan_Natalicio_Gonzalez.dds"
+	desc = "Paraguay_Juan_Natalicio_Gonzalez_desc"
+	expire = "1990.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+#Despotist - RULING
+create_country_leader = {
+	name = "Higinio Morínigo"
+	picture = "Portrait_Paraguay_Higinio_Morinigo.dds"
+	desc = "Paraguay_Higinio_Morinigo_desc"
+	expire = "1990.1.1"
+	ideology = despotism_subtype
+	traits = { }
+}
+#Fascism
+create_country_leader = {
+	name = "Alfredo Stroessner"
+	picture = "Portrait_Paraguay_Alfredo_Stroessner.dds"
+	desc = "Paraguay_Alfredo_Stroessner_desc"
+	expire = "1990.1.1"
+	ideology = fascism_subtype
+	traits = {  }
+}
+#NatSoc
+create_country_leader = {
+	name = "Alfredo Stroessner"
+	picture = "Portrait_Paraguay_Alfredo_Stroessner.dds"
+	desc = "Paraguay_Alfredo_Stroessner_desc"
+	expire = "1990.1.1"
+	ideology = national_socialism_subtype
+	traits = {  }
+}

@@ -1,18 +1,19 @@
 state={
 	id=710
 	name="STATE_710"
-	manpower=2147	
+	manpower=1000
 	state_category = tiny_island
 	
-	history=
-	{
-		owner = ENG
+	history={
+		owner = RAJ
+		add_core_of = RAJ
 		buildings = {
 			infrastructure = 3
 			13019 = {
 				naval_base = 1
 			}
 		}
+		add_claim_by = AST
 	}
 	
 	provinces={

@@ -1,28 +1,26 @@
-
+##POP DONE
 state={
 	id=309
 	name="STATE_309"
-	manpower = 152000
+	manpower = 322997
 
 	resources={
-		aluminium=60 # was: 104
+		aluminium=12
 	}	
 	
 	state_category = rural
 
 	history={
-		add_core_of = SUR
-		owner = HOL
-		victory_points = {
-			10906 1
-		}
+		owner = GUY
+		add_core_of = GUY
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			12828 = {
-				naval_base = 1
+			10906 = {
+				naval_base = 2
 			}
 		}
+		victory_points = { 10906 10 }
 	}
 
 	provinces={

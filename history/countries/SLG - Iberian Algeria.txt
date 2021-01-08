@@ -1,0 +1,112 @@
+﻿capital = 459
+
+set_research_slots = 2
+set_convoys = 50
+set_stability = 0.6
+set_war_support = 0.3
+
+oob = ""
+
+set_cosmetic_tag = SLG_IBR
+
+
+set_politics = {	
+	ruling_party = despotist
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 0
+    neutrality = 20
+    despotist = 70
+    fascism = 10
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+
+
+create_country_leader = {
+	name = "Federico Gómez de Salazar"
+	desc = "POLITICS_FEDERICO_GOMEZ_DESC"
+	picture = "Portrait_SLG_Federico_Gomez_Salazar.dds"
+	expire = "1990.10.20"
+	ideology = despotism_subtype
+	traits = {
+		# 
+	}
+}
+
+create_country_leader = {
+	name = "Jorge Pereira Jardim"
+	desc = "POLITICS_JORGE_JARDIM_DESC"
+	picture = "Portrait_SLG_Jorge_Pereira_Jardim.dds"
+	expire = "1990.10.20"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		# 
+	}
+}
+
+create_country_leader = {
+	name = "Yves Guérin-Sérac"
+	desc = "POLITICS_YVES_GUERIN_SERAC_DESC"
+	picture = "Portrait_SLG_Yves_Guerin_Serac.dds"
+	expire = "1990.10.20"
+	ideology = fascism_subtype
+	traits = {
+		# 
+	}
+}
+
+
+create_field_marshal = { 
+	name = "Federico Gómez de Salazar"
+	portrait_path = "gfx/leaders/SLG/Portrait_SLG_Federico_Gomez_Salazar.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	traits = { 
+	    thorough_planner
+	}
+	id = 1401
+}
+
+create_corps_commander = { 
+	name = "Kaúlza de Arriaga"
+	portrait_path = "gfx/leaders/SLG/Portrait_SLG_Kaulza_de_Arriaga.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+	traits = {
+	    harsh_leader
+	    infantry_officer
+	}
+	id = 1402
+}
+
+create_corps_commander = { 
+	name = "Yves Guérin-Sérac"
+	portrait_path = "gfx/leaders/SLG/Portrait_SLG_Yves_Guerin_Serac.dds"
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+	traits = {
+	    desert_fox
+	}
+	id = 1403
+}

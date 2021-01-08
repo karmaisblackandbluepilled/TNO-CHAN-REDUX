@@ -1,13 +1,16 @@
+##POP DONE
 state=
 {
 	id=318
 	name="STATE_318"
-	manpower = 2380000
+	manpower = 4186640
 	
 	state_category = town
 	
 	resources={
-		chromium=2 # was: 3
+		
+		chromium=3
+
 	}
 	history=
 	{
@@ -22,9 +25,7 @@ state=
 			}
 		}
 		add_core_of = HAI
-		victory_points = {
-			4641 5 
-		}
+		victory_points = { 4641 5 }
 
 	}
 	provinces={

@@ -1,78 +1,116 @@
-﻿capital = 46
+﻿capital = 1281
 
-oob = "ROM_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "ROM_1936_naval_mtg"
-	else = {
-		set_naval_oob = "ROM_1936_naval_legacy"
-	}
-}
-
-set_research_slots = 3
-set_stability = 0.6
-set_war_support = 0.6
-
-# Starting tech
-set_technology = {
-	tech_support = 1		
-	tech_engineers = 1
-	tech_mountaineers = 1
-	motorised_infantry = 1
-	gwtank = 1
-	basic_light_tank = 1
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	early_fighter = 1
-}
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		early_destroyer = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		basic_battery = 1
-		basic_torpedo = 1
-		basic_depth_charges = 1
-	}
-}
+oob = ""
 
 
-
-
-set_convoys = 10
-
-set_politics = {
-	ruling_party = fascism
+set_politics = {	
+	ruling_party = ultranational_socialism
 	last_election = "1933.12.20"
 	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 10
-	fascism = 80
-	neutrality = 10
+	elections_allowed = no
 }
 
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 40
+    national_socialism = 6
+    socialist = 3
+    social_democrat = 6
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 0
+    neutrality = 0
+    despotist = 30
+    fascism = 15
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Ștefan Foriș"
+	desc = "POLITICS_STEFAN_FORIS_DESC"
+	picture = "Portrait_Romania_Stefan_Foris.dds"
+	expire = "1989.1.1"
+	ideology = communist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Ștefan Voitec"
+	desc = "POLITICS_STEFAN_VOITEC_DESC"
+	picture = "Portrait_Romania_Stefan_Voitec.dds"
+	expire = "1989.1.1"
+	ideology = socialist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Gheorghe Vlădescu-Răcoasa"
+	desc = "POLITICS_GHEORGHE_VLADESCU_RACOASA_DESC"
+	picture = "Portrait_Romania_Gheorghe_Vladescu_Racoasa.dds"
+	expire = "1989.1.1"
+	ideology = social_democrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Vintilă V. Brătianu"
+	desc = "POLITICS_MICHAEL_I_DESC"
+	picture = "Portrait_Romania_Vintila_V_Bratianu.dds"
+	expire = "1989.1.1"
+	ideology = social_liberal_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Corneliu Coposu"
+	desc = "POLITICS_CORNELIU_COPOSU_DESC"
+	picture = "Portrait_Romania_Corneliu_Coposu.dds"
+	expire = "1989.1.1"
+	ideology = social_conservative_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Viorel Tilea"
+	desc = "POLITICS_VIOREL_TILEA_DESC"
+	picture = "Portrait_Romania_Viorel_Tilea.dds"
+	expire = "1989.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Mihai I"
+	desc = "POLITICS_MICHAEL_I_DESC"
+	picture = "Portrait_Romania_Michael_I.dds"
+	expire = "1989.1.1"
+	ideology = despotism_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Mihai Stelescu"
+	desc = "POLITICS_MIHAI_STELESCU_DESC"
+	picture = "Portrait_Romania_Mihai_Stelescu.dds"
+	expire = "1989.1.1"
+	ideology = fascism_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Nichifor Crainic"
+	desc = "POLITICS_NICHIFOR_CRAINIC_DESC"
+	picture = "Portrait_Romania_Nichifor_Crainic.dds"
+	expire = "1989.1.1"
+	ideology = national_socialism_subtype
+	traits = { }
+}
 
 create_country_leader = {
 	name = "Corneliu Zelea Codreanu"
 	desc = "POLITICS_CODREANU_DESC"
-	picture = "gfx/leaders/ROM/Codreanu.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
+	picture = "Portrait_Romania_Codreanu.dds"
+	expire = "1989.1.1"
+	ideology = ultranational_socialism_subtype
+	traits = { }
 }

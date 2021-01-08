@@ -1,18 +1,21 @@
+#POP DONE
 state={
 	id=758
 	name="STATE_758"
 	provinces={
-		1961 5094 8029 10802 12784 12801 
+		1697 1837 4842 7863 
 	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category = pastoral
+	resources = {
+		oil = 8
+	}
 	history={
-		owner = TIB
+		owner = KHA
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = TIB
-
+		add_core_of = KHA
 	}
+	state_category="wasteland"
+	manpower=63000
+	buildings_max_level_factor=1.000
 }

@@ -13,9 +13,7 @@ state=
 		}
 		add_core_of = FIN
 
-		victory_points = {
-			197 1
-		}
+		victory_points = { 197 1 }
 	}
 
 	provinces={

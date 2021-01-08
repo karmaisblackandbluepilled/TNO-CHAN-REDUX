@@ -1,16 +1,15 @@
+##POP DONE
 state={
 	id=686
 	name="STATE_686"
-	manpower = 1543913
+	manpower = 2539193
 	
 	state_category = rural
 
 	history={
-		add_core_of = PUE
 		owner = USA
-		victory_points = {
-			1440 1 
-		}
+		add_core_of = PUR
+		victory_points = { 1440 1 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

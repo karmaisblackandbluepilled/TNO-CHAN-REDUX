@@ -2,29 +2,25 @@
 state={
 	id=184
 	name="STATE_184"
+	manpower = 179638
+	
+	state_category = rural
+	
 	resources={
-		chromium=11.000
+		chromium=16
 	}
 
 	history={
-		victory_points = {
-			11905 1 
-		}
 		owner = TUR
+		victory_points = { 9930 5 }
 		buildings = {
-			infrastructure = 2
-			arms_factory = 1
-
+			infrastructure = 4
 		}
 		add_core_of = GRE
 		add_claim_by = BUL
-
 	}
 
 	provinces={
-		11774 11905 13259 
+		6990 9791 9930
 	}
-	manpower=382500
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

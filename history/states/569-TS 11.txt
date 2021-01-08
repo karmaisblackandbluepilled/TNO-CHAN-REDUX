@@ -1,24 +1,27 @@
-
-state={
-	id=569
-	name="STATE_569" # Kemerovo
-	manpower = 1567322
-	
-	state_category = town
-
-	history={
-		owner = SOV
+#POP DONE
+state = {
+	id = 569
+	name = "STATE_569"
+	resources = {
+		steel = 30
+		tungsten = 14
+		oil = 9
+	}
+	history = {
+		owner = KEM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			arms_factory = 3
 			industrial_complex = 1
 		}
-		add_core_of = SOV
-		victory_points = {
-			7757 1
-		}
+		victory_points = { 12631 20 }
+		victory_points = { 7822 15 }
+		add_core_of = KEM
 	}
-
-	provinces={
-		1369 1685 1702 1816 4665 4789 4793 7757 7822 7886 10580 10649 12631 
+	provinces = {
+		1685 1702 4789 4793 7822 12631 13299 13306 13311
 	}
+	manpower = 2549000
+	buildings_max_level_factor = 1.000
+	state_category = large_city
 }

@@ -1,29 +1,25 @@
 
-state={
+state={ #dalsland 58782, bohuslän 163612, västergötland 1027544, värmland 335921
 	id=140
 	name="STATE_140"
-	manpower = 1282827
+	manpower = 1585869
 	state_category = city
 	
 	resources={
-		steel=6 # was: 10
+		steel=10
 	}
 
 
 	history={
 		owner = SWE
-		victory_points = {
-			11114 1 
-		}
-		victory_points = {
-			383 10 
-		}
+		victory_points = { 11114 1 }
+		victory_points = { 383 10 }
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 1
 			dockyard = 1
-			air_base = 1
+			air_base = 2
 			383 = {
 				naval_base = 5
 				coastal_bunker = 5

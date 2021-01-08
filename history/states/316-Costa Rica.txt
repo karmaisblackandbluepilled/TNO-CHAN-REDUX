@@ -1,10 +1,11 @@
-
+##POP DONE
 state={
 	id=316
 	name="STATE_316"
-	manpower = 503856
+	manpower = 1537041
 	resources={
-		chromium=1 # was: 1
+
+		chromium=1
 	}
 	
 	state_category = town
@@ -22,9 +23,7 @@ state={
 			}
 		}
 		add_core_of = COS
-		victory_points = {
-			13087 3
-		}
+		victory_points = { 13087 3 }
 
 	}
 

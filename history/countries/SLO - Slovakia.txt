@@ -1,0 +1,102 @@
+﻿capital = 70
+
+oob = ""
+
+set_stability = 0.50
+
+add_manpower = 15000
+ 
+set_politics = {	
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 3
+    socialist = 0
+    social_democrat = 2
+    social_liberal = 2
+    democratic = 0
+    social_conservative = 4
+    neutrality = 11
+    despotist = 0
+    fascism = 51
+	national_socialism = 27
+	ultranational_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Jozef Tiso"
+	desc = "POLITICS_JOZEF_TISO_DESC"
+	picture = "Portrait_Slovakia_Josef_Tiso.dds"
+	expire = "1965.1.1"
+	ideology = fascism_subtype
+}
+
+create_country_leader = {
+	name = "Alexander Mach"
+	desc = "POLITICS_ALEXANDER_MACH_DESC"
+	picture = "Portrait_Slovakia_Alexander_Mach.dds"
+	expire = "1980.10.15"
+	ideology = national_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Ján Golian"
+	desc = "POLITICS_JAN_GOLIAN_DESC"
+	picture = "Portrait_Slovakia_Jan_Golian.dds"
+	expire = "1983.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+
+### Unit Leaders ###
+create_field_marshal = {
+	name = "Ferdinand Čatloš"
+	picture = "Portrait_Slovakia_Ferdinand_Catlos.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
+}
+
+create_corps_commander = {
+	name = "Ján Golian"
+	picture = "Portrait_Slovakia_Jan_Golian.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
+}
+
+create_corps_commander = {
+	name = "Ján Nálepka"
+	picture = "Portrait_Slovakia_Jan_Nalepka.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
+}
+
+create_corps_commander = {
+	name = "Martin Dzúr"
+	picture = "Portrait_Slovakia_Martin_Dzur.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	#id = 1
+}

@@ -1,0 +1,230 @@
+﻿capital = 779
+
+oob = ""
+
+set_research_slots = 3
+
+set_stability = 0.8
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 0
+    socialist = 3
+    social_democrat = 24
+    social_liberal = 31
+    democratic = 0
+    social_conservative = 23
+    neutrality = 17
+    despotist = 2
+    fascism = 0
+    national_socialism = 0
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Charles de Gaulle"
+	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
+	picture = "Portrait_Free_France_Charles_De_Gaulle.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Charles de Gaulle"
+	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
+	picture = "Portrait_Free_France_Charles_De_Gaulle.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_field_marshal  = {
+    name = "Charles de Gaulle"
+    picture = "Portrait_Free_France_Charles_De_Gaulle_general.dds"
+    traits = {  }
+    skill = 5
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_field_marshal  = {
+    name = "Marie Pierre Koenig"
+    picture = "Portrait_Free_France_Marie_Pierre_Koenig.dds"
+    traits = {  }
+    skill = 3
+    attack_skill = 4
+    defense_skill = 1
+    planning_skill = 3
+    logistics_skill = 1
+}
+
+create_field_marshal  = {
+    name = "Philippe Leclerc"
+    picture = "Portrait_Free_France_Philippe_Leclerc.dds"
+    traits = { }
+    skill = 4
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 3
+}
+
+create_field_marshal  = {
+    name = "Jacques Massu"
+    picture = "Portrait_Free_France_Jacques_Massu.dds"
+    traits = { old_guard jungle_rat }
+    skill = 3
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_field_marshal  = {
+    name = "Jean Touzet du Vigier"
+    picture = "Portrait_Free_France_Jean_Touzet_Du_Vigier.dds"
+    traits = { old_guard desert_fox expert_delegator }
+    skill = 4
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 4
+}
+
+create_field_marshal  = {
+    name = "Louis Napoléon"
+    id = 100
+    picture = "Portrait_Free_France_Louis_Napoleon.dds"
+    traits = { desert_fox politically_connected }
+    skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+    name = "Joseph de Goislard de Monsabert"
+    picture = "Portrait_Free_France_Joseph_De_Goislard_De_Monsabert.dds"
+    traits = { old_guard desert_fox infantry_officer infantry_expert }
+    skill = 2
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Gaston Palewski"
+    picture = "Portrait_Free_France_Gaston_Palewski.dds"
+    traits = { old_guard desert_fox politically_connected }
+    skill = 1
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Georges Catroux"
+    picture = "Portrait_Free_France_Georges_Catroux.dds"
+    traits = { old_guard skilled_staffer desert_fox }
+    skill = 2
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Maurice Challe"
+    picture = "Portrait_Free_France_Maurice_Challe.dds"
+    traits = { old_guard desert_fox trickster }
+    skill = 2
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Edgard de Larminat"
+    picture = "Portrait_Free_France_Edgard_De_Larminat.dds"
+    traits = { old_guard desert_fox bearer_of_artillery }
+    skill = 2
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Raoul Magrin-Vernerey"
+    picture = "Portrait_Free_France_Raoul_Magrin_Vernerey.dds"
+    traits = { old_guard desert_fox infantry_officer }
+    skill = 2
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "André Zeller"
+    picture = "Portrait_Free_France_Andre_Zeller.dds"
+    traits = { old_guard desert_fox bearer_of_artillery }
+    skill = 2
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_navy_leader = {
+    name = "Georges Thierry d'Argenlieu"
+    picture = "Portrait_Free_France_Georges_Thierry_D'Argenlieu.dds"
+    traits = { old_guard }
+    skill = 2
+}
+
+create_navy_leader = {
+    name = "Pierre Barjot"
+    picture = "Portrait_Free_France_Pierre_Barjot.dds"
+    traits = { old_guard }
+    skill = 2
+}
+
+create_navy_leader = {
+    name = "Philippe de Gaulle"
+    picture = "Portrait_Free_France_Phillippe_De_Gaulle.dds"
+    traits = {  }
+    skill = 2
+}
+
+create_navy_leader = {
+    name = "Philippe Kieffer"
+    picture = "Portrait_Free_France_Philippe_Kieffer.dds"
+    traits = { old_guard }
+    skill = 2
+}
+
+create_navy_leader = {
+    name = "Émile Muselier"
+    picture = "Portrait_Free_France_Émile_Muselier.dds"
+    traits = { old_guard }
+    skill = 2
+}

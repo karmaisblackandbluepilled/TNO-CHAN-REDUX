@@ -1,22 +1,22 @@
+##POP DONE
 state={
 	id=698
 	name="STATE_698"
-	manpower = 212012
+	manpower = 254414
 	
 	state_category = small_island
 	
 	history={
-		owner = SPR
-		victory_points = {
-			1751 3 
-		}
+		owner = IBR
+		victory_points = { 1751 5 }
 		buildings = {
 			infrastructure = 3
 			1751 = {
 				naval_base = 3
 			}
 		}
-		add_core_of = POR
+		add_core_of = IBR
+		
 	}
 	
 	provinces={

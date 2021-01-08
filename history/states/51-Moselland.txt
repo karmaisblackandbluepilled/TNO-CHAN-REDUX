@@ -3,32 +3,35 @@ state={
 	id=51
 	name="STATE_51"
 	resources={
-		steel=30.000
+		steel=54.000
 	}
 
 	history={
 		owner = GER
-		victory_points = {
-			6469 10 
-		}
+		add_core_of = GER
 		victory_points = {
 			587 5 
+		}
+		victory_points = {
+			3547 1 
+		}
+		victory_points = {
+			3488 5 
 		}
 		buildings = {
 			infrastructure = 8
 			arms_factory = 3
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 3
 
 		}
-		add_core_of = GER
 
 	}
 
 	provinces={
-		529 587 3444 3512 3547 6469 6570 9482 9522 11435 11470 11494 13242 13252 
+		587 3444 3488 3547 9522 11562 
 	}
-	manpower=6144743
+	manpower=5047887
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }

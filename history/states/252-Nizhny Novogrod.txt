@@ -1,30 +1,31 @@
-
+#POP DONE
 state={
 	id=252
 	name="STATE_252"
-	manpower = 3378176
-	
-	state_category = city
-
+	resources={
+		steel = 9
+		tungsten = 5
+		oil = 8
+	}
 	history={
-		owner = SOV
-		victory_points = {
-			11375 10
-		}
+		owner = CHU
+		victory_points = { 11375 25 }
+		victory_points = { 6327 5 }
 		buildings = {
 			infrastructure = 5
-			arms_factory = 2
+			arms_factory = 3
+			industrial_complex = 1
 			air_base = 1
+
 		}
-		add_core_of = SOV
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-			}
-		}
+		add_core_of = CHU
+		add_claim_by = MCW
 	}
 
 	provinces={
-		12 256 270 297 368 3224 3245 3261 3285 3303 3349 3352 3383 6149 6231 6295 6299 6327 6370 6374 6392 6410 9291 9298 9325 9358 9360 9368 9389 9407 11275 11277 11324 11340 11344 11375 11394 
+		297 3224 3285 3303 3352 3383 6299 6327 9298 9325 9360 11277 11344 11375 
 	}
+	manpower=2323000
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }

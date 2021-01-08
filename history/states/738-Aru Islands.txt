@@ -1,3 +1,5 @@
+###POP DONE
+###VPS DONE
 state={
 	id=738
 	name="STATE_738"
@@ -6,22 +8,17 @@ state={
 		owner = INS
 		add_core_of = INS
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 3
 			4579 = {
-				naval_base = 1
-
+				naval_base = 3
 			}
-
-
 		}
-
+		victory_points = { 4579 5 }
 	}
-
 	provinces={
 		4579 
 	}
-	manpower=36146
+	manpower=145150
 	buildings_max_level_factor=1	
-	state_category="small_island"
+	state_category = small_island
 }

@@ -1,19 +1,15 @@
-
+###POP DONE###
 state={
 	id=428
 	name="STATE_428"
-	manpower = 10590200
-	
+	manpower = 19695305
 	
 	state_category = town
-	resources={
-		oil=3 # was: 4
-	}
-
 	history={
 		owner = RAJ
+		victory_points = { 9975 20 }
 		victory_points = {
-			9975 1 
+			4187 10 #Surat#
 		}
 		buildings = {
 			infrastructure = 4
@@ -22,7 +18,8 @@ state={
 				naval_base = 2
 			}
 		}
-
+		add_core_of = BEN
+		add_core_of = RAJ
 	}
 
 	provinces={

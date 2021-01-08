@@ -4,33 +4,24 @@ state={
 	name="STATE_121"
 
 	history={
-		add_core_of = SCO
 		owner = SCO
-		victory_points = {
-			9392 10 
-		}
-		victory_points = {
-			6300 1 
-		}
+		victory_points = { 9392 20 }
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			industrial_complex = 1
+			arms_factory = 1
 			dockyard = 1
 			air_base = 3
-			6300 = {
-				naval_base = 5
-
-			}
 
 		}
-		add_core_of = ENG
+		add_core_of = SCO
 
 	}
 
 	provinces={
-		159 6300 9314 9383 9392 11378 13266 
+		9314 9392 11378 
 	}
-	manpower=1431624
+	manpower=2700233
 	buildings_max_level_factor=1.000
 	state_category=city
 }

@@ -3,30 +3,27 @@ state={
 	name="STATE_737"
 
 	history={
-		add_core_of = PNG
-		owner = AST
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
-			infrastructure = 2
-			air_base = 1
+			infrastructure = 5
+			air_base = 5
 			7251 = {
-				naval_base = 5
-
+				naval_base = 10
+				coastal_bunker = 6
+				bunker = 6
 			}
 			4352 = {
 				naval_base = 1
-
 			}
 			7339 = {
 				naval_base = 1
-
 			}			
-
 		}
 		
-		victory_points = {
-			7251 5 
-		}
-		
+		victory_points = { 7251 20 }
+		victory_points = { 1301 5 }
+		victory_points = { 4352 5 }
 	}
 
 	provinces={
@@ -34,5 +31,5 @@ state={
 	}
 	manpower=345640
 	buildings_max_level_factor=1
-	state_category="rural"
+	state_category = rural
 }

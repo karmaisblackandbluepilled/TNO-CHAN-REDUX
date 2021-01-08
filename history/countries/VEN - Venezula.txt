@@ -1,0 +1,39 @@
+﻿capital = 307
+
+VEN = {
+ 	set_cosmetic_tag = VEN_FIXED
+}
+
+oob = ""
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+
+set_popularities = {
+    communism = 2
+    ultranational_socialism = 1
+    socialist = 2
+    social_democrat = 12
+    social_liberal = 29
+    democratic = 0
+    social_conservative = 32
+    neutrality = 16
+    despotist = 0
+    fascism = 6
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Romulo Betancourt"
+	picture = "Portrait_Venezuela_Romulo_Betancourt.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
