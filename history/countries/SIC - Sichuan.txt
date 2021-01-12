@@ -1,0 +1,36 @@
+﻿capital = 605
+
+oob = ""
+
+
+set_politics = {	
+	ruling_party = despotist
+	last_election = "1962.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 5
+    ultranational_socialism = 2
+    socialist = 5
+    social_democrat = 0
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 0
+    neutrality = 25
+    despotist = 60
+    fascism = 3
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Tian Songyao"
+    desc = "POLITICS_TIAN_SONGYAO_DESC"
+	picture = "Portrait_Sichuan_Tian_Songyao.dds"
+	expire = "2000.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}

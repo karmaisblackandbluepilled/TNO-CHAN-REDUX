@@ -1,0 +1,169 @@
+﻿capital = 570
+
+oob = ""
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	ultranational_socialism = 0
+	socialist = 16
+	social_democrat = 0
+	social_liberal = 13
+	democratic = 0
+	social_conservative = 9
+	neutrality = 62
+	despotist = 0
+	fascism = 0
+	national_socialism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Alexander Pokryshkin"
+	desc = "POLITICS_ALEXANDER_POKRYSHKIN_DESC"
+	picture = "Portrait_Novosibirsk_Alexander_Pokryshkin.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Neizvestnyy"
+	desc = "POLITICS_NARODNAYA_VOLYA_NEIZVESTNYY_DESC"
+	picture = "leader_unknown.dds"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+	traits = {
+
+	}
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Alexander Novikov"
+	picture = "Portrait_Novosibirsk_Alexander_Novikov.dds"
+	traits = { war_hero brilliant_strategist organisational_leader skilled_staffer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	id = 3616
+}
+
+create_corps_commander = {
+	name = "Nikolay Skomorokhov"
+	picture = "Portrait_Novosibirsk_Nikolay_Skomorokhov.dds"
+	traits = { politically_connected infantry_leader ambusher }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3617
+}
+
+create_corps_commander = {
+	name = "Georgy Langemak"
+	picture = "Portrait_Novosibirsk_Georgy_Langemak.dds"
+	traits = { politically_connected trait_engineer fortress_buster }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+	id = 3618
+}
+
+create_corps_commander = {
+	name = "Ivan Tarasov"
+	picture = "Portrait_Novosibirsk_Ivan_Tarasov.dds"
+	traits = { media_personality trickster winter_specialist expert_improviser }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3619
+}
+
+create_corps_commander = {
+	name = "Dmitry Glinka"
+	picture = "Portrait_Novosibirsk_Dmitry_Glinka.dds"
+	traits = { politically_connected trait_engineer scavenger }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3620
+}
+
+create_corps_commander = {
+	name = "Mikhail Baganov"
+	picture = "Portrait_Novosibirsk_Mikhail_Baganov.dds"
+	traits = { trait_cautious infantry_officer winter_specialist }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+	id = 3621
+}
+
+create_corps_commander = {
+	name = "Valery Polunovsky"
+	picture = "Portrait_Novosibirsk_Valery_Polunovsky.dds"
+	traits = { war_hero trait_engineer trait_reckless trickster }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 2
+	id = 3622
+}
+
+create_corps_commander = {
+	name = "Nestor Kozin"
+	picture = "Portrait_Novosibirsk_Nestor_Kozin.dds"
+	traits = { war_hero infantry_leader infantry_expert }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+	id = 3623
+}
+
+create_corps_commander = {
+	name = "Mikhail Evseev"
+	picture = "Portrait_Novosibirsk_Mikhail_Evseev.dds"
+	traits = { career_officer trait_reckless infantry_leader ambusher }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+	id = 3624
+}
+
+create_corps_commander = {
+	name = "Matvei Batrakov"
+	picture = "Portrait_Novosibirsk_Matvei_Batrakov.dds"
+	traits = { war_hero infantry_officer hill_fighter trait_mountaineer adaptable }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3625
+}

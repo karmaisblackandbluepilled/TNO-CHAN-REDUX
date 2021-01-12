@@ -1,0 +1,134 @@
+﻿capital = 569
+
+oob = ""
+
+set_politics = {
+	ruling_party = despotist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	socialist = 13
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 32
+	despotist = 55
+	fascism = 0
+	national_socialism = 0
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Rurik II"
+	desc = "POLITICS_RURIK_II_DESC"
+	picture = "Portrait_Kemerovo_Rurik_II.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+
+	}
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Rurik II"
+	picture = "Portrait_Kemerovo_Rurik_II.dds"
+	traits = { war_hero brilliant_strategist inspirational_leader trickster }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
+	id = 3635
+}
+
+create_corps_commander = {
+	name = "Yuriy Krylov"
+	picture = "Portrait_Kemerovo_Yuriy_Krylov.dds"
+	traits = { politically_connected career_officer winter_specialist trait_engineer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3636
+}
+
+create_corps_commander = {
+	name = "Boris Krylov"
+	picture = "Portrait_Kemerovo_Boris_Rurikovich.dds"
+	traits = { politically_connected armor_officer panzer_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3637
+}
+
+create_corps_commander = {
+	name = "Ivan Yakovlev"
+	picture = "Portrait_Kemerovo_Ivan_Yakovlev.dds"
+	traits = { bearer_of_artillery winter_specialist hill_fighter adaptable }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3638
+}
+
+create_corps_commander = {
+	name = "Alexander Kazartsev"
+	picture = "Portrait_Kemerovo_Alexander_Kazartsev.dds"
+	traits = { old_guard cavalry_officer cavalry_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3639
+}
+
+create_corps_commander = {
+	name = "Alexander Shevtsov"
+	picture = "Portrait_Kemerovo_Alexander_Shevtsov.dds"
+	traits = { old_guard trait_cautious skilled_staffer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3640
+}
+
+create_corps_commander = {
+	name = "Yakov Bronin-Liechtenstein"
+	picture = "Portrait_Kemerovo_Yakov_Bronin_Liechtenstein.dds"
+	traits = { harsh_leader infantry_officer organizer }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3641
+}
+
+create_corps_commander = {
+	name = "Nikolay Nikitin"
+	picture = "Portrait_Kemerovo_Nikolay_Nikitin.dds"
+	traits = { trait_reckless commando trickster winter_specialist expert_improviser }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 3
+	id = 3642
+}

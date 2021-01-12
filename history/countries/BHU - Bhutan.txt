@@ -1,85 +1,107 @@
 ﻿capital = 324
 
-oob = "BHU_1936"
+oob = ""
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	tech_mountaineers = 1
-}
-set_war_support = 0.1
-set_stability = 0.8
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = construction_effort_2
-	complete_national_focus = production_effort_2
-	complete_national_focus = infrastructure_effort
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "BHU_1939"
-	set_technology = {
-		infantry_weapons = 1
-		tech_mountaineers = 1
-
-		#doctrines
-		mass_assault = 1
-		pocket_defence = 1
-		defence_in_depth = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_silos = 1
-		construction1 = 1
-		dispersed_industry = 1
-	}
-}
-
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
+set_politics = {	
+	ruling_party = despotist
+	last_election = "1962.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+    communism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 0
+    neutrality = 30
+    despotist = 70
+    fascism = 0
+    national_socialism = 0
+    ultranational_socialism = 0
+    burgundian_system = 0
+}
+
+set_cosmetic_tag = BHU_BEN
+
+create_country_leader = {
+	name = "Dasho Kesang"
+	desc = "POLITICS_DASHO_KESANG_DESC"
+	picture = "Portrait_Bhutan_Dasho_Kesang.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
 }
 
 create_country_leader = {
-	name = "Jigme Wangchuck"
-	desc = "POLITICS_JIGME_WANGCHUCK_DESC"
-	picture = "GFX_portrait_buthan_jigme_wangchuk"
-	expire = "1965.1.1"
-	ideology = despotism
+	name = "Lhendup Dorji"
+	desc = "POLITICS_LHENDUP_DORJI_DESC"
+	picture = "Portrait_Bhutan_Lhendup_Dorji.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
 	traits = {
-		#
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
+create_country_leader = {
+	name = "Jigme Dorji Wangchuck"
+	desc = "POLITICS_JIGME_DORJI_WANGCHUCK_DESC"
+	picture = "Portrait_Bhutan_Jigme_Dorji_Wangchuck.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
 	}
-	set_popularities = {
-		neutrality = 100
+}
+
+create_country_leader = {
+	name = "Kanwal Singh"
+	desc = "POLITICS_KANWAL_SINGH_DESC"
+	picture = "Portrait_Bhutan_Kanwal_Singh.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
 	}
+}
+
+####################
+##Military Leaders##
+####################
+
+create_field_marshal = {
+	name = "Kanwal Singh"
+	picture = "Portrait_Bhutan_Kanwal_Singh.dds"
+	traits = { harsh_leader unyielding_defender }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3120
+}
+
+create_corps_commander = {
+	name = "Khaled Mosharraf"
+	picture = "Portrait_Bhutan_Khaled_Mosharraf.dds"
+	traits = { fortress_buster organizer }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+	id = 3121
+}
+
+create_corps_commander = {
+	name = "Hussain Muhammad Ershad"
+	picture = "Portrait_Bhutan_Hussain_Muhammad_Ershad.dds"
+	traits = { fortress_buster organizer }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3122
 }

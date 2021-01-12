@@ -1,0 +1,167 @@
+﻿capital = 566
+
+add_manpower = 12500
+
+oob = ""
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 64
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 36
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 0
+	despotist = 0
+	fascism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Genrikh Yagoda"
+	desc = "POLITICS_GENRIKH_YAGODA_DESC"
+	picture = "Portrait_Irkutsk_Genrikh_Yagoda.dds"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+}
+
+create_field_marshal = {
+	name = "Ivan Maslennikov"
+	picture = "Portrait_Irkutsk_Ivan_Maslennikov.dds"
+	traits = { inflexible_strategist defensive_doctrine infantry_officer }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+	id = 3701
+}
+
+create_field_marshal = {
+	name = "Rodion Malinovsky"
+	picture = "Portrait_Irkutsk_Rodion_Malinovsky.dds"
+	traits = { brilliant_strategist offensive_doctrine organizer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 2
+	id = 371
+}
+
+create_corps_commander = {
+	name = "Genrikh Lyushkov"
+	picture = "Portrait_Irkutsk_Genrikh_Lyushkov.dds"
+	traits = { politically_connected harsh_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3702
+}
+
+create_corps_commander = {
+	name = "Pavel Poluboyarov"
+	picture = "Portrait_Irkutsk_Pavel_Poluboyarov.dds"
+	traits = { infantry_leader career_officer skilled_staffer winter_specialist }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+	id = 3703
+}
+
+create_corps_commander = {
+	name = "Alexander Tevchenkov"
+	picture = "Portrait_Irkutsk_Alexander_Tevchenkov.dds"
+	traits = { panzer_leader armor_officer inflexible_strategist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 4
+	id = 3704
+}
+
+create_corps_commander = {
+	name = "Izrail Levin"
+	picture = "Portrait_Irkutsk_Izrail_Levin.dds"
+	traits = { infantry_leader career_officer infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3705
+}
+
+create_corps_commander = {
+	name = "Arkady Apollonov"
+	picture = "Portrait_Irkutsk_Arkady_Apollonov.dds"
+	traits = { bearer_of_artillery trait_engineer trait_cautious }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3706
+}
+
+create_corps_commander = {
+	name = "Gurgen Aseryants"
+	picture = "Portrait_Irkutsk_Gurgen_Aseryants.dds"
+	traits = { infantry_leader winter_specialist }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+	id = 3707
+}
+
+create_corps_commander = {
+	name = "Alexander Scherbakov"
+	picture = "Portrait_Irkutsk_Alexander_Scherbakov.dds"
+	traits = { trickster career_officer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3708
+}
+
+create_corps_commander = {
+	name = "Andrey Belov"
+	picture = "Portrait_Irkutsk_Andrey_Belov.dds"
+	traits = { infantry_leader urban_assault_specialist }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3709
+}
+
+create_corps_commander = {
+	name = "Vasily Petrov"
+	picture = "Portrait_Irkutsk_Vasily_Petrov.dds"
+	traits = { career_officer winter_specialist  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3710
+}

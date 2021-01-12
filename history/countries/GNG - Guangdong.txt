@@ -1,0 +1,33 @@
+﻿capital = 592
+oob = ""
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 2
+    despotist = 0
+    socialist = 0
+    social_democrat = 3
+    social_liberal = 2
+    democratic = 0
+    social_conservative = 3
+    neutrality = 0
+    fascism = 60
+    national_socialism = 30
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Teiichi Suzuki"
+	picture = "Portrait_Guangdong_Teiichi_Suzuki.dds"
+	expire = "2000.1.1"
+	ideology = fascism_subtype
+	traits = {
+		#
+	}
+}

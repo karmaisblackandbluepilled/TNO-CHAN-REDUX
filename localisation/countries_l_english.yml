@@ -1843,31 +1843,31 @@
 
  #Orenburg
 
-# ORE_communism:0 "Orenburg" #duplicate loc key
-# ORE_socialist:0 "Orenburg" #duplicate loc key
+ ORE_communism:0 "Orenburg" 
+ ORE_socialist:0 "Orenburg" 
  ORE_socialism_DEF:0 "the Orenburg Communes"
  ORE_socialism_ADJ:0 "Orenburg"
-# ORE_social_democrat:0 "Orenburg" #duplicate loc key
-# ORE_social_democrat_DEF:0 "Orenburg" #duplicate loc key
-# ORE_social_liberal:0 "Orenburg" #duplicate loc key
-# ORE_social_liberal_DEF:0 "Orenburg" #duplicate loc key
-# ORE_social_conservative:0 "Orenburg" #duplicate loc key
-# ORE_social_conservative_DEF:0 "Orenburg" #duplicate loc key
-# ORE_neutrality:0 "Orenburg" #duplicate loc key
-# ORE_despotist:0 "Orenburg" #duplicate loc key
-# ORE_despotist_DEF:0 "Orenburg" #duplicate loc key
-# ORE_fascism:0 "Orenburg" #duplicate loc key
-# ORE_fascism_DEF:0 "Orenburg" #duplicate loc key
-# ORE_national_socialism:0 "Orenburg" #duplicate loc key
-# ORE_national_socialism_DEF:0 "Orenburg" #duplicate loc key
+ ORE_social_democrat:0 "Orenburg"
+ ORE_social_democrat_DEF:0 "Orenburg" 
+ ORE_social_liberal:0 "Orenburg" 
+ ORE_social_liberal_DEF:0 "Orenburg" 
+ ORE_social_conservative:0 "Orenburg" 
+ ORE_social_conservative_DEF:0 "Orenburg" 
+ ORE_neutrality:0 "Orenburg" 
+ ORE_despotist:0 "Orenburg"
+ ORE_despotist_DEF:0 "Orenburg" 
+ ORE_fascism:0 "Orenburg" 
+ ORE_fascism_DEF:0 "Orenburg" 
+ ORE_national_socialism:0 "Orenburg" 
+ ORE_national_socialism_DEF:0 "Orenburg" 
  ORE_ultranational_socialism:0 "Orenburg"
  ORE_ultranational_socialism_DEF:0 "Orenburg"
  ORE_ultranational_socialism_ADJ:0 "Orenburg"
  ORE_burgundian_system:0 "Orenburg"
  ORE_burgundian_system_DEF:0 "Orenburg"
  ORE_burgundian_system_ADJ:0 "Orenburg"
-# ORE_democratic:0 "Orenburg" #duplicate loc key
-# ORE_democratic_DEF:0 "Orenburg" #duplicate loc key
+ ORE_democratic:0 "Orenburg"
+ ORE_democratic_DEF:0 "Orenburg"
 
  ORL_communism:0 "Oryol"
  ORL_communism_DEF:0 "Oryol"
@@ -3825,22 +3825,22 @@
  TUR_ultranational_socialism:0 "Turkey"
  TUR_ultranational_socialism_DEF:0 "Turkey"
 
- TRK_fascism:0 "Turkmenistan"
- TRK_fascism_DEF:0 "the Republic of Turkmenistan"
- TRK_social_liberal:0 "Turkmenistan"
- TRK_social_liberal_DEF:0 "the Republic of Turkmenistan"
- TRK_democratic:0 "Turkmenistan"
- TRK_democratic_DEF:0 "the Republic of Turkmenistan"
- TRK_social_conservative:0 "Turkmenistan"
- TRK_social_conservative_DEF:0 "the Republic of Turkmenistan"
- TRK_neutrality:0 "Turkmenistan"
- TRK_neutrality_DEF:0 "the Republic of Turkmenistan"
- TRK_despotist:0 "Turkmenistan"
- TRK_despotist_DEF:0 "the Republic of Turkmenistan"
- TRK_communism:0 "Turkmenistan"
- TRK_communism_DEF:0 "the Republic of Turkmenistan"
- TRK_socialist:0 "Turkmenistan"
- TRK_socialist_DEF:0 "the Republic of Turkmenistan"
+ TMS_fascism:0 "Turkmenistan"
+ TMS_fascism_DEF:0 "the Republic of Turkmenistan"
+ TMS_social_liberal:0 "Turkmenistan"
+ TMS_social_liberal_DEF:0 "the Republic of Turkmenistan"
+ TMS_democratic:0 "Turkmenistan"
+ TMS_democratic_DEF:0 "the Republic of Turkmenistan"
+ TMS_social_conservative:0 "Turkmenistan"
+ TMS_social_conservative_DEF:0 "the Republic of Turkmenistan"
+ TMS_neutrality:0 "Turkmenistan"
+ TMS_neutrality_DEF:0 "the Republic of Turkmenistan"
+ TMS_despotist:0 "Turkmenistan"
+ TMS_despotist_DEF:0 "the Republic of Turkmenistan"
+ TMS_communism:0 "Turkmenistan"
+ TMS_communism_DEF:0 "the Republic of Turkmenistan"
+ TMS_socialist:0 "Turkmenistan"
+ TMS_socialist_DEF:0 "the Republic of Turkmenistan"
 
  UAR_national_socialism:0 "United Arab Republic"
  UAR_national_socialism_DEF:0 "the United Arab Republic"
@@ -3884,6 +3884,16 @@
  UKH_socialist_DEF:0 "the Ukhta Military District"
  UKH_ultranational_socialism:0 "Ukhta"
  UKH_ultranational_socialism_DEF:0 "Ukhta"
+
+ MIR_socialist:0 "Plesetsk"
+ MIR_socialist_DEF:0 "the Plesetsk Military District"
+ MIR_socialist_ADJ:0 "Plesetsk"
+ MIR_communism:0 "Plesetsk"
+ MIR_communism_DEF:0 "the Plesetsk Military District"
+ MIR_communism_ADJ:0 "Plesetsk"
+ MIR_despotist:0 "Plesetsk"
+ MIR_despotist_DEF:0 "the Plesetsk Military District"
+ MIR_despotist_ADJ:0 "Plesetsk"
 
  UKR_communism:0 "Ukrainian Soviet Socialist Republic"
  UKR_communism_def:0 "The Ukrainian Soviet Socialist Republic"
@@ -7815,3 +7825,205 @@
  CAU_burgundian_system:0 "Reichskommissariat Kaukasien"
  CAU_burgundian_system_DEF:0 "Reichskommissariat Kaukasien"
  CAU_burgundian_system_ADJ:0 "Caucasian"
+
+ VTY_neutrality:0 "Onega"
+ VTY_neutrality_DEF:0 "Onega"
+ VTY_neutrality_ADJ:0 "Onegan"
+ VTY_despotist:0 "Onega"
+ VTY_despotist_DEF:0 "Onega"
+ VTY_despotist_ADJ:0 "Onegan"
+
+ BRY_communism:0 "Buryatia"
+ BRY_communism_DEF:0 "the Buryat Autonomous Soviet Socialist Republic"
+ BRY_communism_ADJ:0 "Buryat"
+ BRY_socialist:0 "Buryatia"
+ BRY_socialist_DEF:0 "the Buryat Autonomous Soviet Socialist Republic"
+ BRY_socialist_ADJ:0 "Buryat"
+ BRY_neutrality:0 "Buryatia"
+ BRY_neutrality_DEF:0 "the State of Buryatia"
+ BRY_neutrality_ADJ:0 "Buryat"
+ BRY_despotist:0 "Buryatia"
+ BRY_despotist_DEF:0 "the State of Buryatia"
+ BRY_despotist_ADJ:0 "Buryat"
+ BRY_fascism:0 "Buryatia"
+ BRY_fascism_DEF:0 "the State of Buryatia"
+ BRY_fascism_ADJ:0 "Buryat"
+
+ KST_social_conservative:0 "Kostroma"
+ KST_social_conservative_DEF:0 "Kostroma"
+ KST_social_conservative_ADJ:0 "Kstroma"
+
+ VOL_neutrality:0 "Vologda"
+ VOL_neutrality_DEF:0 "the Neutral State of Vologda"
+ VOL_neutrality_ADJ:0 "Vologda"
+
+ NIK_social_liberal:0 "Komi"
+ NIK_social_liberal_DEF:0 "the Republic of Komi"
+ NIK_social_liberal_ADJ:0 "Komi"
+ NIK_social_democrat:0 "Komi"
+ NIK_social_democrat_DEF:0 "the Republic of Komi"
+ NIK_social_democrat_ADJ:0 "Komi"
+ NIK_social_conservative:0 "Komi"
+ NIK_social_conservative_DEF:0 "the Republic of Komi"
+ NIK_social_conservative_ADJ:0 "Komi"
+
+ GAY_despotist:0 "Gayny"
+ GAY_despotist_DEF:0 "Gayny"
+ GAY_despotist_ADJ:0 "Gayny"
+
+ KIR_social_conservative:0 "Vyatka"
+ KIR_social_conservative_DEF:0 "the Kingdom of Vyatka"
+ KIR_social_conservative_ADJ:0 "Vyatkan"
+ KIR_neutrality:0 "Vyatka"
+ KIR_neutrality_DEF:0 "the Kingdom of Vyatka"
+ KIR_neutrality_ADJ:0 "Vyatkan"
+ KIR_despotist:0 "Vyatka"
+ KIR_despotist_DEF:0 "the Kingdom of Vyatka"
+ KIR_despotist_ADJ:0 "Vyatkan"
+ KIR_fascism:0 "Vyatka"
+ KIR_fascism_DEF:0 "the Kingdom of Vyatka"
+ KIR_fascism_ADJ:0 "Vyatkan"
+
+ MAR_neutrality:0 "Berezniki"
+ MAR_neutrality_DEF:0 "State of Berezniki"
+ MAR_neutrality_ADJ:0 "Berezniki"
+ MAR_despotist:0 "Berezniki"
+ MAR_despotist_DEF:0 "State of Berezniki"
+ MAR_despotist_ADJ:0 "Berezniki"
+ MAR_fascism:0 "Berezniki"
+ MAR_fascism_DEF:0 "State of Berezniki"
+ MAR_fascism_ADJ:0 "Berezniki"
+
+ KRK_social_conservative:0 "Karakalpakstan"
+ KRK_social_conservative_DEF:0 "Karakalpakstan"
+ KRK_social_conservative_ADJ:0 "Uzbek"
+
+ KAZ_communism:0 "Kyzyl Orda"
+ KAZ_communism_DEF:0 "Kyzyl Orda"
+ KAZ_communism_ADJ:0 "Kazakh"
+ 
+ KYR_despotist:0 "Kyrgyzstan"
+ KYR_despotist_DEF:0 "Kyrgyzstan"
+ KYR_despotist_ADJ:0 "Kyrgyz"
+
+ KOK_despotist:0 "Kokshetau"
+ KOK_despotist_DEF:0 "Kokshetau"
+ KOK_despotist_ADJ:0 "Kazakh"
+
+ VOR_despotist:0 "Vorkuta"
+ VOR_despotist_DEF:0 "Vorkuta"
+ VOR_despotist_ADJ:0 "Vorkutan"
+
+ KOM_neutrality:0 "Yugra"
+ KOM_neutrality_DEF:0 "Yugra"
+ KOM_neutrality_ADJ:0 "Yugran"
+
+ ISH_communism:0 "Tyumen"
+ ISH_communism_DEF:0 "the Tyumen ASSR"
+ ISH_communism_ADJ:0 "Tyumen"
+
+ KEM_neutrality:0 "Kemerovo"
+ KEM_neutrality_DEF:0 "the Kingdom of Kemerovo"
+ KEM_neutrality_ADJ:0 "Kemerovo"
+ KEM_despotist:0 "Kemerovo"
+ KEM_despotist_DEF:0 "the Kingdom of Kemerovo"
+ KEM_despotist_ADJ:0 "Kemerovo"
+ 
+ SAH_neutrality:0 "Krasnoyarsk"
+ SAH_neutrality_DEF:0 "Krasnoyarsk"
+ SAH_neutrality_ADJ:0 "Krasnoyarsk"
+
+ KHA_socialist:0 "Siberian Black Army"
+ KHA_socialist_DEF:0 "the Siberian Black Army"
+ KHA_socialist_ADJ:0 "Siberian"
+ KHA_communism:0 "Siberian SSR"
+ KHA_communism_DEF:0 "the Siberian Soviet Socialist Republic"
+ KHA_communism_ADJ:0 "Siberian"
+
+ IRK_communism:0 "Irkutsk"
+ IRK_communism_DEF:0 "Irkutsk"
+ IRK_communism_ADJ:0 "Irkutsk"
+ 
+ MAG_fascism:0 "Magadan"
+ MAG_fascism_DEF:0 "Magadan"
+ MAG_fascism_ADJ:0 "Magadan"
+
+ KMC_neutrality:0 "Kamchatka"
+ KMC_neutrality_DEF:0 "Kamchatka"
+ KMC_neutrality_ADJ:0 "Kamchatkan"
+
+ JAP_fascism:0 "Empire of Japan"
+ JAP_fascism_DEF:0 "the Empire of Japan"
+ JAP_fascism_ADJ:0 "Japanese"
+
+ MON_neutrality:0 "Mongolian People's Front"
+ MON_neutrality_DEF:0 "the Mongolian People's Front"
+ MON_neutrality_ADJ:0 "Mongolian"
+ MON_despotist:0 "Mongolian People's Front"
+ MON_despotist_DEF:0 "the Mongolian People's Front"
+ MON_despotist_ADJ:0 "Mongolian"
+ MON_communism:0 "Mongolian People's Front"
+ MON_communism_DEF:0 "the Mongolian People's Front"
+ MON_communism_ADJ:0 "Mongolian"
+
+ MEN_despotist:0 "Mengjiang"
+ MEN_despotist_DEF:0 "Mengjiang"
+ MEN_despotist_ADJ:0 "Mengjiang"
+ MEN_fascism:0 "Mengjiang"
+ MEN_fascism_DEF:0 "Mengjiang"
+ MEN_fascism_ADJ:0 "Mengjiang"
+
+ MAN_fascism:0 "Manchukuo"
+ MAN_fascism_DEF:0 "Manchukuo"
+ MAN_fascism_ADJ:0 "Manchu"
+
+ YUN_despotist:0 "Yunnan"
+ YUN_despotist_DEF:0 "the Yunnan Clique"
+ YUN_despotist_ADJ:0 "Yunnan"
+
+ GXC_despotist:0 "Guangxi"
+ GXC_despotist_DEF:0 "the Guangxi Clique"
+ GXC_despotist_ADJ:0 "Guangxi"
+
+ NEP_despotist:0 "Nepal"
+ NEP_despotist_DEF:0 "the Kingdom of Nepal"
+ NEP_despotist_ADJ:0 "Nepalese"
+
+ HUI_despotist:0 "Hui"
+ HUI_despotist_DEF:0 "the Hui Clique"
+ HUI_despotist_ADJ:0 "Hui"
+ HUI_national_socialism:0 "Hui"
+ HUI_national_socialism_DEF:0 "the Hui Clique"
+ HUI_national_socialism_ADJ:0 "Hui"
+
+ NZL_social_conservative:0 "New Zealand"
+ NZL_social_conservative_DEF:0 "New Zealand"
+ NZL_social_conservative_ADJ:0 "New Zealand"
+
+ LAO_despotist:0 "Laos"
+ LAO_despotist_DEF:0 "Laos"
+ LAO_despotist_ADJ:0 "Lao"
+
+ VIN_despotist:0 "Empire of Vietnam"
+ VIN_despotist_DEF:0 "the Empire of Vietnam"
+ VIN_despotist_ADJ:0 "Vietnamese"
+
+ INS_fascism:0 "Indonesia"
+ INS_fascism_DEF:0 "Indonesia"
+ INS_fascism_ADJ:0 "Indonesian"
+
+ YAA_despotist:0 "Xikang"
+ YAA_despotist_DEF:0 "the Xikang Clique"
+ YAA_despotist_ADJ:0 "Xikang"
+ 
+ GUZ_neutrality:0 "Guizhou"
+ GUZ_neutrality_DEF:0 "the Guizhou Clique"
+ GUZ_neutrality_ADJ:0 "Guizhou"
+
+ GNG_fascism:0 "Guangdong"
+ GNG_fascism_DEF:0 "the Guangdong Special Administrative Region"
+ GNG_fascism_ADJ:0 "Guangdong"
+
+ NRB_despotist:0 "North Borneo"
+ NRB_despotist_DEF:0 "Protectorate of North Borneo"
+ NRB_despotist_ADJ:0 "North Borneo"

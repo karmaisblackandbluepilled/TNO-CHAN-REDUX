@@ -1,0 +1,98 @@
+﻿capital = 402
+
+oob = ""
+
+add_manpower = 15000
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+	communism = 10
+	socialist = 8
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	despotist = 9
+	social_conservative = 6
+	neutrality = 0
+	fascism = 54
+	national_socialism = 13
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+### Country Leader ###
+create_country_leader = {
+	name = "Nikolai Onoprienko"
+	desc = "POLITICS_NIKOLAI_ONOPRIENKO_DESC"
+	picture = "Portrait_Khromtau_Nikolai_Onoprienko.dds"
+	expire = "1999.1.1"
+	ideology = fascism_subtype
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Nikolai Onoprienko"
+	picture = "Portrait_Khromtau_Nikolai_Onoprienko.dds"
+	traits = { war_hero politically_connected thorough_planner organizer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 1
+	id = 3476
+}
+
+create_corps_commander = {
+	name = "Fedor Omitzel"
+	picture = "Portrait_Khromtau_Fedor_Omitzel.dds"
+	traits = { harsh_leader politically_connected infantry_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3477
+}
+
+create_corps_commander = {
+	name = "Kashagan Jamangarayev"
+	picture = "Portrait_Khromtau_Kashagan_Jamangarayev.dds"
+	traits = { infantry_officer infantry_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3478
+}
+
+create_corps_commander = {
+	name = "Vladimir Breusov"
+	picture = "Portrait_Khromtau_Vladimir_Breusov.dds"
+	traits = { inflexible_strategist trait_cautious infantry_leader	}
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+	id = 3479
+}
+
+create_corps_commander = {
+	name = "Viktor Boychenko"
+	picture = "Portrait_Khromtau_Viktor_Boychenko.dds"
+	traits = { politically_connected infantry_leader }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3480
+}

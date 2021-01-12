@@ -1,0 +1,264 @@
+﻿capital = 1349
+oob = "BEN_1962"
+
+set_stability = 0.7
+set_war_support = 0.67
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1961.5.23"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 0
+	ultranational_socialism = 0
+	socialist = 7
+	social_democrat = 17
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 70
+	despotist = 6
+	fascism = 0
+	national_socialism = 0
+	burgundian_system = 0
+}
+
+puppet = BHU
+
+create_country_leader = {
+	name = "Charu Majumdar"
+	desc = "POLITICS_CHARU_MAJUMDAR_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Charu_Majumdar.dds"
+	ideology = communist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mahendra Pratap"
+	desc = "POLITICS_MAHENDRA_PRATAP_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Raja_Mahendra_Pratap.dds"
+	ideology = socialist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Lakshmi Sahgal"
+	desc = "POLITICS_LAKSHMI_SAHGAL_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Lakshmi_Sahgal.dds"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "P. V. Narasimha Rao"
+	desc = "POLITICS_PV_NARASIMHA_RAO_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_P.V._Narasimha_Rao.dds"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Charan Singh"
+	desc = "POLITICS_CHARAN_SINGH_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Charan_Singh.dds"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Subhas Chandra Bose"
+	desc = "POLITICS_BOSE_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Subhas_Chandra_Bose.dds"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mohan Singh"
+	desc = "POLITICS_MOHAN_SINGH_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Mohan_Singh.dds"
+	ideology = despotism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Lal Krishna Advani"
+	desc = "POLITICS_LK_ADVANI_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_LK_Advani.dds"
+	ideology = fascism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Rajneesh"
+	desc = "POLITICS_RAJNEESH_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Rajneesh.dds"
+	ideology = national_socialism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Bal Thackeray"
+	desc = "POLITICS_BAL_THACKERAY_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Bal_Keshav_Thackeray.dds"
+	ideology = ultranational_socialism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Savitri Devi"
+	desc = "POLITICS_SAVITRI_DEVI_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_Azad_Hind_Savitri_Devi.dds"
+	ideology = burgundian_system_subtype
+	traits = {
+	}
+}
+
+####################
+##MILITARY LEADERS##
+####################
+
+create_field_marshal = {
+	name = "Shah Nawaz Khan"
+	picture = "Portrait_Azad_Hind_Shah_Nawaz_Khan.dds"
+	traits = { old_guard skilled_staffer trickster }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3101
+}
+
+create_field_marshal = {
+	name = "Mohan Singh"
+	picture = "Portrait_Azad_Hind_Mohan_Singh.dds"
+	traits = { old_guard offensive_doctrine war_hero }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	id = 3102
+}
+
+create_field_marshal = {
+	name = "Gurbaksh Singh Dhillon"
+	picture = "Portrait_Azad_Hind_Gurbaksh_Singh_Dhillon.dds"
+	traits = { old_guard organizer infantry_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3103
+}
+
+create_corps_commander = {
+	name = "Lakshmi Sahgal"
+	picture = "Portrait_Azad_Hind_Lakshmi_Sahgal.dds"
+	traits = { old_guard media_personality politically_connected }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	female = yes
+	id = 3104
+}
+
+create_corps_commander = {
+	name = "Prem Sahgal"
+	picture = "Portrait_Azad_Hind_Prem_Sahgal.dds"
+	traits = { old_guard career_officer }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3105
+}
+
+create_corps_commander = {
+	name = "Geoffrey Scoones"
+	picture = "Portrait_Azad_Hind_Geoffrey_Scoones.dds"
+	traits = { commando urban_assault_specialist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3106
+}
+
+create_corps_commander = {
+	name = "Iwachi Fujiwara"
+	picture = "Portrait_Azad_Hind_Iwachi_Fujiwara.dds"
+	traits = { politically_connected }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 2
+	id = 3107
+}
+
+create_corps_commander = {
+	name = "Mohammad Usman"
+	picture = "Portrait_Azad_Hind_Mohammad_Usman.dds"
+	traits = { war_hero trait_reckless }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3108
+}
+
+create_corps_commander = {
+	name = "Aubertin Walter Sothern Mallaby"
+	picture = "Portrait_Azad_Hind_Aubertin Walter_Sothern_Mallaby.dds"
+	traits = { adaptable }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3109
+}
+
+create_corps_commander = {
+	name = "Gurbachan Singh Salaria"
+	picture = "Portrait_Azad_Hind_Gurbachan_Singh_Salaria.dds"
+	traits = { media_personality trait_reckless }
+	skill = 1
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3110
+}

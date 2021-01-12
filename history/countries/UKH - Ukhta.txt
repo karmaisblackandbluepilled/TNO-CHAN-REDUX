@@ -1,0 +1,133 @@
+﻿capital = 869
+
+oob = ""
+
+add_offsite_building = { type = arms_factory level = 1 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 46
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 36
+	social_democrat = 18
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 0
+	despotist = 0
+	fascism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Nikolay Ryzhkov"
+	picture = ""
+	expire = "1999.1.1"
+	desc = "POLITICS_NIKOLAY_RYZHKOV_DESC"
+	ideology = socialist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Georgy Zhukov"
+	picture = "Portrait_UKH_Georgy_Zhukov.dds"
+	expire = "1999.1.1"
+	desc = "POLITICS_GEORGY_ZHUKOV_DESC"
+	ideology = communist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Yakovlev"
+	picture = "Portrait_WRS_Alexander_Yakovlev.dds"
+	expire = "1999.1.1"
+	desc = "POLITICS_ALEXANDER_YAKOVLEV_DESC"
+	ideology = social_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_field_marshal = {
+	name = "Georgy Zhukov"
+	picture = "Portrait_UKH_Georgy_Zhukov.dds"
+	traits = { offensive_doctrine armor_officer media_personality war_hero }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
+	id = 3392
+}
+
+create_corps_commander = {
+	name = "Konstantin Telegin"
+	picture = "Portrait_UKH_Konstantin_Telegin.dds"
+	traits = { politically_connected harsh_leader }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+	id = 3393
+}
+
+create_corps_commander = {
+	name = "Sergey Akhromeyev"
+	picture = "Portrait_UKH_Sergey_Akhromeyev.dds"
+	traits = { infantry_officer trait_cautious career_officer ambusher }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3394
+}
+
+create_corps_commander = {
+	name = "Nikolay Vatutin"
+	picture = "Portrait_UKH_Nikolay_Vatutin.dds"
+	traits = { trait_reckless trickster }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3395
+}
+
+create_corps_commander = {
+	name = "Ivan Chernyakhovsky"
+	picture = "Portrait_UKH_Ivan_Chernyakhovsky.dds"
+	traits = { trickster armor_officer panzer_expert }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 3396
+}
+
+create_corps_commander = {
+	name = "Nikolay Ogarkov"
+	picture = "Portrait_UKH_Nikolay_Ogarkov.dds"
+	traits = { trait_reckless harsh_leader brilliant_strategist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3397
+}

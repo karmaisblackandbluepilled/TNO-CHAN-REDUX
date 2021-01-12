@@ -1,0 +1,35 @@
+﻿capital = 603
+
+oob = ""
+
+set_politics = {	
+	ruling_party = neutrality
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 0
+    socialist = 2
+    social_democrat = 10
+    social_liberal = 10
+    democratic = 0
+    social_conservative = 20
+    neutrality = 40
+    despotist = 15
+    fascism = 3
+    burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "He Yingqin"
+    desc = "POLITICS_HE_YINGQIN_DESC"
+	picture = "Portrait_Guizhou_He_Yingqin.dds"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

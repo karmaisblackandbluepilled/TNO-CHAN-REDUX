@@ -1,68 +1,51 @@
 ﻿capital = 584
 
-#oob = ""
+set_war_support = 0.5
+set_stability = 0.5
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
+oob = ""
 
-set_convoys = 5
-
-1939.1.1 = {
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_technology = {
-
-		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = despotist
+	last_election = "1933.3.5"
 	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 50
-	fascism = 1
-	communism = 40
-	neutrality = 9
+	elections_allowed = no
+
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+set_popularities = {
+	communism = 0
+	socialist = 7
+	social_democrat = 0
+	social_liberal = 13
+	democratic = 0
+	despotist = 50
+	social_conservative = 0
+	neutrality = 19
+	fascism = 11
+	national_socialism = 0
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Poda Annaorazov"
+	desc = "POLITICS_PODA_ANNAORAZOV_DESC"
+	picture = "Portrait_Turkmenistan_Poda_Annaorazov.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}
+
+### Commanders ###
+create_corps_commander = {
+	name = "Anna Kareyev"
+	picture = "Protrait_Turkmenistan_Anna_Kareyev.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+	traits = { politically_connected skilled_staffer }
+	id = 15104
+}

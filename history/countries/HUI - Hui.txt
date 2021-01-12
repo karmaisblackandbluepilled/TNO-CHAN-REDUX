@@ -1,0 +1,48 @@
+﻿capital = 283
+
+oob = ""
+
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    communism = 0
+    ultranational_socialism = 0
+    socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    democratic = 0
+    social_conservative = 0
+    neutrality = 10
+    despotist = 30
+    fascism = 20
+    national_socialism = 40
+}
+
+create_country_leader = {
+	name = "Masanobu Tsuji"
+    desc = "POLITICS_MASANOBU_TSUJI_DESC"
+	picture = "Portrait_Hui_Masanobu_Tsuji.dds"
+	expire = "2000.1.1"
+	ideology = national_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Masanobu Tsuji"
+	portrait_path = "gfx/leaders/HUI/Portrait_Hui_Masanobu_Tsuji.dds"
+	traits = {
+		offensive_doctrine thorough_planner organisational_leader
+	}
+	skill = 5
+	 attack_skill = 3
+     defense_skill = 2
+     planning_skill = 5
+     logistics_skill = 4
+}

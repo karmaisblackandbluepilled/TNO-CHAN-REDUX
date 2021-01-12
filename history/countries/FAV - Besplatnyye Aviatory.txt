@@ -1,0 +1,50 @@
+﻿capital = 579
+
+oob = ""
+
+set_politics = {
+	ruling_party = socialist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 22
+	ultranational_socialism = 0
+	socialist = 66
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 12
+	neutrality = 0
+	despotist = 0
+	fascism = 0
+	national_socialism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Yevdokia Bershanskaya"
+	desc = "POLITICS_YEVDOKIA_BERSHANSKAYA_DESC"
+	picture = "Portrait_Free_Aviators_Yevdokia_Bershanskaya.dds"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+	traits = {
+
+	}
+}
+
+### Generals ###
+create_corps_commander = {
+	name = "Nazhmetdin Zhumazhanov"
+	picture = "Portrait_Free_Aviators_Nazhmetdin_Zhumazhanov.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+	traits = { trait_cautious organizer }
+	id = 3631
+}

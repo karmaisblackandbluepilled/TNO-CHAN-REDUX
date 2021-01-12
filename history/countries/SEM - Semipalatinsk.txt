@@ -1,0 +1,52 @@
+﻿capital = 588
+
+oob = ""
+
+set_stability = 0.6
+set_war_support = 0.8
+
+add_manpower = 15000
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 2
+	socialist = 3
+	social_democrat = 9
+	social_liberal = 21
+	democratic = 0
+	despotist = 0
+	social_conservative = 58
+	neutrality = 7
+	fascism = 0
+	national_socialism = 0
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Sabit Mukanov"
+	desc = "POLITICS_SABIT_MUKANOV_DESC"
+	picture = "Portrait_Pavlodar_Sabit_Mukanov.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Kapay Iskakov"
+	picture = "Portrait_Pavlodar_Kapay_Iskakov.dds"
+	traits = { war_hero infantry_leader	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3496
+}

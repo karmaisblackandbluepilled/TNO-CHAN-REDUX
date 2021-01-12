@@ -1,0 +1,82 @@
+﻿capital = 863
+
+set_stability = 1
+set_war_support = 1
+
+add_manpower = 5000
+
+oob = ""
+
+set_politics = {
+	ruling_party = despotist
+	last_election = "1958.1.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 5
+	ultranational_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 12
+	despotist = 81
+	fascism = 2
+	national_socialism = 0
+	burgundian_system = 0
+}
+
+add_offsite_building = { type = arms_factory level = 1 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Vasily Blokhin"
+	desc = "POLITICS_VASILY_BLOKHIN_DESC"
+	picture = "Portrait_Vorkuta_Vasily_Blokhin.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+
+	}
+}
+
+### Commanders ###
+create_corps_commander = {
+	name = "Pyotr Gladkov"
+	picture = "Portrait_Vorkuta_Pyotr_Gladkov.dds"
+	traits = { harsh_leader winter_specialist }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3526
+}
+
+create_corps_commander = {
+	name = "Stepan Garanin"
+	picture = "Portrait_Vorkuta_Stepan_Garanin.dds"
+	traits = { career_officer trait_engineer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3527
+}
+
+create_corps_commander = {
+	name = "Boris Trofimov"
+	picture = "Portrait_Vorkuta_Boris_Trofimov.dds"
+	traits = { infantry_officer organizer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3528
+}

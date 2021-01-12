@@ -1,0 +1,83 @@
+﻿capital = 637
+
+oob = ""
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 26
+	ultranational_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 52
+	despotist = 22
+	fascism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Ivan Yumashev"
+	desc = "POLITICS_IVAN_YUMASHEV_DESC"
+	picture = "Portrait_Kamchatka_Ivan_Yumashev.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+
+### Generals ###
+create_corps_commander = {
+	name = "Nikolay Smirnov"
+	picture = "Portrait_Kamchatka_Nikolay_Smirnov.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+	traits = { trait_cautious commando }
+	id = 15250
+}
+
+create_corps_commander = {
+	name = "Viktor Medvedev"
+	picture = "Portrait_Kamchatka_Viktor_Medvedev.dds"
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	traits = { trait_reckless naval_invader }
+	id = 15251
+}
+
+### Admirals ###
+create_navy_leader = {
+	name = "Ivan Yumashev"
+	picture = "Portrait_Kamchatka_Ivan_Yumashev.dds"
+	traits = { fleet_protector }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+	id = 7586
+}
+
+create_navy_leader = {
+	name = "Pavel Kolesnik"
+	picture = "Portrait_Kamchatka_Pavel_Kolesnik.dds"
+	traits = { seawolf }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 1
+	id = 7587
+}

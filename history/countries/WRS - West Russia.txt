@@ -1,0 +1,130 @@
+﻿capital = 214
+
+oob = ""
+
+set_war_support = 0.80
+set_stability = 0.50
+
+add_offsite_building = { type = arms_factory level = 2 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 80
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 20
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 0
+	despotist = 0
+	fascism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Kliment Voroshilov"
+	picture = "gfx//leaders//WRS//Portrait_WRS_Kilment_Voroshilov.dds"
+	expire = "1999.1.1"
+	desc = "POLITICS_KLIMENT_VOROSHILOV_DESC"
+	ideology = communist_subtype
+	traits = {
+
+	}
+}
+
+# DIPLOMACY
+puppet = MIR
+puppet = UKH
+
+create_field_marshal = {
+	name = "Kliment Voroshilov"
+	picture = "Portrait_WRS_Kilment_Voroshilov.dds"
+	traits = { old_guard inspirational_leader career_officer winter_specialist}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3398
+}
+
+create_corps_commander = {
+	name = "Alexander Altunin"
+	picture = "Portrait_WRS_Alexander_Altunin.dds"
+	traits = { inflexible_strategist career_officer winter_specialist}
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 5
+	id = 3381
+}
+
+create_corps_commander = {
+	name = "Ivan Yakubovsky"
+	picture = "Portrait_WRS_Ivan_Yakubovsky.dds"
+	traits = { war_hero panzer_leader career_officer panzer_expert armor_officer}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3382
+}
+
+create_corps_commander = {
+	name = "Andrey Grechko"
+	picture = "Portrait_WRS_Andrey_Grechko.dds"
+	traits = { brilliant_strategist career_officer trait_reckless }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 5
+	logistics_skill = 2
+	id = 3383
+}
+
+create_corps_commander = {
+	name = "Sergey Sokolov"
+	picture = "Portrait_WRS_Sergey_Sokolov.dds"
+	traits = { media_personality infantry_leader career_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3384
+}
+
+create_corps_commander = {
+	name = "Vasily Chuikov"
+	picture = "Portrait_WRS_Vasily_Chuikov.dds"
+	traits = { panzer_leader career_officer brilliant_strategist expert_improviser }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3385
+}
+
+create_corps_commander = {
+	name = "Viktor Kulikov"
+	picture = "Portrait_WRS_Viktor_Kulikov.dds"
+	traits = { infantry_leader trait_cautious }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+	id = 3386
+}

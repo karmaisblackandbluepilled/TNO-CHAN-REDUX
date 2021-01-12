@@ -1,0 +1,87 @@
+﻿capital = 845
+
+oob = ""
+
+diplomatic_relation = { country = UDM relation = non_aggression_pact }
+
+add_offsite_building = { type = arms_factory level = 1 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 5
+	ultranational_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 21
+	democratic = 0
+	social_conservative = 0
+	neutrality = 55
+	despotist = 19
+	fascism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Jaba Ioseliani"
+	desc = "POLITICS_JABA_IOSELIANI_DESC"
+	picture = "Portrait_Yugra_Jaba_Ioseliani.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Jaba Ioseliani"
+	picture = "Portrait_Yugra_Jaba_Ioseliani.dds"
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	traits = {
+		trait_reckless
+		organizer
+		fast_planner
+	}
+	id = 3531
+}
+
+create_corps_commander = {
+	name = "Anatoly Cherkasov"
+	picture = "Portrait_Yugra_Anatoly_Cherkasov.dds"
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+	traits = {
+		inflexible_strategist
+		trait_engineer
+		scavenger
+	}
+	id = 3532
+}
+
+create_corps_commander = {
+	name = "Vasily Babushkin"
+	picture = "Portrait_Yugra_Vasily_Babushkin.dds"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	traits = {
+		harsh_leader
+		trait_reckless
+		trickster
+	}
+	id = 3533
+}

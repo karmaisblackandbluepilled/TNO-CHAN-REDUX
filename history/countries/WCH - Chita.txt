@@ -1,0 +1,134 @@
+﻿capital = 563
+
+oob = ""
+
+add_manpower = 12500
+
+set_politics = {
+	ruling_party = despotist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	ultranational_socialism = 0
+	national_socialism = 8
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 18
+	democratic = 0
+	social_conservative = 0
+	neutrality = 0
+	despotist = 64
+	fascism = 10
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Mikhail II"
+	desc = "POLITICS_TSAR_MIKHAIL_DESC"
+	picture = "Portrait_Chita_Mikhail.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = { }
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Grigory Semyonov"
+	picture = "Portrait_Chita_Grigory_Semyonov.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	traits = { old_guard war_hero cavalry_officer inspirational_leader cavalry_leader }
+	id = 3741
+}
+
+create_field_marshal = {
+	name = "Boris Shepunov"
+	picture = "Portrait_Chita_Boris_Shepunov.dds"
+	skill = 3
+	attack_skill = 1
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+	traits = { old_guard inflexible_strategist unyielding_defender organizer }
+	id = 3742
+}
+
+create_corps_commander = {
+	name = "Leonid Chernykh"
+	picture = "Portrait_Chita_Leonid_Chernykh.dds"
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+	traits = { career_officer infantry_leader }
+	id = 3743
+}
+
+create_corps_commander = {
+	name = "Vladimir Abramov"
+	picture = "Portrait_Chita_Vladimir_Abramov.dds"
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+	traits = { career_officer war_hero organizer }
+	id = 3744
+}
+
+create_corps_commander = {
+	name = "Leonid Mustafin"
+	picture = "Portrait_Chita_Leonid_Mustafin.dds"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	traits = { trait_cautious bearer_of_artillery organizer }
+	id = 3745
+}
+
+create_corps_commander = {
+	name = "Vissarion Mustafin"
+	picture = "Portrait_Chita_Vissarion_Mustafin.dds"
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+	traits = { war_hero career_officer trait_engineer }
+	id = 3746
+}
+
+create_corps_commander = {
+	name = "Nikolay Kossov"
+	picture = "Portrait_Chita_Nikolay_Kossov.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 2
+	traits = { old_guard war_hero winter_specialist hill_fighter }
+	id = 3747
+}
+
+create_corps_commander = {
+	name = "Dmitry Volkogonov"
+	picture = "Portrait_Chita_Dmitry_Volkogonov.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+	traits = { career_officer trickster }
+	id = 3748
+}

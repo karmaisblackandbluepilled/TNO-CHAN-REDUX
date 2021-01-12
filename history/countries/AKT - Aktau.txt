@@ -1,0 +1,105 @@
+﻿capital = 587
+
+oob = ""
+
+add_manpower = 15000
+
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	socialist = 5
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	despotist = 23
+	social_conservative = 2
+	neutrality = 0
+	fascism = 3
+	national_socialism = 67
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Safa Gaziz"
+	desc = "POLITICS_SAFA_AKTAU_DESC"
+	picture = "Portrait_AKT_Safa_Gaziz.dds"
+	expire = "1999.1.1"
+	ideology = national_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Nikolai Onoprienko"
+	desc = "POLITICS_NIKOLAI_ONOPRIENKO_DESC"
+	picture = "Portrait_Khromtau_Nikolai_Onoprienko.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}
+
+create_country_leader = {
+	name = "Nikolai Zabelkin"
+	desc = "POLITICS_NIKOLAI_ZABELKIN_DESC"
+	picture = "Portrait_DER_Nikolai_Zabelkin.dds"
+	expire = "1999.1.1"
+	ideology = fascism_subtype
+}
+
+create_country_leader = {
+	name = "Bauyrzhan Momyshuly"
+	desc = "POLITICS_BAURYZHAN_MOMYSHULY_DESC"
+	picture = "Portrait_KyzylOrda_Bauryzhan_Momyshuly.dds"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+}
+
+create_country_leader = {
+	name = "Sabit Mukanov"
+	desc = "POLITICS_SABIT_MUKANOV_DESC"
+	picture = "Portrait_Pavlodar_Sabit_Mukanov.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Safa Gaziz"
+	picture = "Portrait_AKT_Safa_Gaziz.dds"
+	traits = { harsh_leader politically_connected inspirational_leader infantry_leader }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+	id = 3471
+}
+
+create_corps_commander = {
+	name = "Kayyrgali Ismagul"
+	picture = "Portrait_AKT_Kayyrgali_Ismagul.dds"
+	traits = { harsh_leader organizer }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	id = 3472
+}
+
+create_corps_commander = {
+	name = "Sadyk Zhaksygul"
+	picture = "Portrait_AKT_Sadyk_Zhaksygul.dds"
+	traits = { infantry_officer trickster }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 1
+	id = 3473
+}

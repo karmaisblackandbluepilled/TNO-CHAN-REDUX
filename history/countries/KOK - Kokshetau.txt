@@ -1,0 +1,87 @@
+﻿capital = 590
+
+oob = "KOK_1962"
+
+add_manpower = 15000
+
+set_politics = {
+	ruling_party = despotist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	socialist = 18
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	despotist = 41
+	social_conservative = 17
+	neutrality = 0
+	fascism = 22
+	national_socialism = 2
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+### Country Leader ###
+create_country_leader = {
+	name = "Abu Khan"
+	desc = "POLITICS_ABU_KHAN_DESC"
+	picture = "Portrait_Kokshetau_Abu_Khan.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}
+
+### Field Marshals ###
+create_field_marshal = {
+	name = "Abu Khan"
+	picture = "Portrait_Kokshetau_Abu_Khan.dds"
+	traits = { trait_reckless cavalry_leader }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3481
+}
+
+### Commanders ###
+# Vasily Benberin - Tank Commander
+create_corps_commander = {
+	name = "Vasily Benberin"
+	picture = "Portrait_Kokshetau_Vasily_Benberin.dds"
+	traits = { armor_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3482
+}
+# Vasily Bovt - Infantry Commander
+create_corps_commander = {
+	name = "Vasily Bovt"
+	picture = "Portrait_Kokshetau_Vasily_Bovt.dds"
+	traits = { infantry_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3483
+}
+# Viktor Bulavsky - Cavalry Commander
+create_corps_commander = {
+	name = "Viktor Bulavsky"
+	picture = "Portrait_Kokshetau_Viktor_Bulavsky.dds"
+	traits = { cavalry_officer }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3484
+}

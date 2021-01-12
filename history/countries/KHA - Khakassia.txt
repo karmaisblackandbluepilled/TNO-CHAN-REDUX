@@ -1,0 +1,132 @@
+﻿capital = 568
+
+oob = ""
+
+set_politics = {
+	ruling_party = socialist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 2
+	ultranational_socialism = 0
+	socialist = 74
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 0
+	despotist = 24
+	fascism = 0
+	national_socialism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Siberian Soviet"
+	desc = "POLITICS_SIBERIAN_SOVIET_DESC"
+	picture = "Portrait_Khakassia_Khakassia_Soviet.dds"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Siberian Security Council"
+	desc = "POLITICS_KHAKASSIA_SECURITY_COUNCIL_DESC"
+	picture = "Portrait_Khakassia_Security_Council.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+
+	}
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Stepan Valenteev"
+	picture = "Portrait_SBA_Stepan_Valenteev.dds"
+	traits = { fast_planner war_hero offensive_doctrine organizer }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3666
+}
+
+create_corps_commander = {
+	name = "Nikolay Chapayev"
+	picture = "Portrait_SBA_Nikolay_Chapayev.dds"
+	traits = { career_officer ranger trait_engineer scavenger }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3667
+}
+
+create_corps_commander = {
+	name = "Ivan Stepanov"
+	picture = "Portrait_SBA_Ivan_Stepanov.dds"
+	traits = { inflexible_strategist infantry_officer infantry_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+	id = 3668
+}
+
+create_corps_commander = {
+	name = "Mikhail Kilchichakov"
+	picture = "Portrait_SBA_Mikhail_Kilchichakov.dds"
+	traits = { organizer winter_specialist commando }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+	id = 3669
+}
+
+create_corps_commander = {
+	name = "Filipp Klimenko"
+	picture = "Portrait_SBA_Filipp_Klimenko.dds"
+	traits = { trait_reckless trickster cavalry_officer cavalry_leader }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3670
+}
+
+create_corps_commander = {
+	name = "Alexey Kublitsky"
+	picture = "Portrait_SBA_Alexey_Kublitsky.dds"
+	traits = { trait_cautious trickster guerilla_fighter }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3671
+}
+
+create_corps_commander = {
+	name = "Androniy Mishurenko"
+	picture = "Portrait_SBA_Androniy_Mishurenko.dds"
+	traits = { infantry_officer organizer harsh_leader }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	id = 3672
+}

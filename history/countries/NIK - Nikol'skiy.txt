@@ -1,0 +1,210 @@
+﻿capital = 397
+
+oob = ""
+
+add_manpower = 12000
+
+add_offsite_building = { type = arms_factory level = 2 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 13
+	ultranational_socialism = 7
+	socialist = 11
+	social_democrat = 25
+	social_liberal = 17
+	democratic = 0
+	social_conservative = 0
+	neutrality = 7
+	despotist = 2
+	fascism = 13
+	national_socialism = 5
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Nikolai Voznesensky"
+	desc = "POLITICS_NIKOLAI_VOZNESENSKY_DESC"
+	picture = "Portrait_NIK_Nikolai_Voznesensky.dds"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Svetlana Stalina"
+	desc = "POLITICS_SVETLANA_STALINA_DEM_DESC"
+	picture = "Portrait_NIK_Svetlana_Stalina.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Andrei Zhdanov"
+	desc = "POLITICS_ANDREI_ZHDANOV_DESC"
+	picture = "Portrait_NIK_Andrei_Zhdanov.dds"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Alexei Kosygin"
+	desc = "POLITICS_ALEXEI_KOSIGIN_DESC"
+	picture = "Portrait_NIK_Alexei_Kosigin.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Igor Shafarevich"
+	desc = "POLITICS_IGOR_SHAFAREVICH_DESC"
+	picture = "Portrait_NIK_Igor_Shafarevich.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Igor Shafarevich"
+	desc = "POLITICS_IGOR_SHAFAREVICH_DESC"
+	picture = "Portrait_NIK_Igor_Shafarevich.dds"
+	expire = "1999.1.1"
+	ideology = fascism_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Mikhail Suslov"
+	desc = "POLITICS_MIKHAIL_SUSLOV_DESC"
+	picture = "Portrait_NIK_Mikhail_Suslov.dds"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Sergey Taboritsky"
+	desc = "POLITICS_SERGEY_TABORITSKY_DESC"
+	picture = "Portrait_NIK_Sergey_Taboritsky_Regent.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Lev Gumilyov"
+	desc = "POLITICS_LEV_GUMILEV_DESC"
+	picture = "Portrait_NIK_Lev_Gumilyov.dds"
+	expire = "1999.1.1"
+	ideology = national_socialism_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Lev Gumilyov"
+	desc = "POLITICS_LEV_GUMILEV_DESC"
+	picture = "Portrait_NIK_Lev_Gumilyov.dds"
+	expire = "1999.1.1"
+	ideology = ultranational_socialism_subtype
+	traits = {
+
+	}
+}
+
+create_corps_commander = {
+	name = "Avgustin Vernikovsky"
+	picture = "Portrait_NIK_Avgustin_Vernikovsky.dds"
+	traits = { politically_connected }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3351
+}
+
+create_field_marshal = {
+	name = "Pyotr Grigorenko"
+	picture = "Portrait_NIK_Pyotr_Grigorenko.dds"
+	traits = { infantry_leader 	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3352
+}
+
+create_corps_commander = {
+	name = "Dmitry Panin"
+	picture = "Portrait_NIK_Dmitry_Panin.dds"
+	traits = { politically_connected }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3353
+}
+
+create_corps_commander = {
+	name = "Alexander Baluashvili"
+	picture = "Portrait_NIK_Alexander_Baluashvili.dds"
+	traits = { politically_connected }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3354
+}
+
+create_corps_commander = {
+	name = "Felix Serebrov"
+	picture = "Portrait_NIK_Felix_Serebrov.dds"
+	traits = { politically_connected }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3355
+}
+
+create_corps_commander = {
+	name = "Ivan Korolkov"
+	picture = "Portrait_NIK_Ivan_Korolkov.dds"
+	traits = { war_hero media_personality }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3356
+}

@@ -1,0 +1,114 @@
+﻿capital = 757
+
+oob = ""
+
+set_research_slots = 2
+set_convoys = 0
+add_stability = 0.4
+add_manpower = 7000
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1961.11.23"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 20
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 10
+	neutrality = 70
+	despotist = 0
+	fascism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Nikolai Andreev"
+	desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+	picture = "Portrait_Krasnoyarsk_Nikolai_Andreev.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+create_country_leader = {
+	name = "Nikolai Andreev"
+	desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+	picture = "Portrait_Krasnoyarsk_Nikolai_Andreev.dds"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+}
+create_country_leader = {
+	name = "Nikolai Andreev"
+	desc = "POLITICS_NIKOLAI_ANDREEV_DESC"
+	picture = "Portrait_Krasnoyarsk_Nikolai_Andreev.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+}
+create_country_leader = {
+	name = "Alexey Pesterev"
+	desc = "POLITICS_ALEXEY_PESTEREV_DESC"
+	picture = "Portrait_Krasnoyarsk_Alexey_Pesterev.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}
+
+### Unit Leaders ###
+create_field_marshal = {
+	name = "Nikolai Andreev"
+	desc = "MILITARY_NIKOLAI_ANDREEV_DESC"
+	picture = "Portrait_Krasnoyarsk_Nikolai_Andreev.dds"
+	traits = { trait_cautious infantry_leader winter_specialist }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+	id = 3651
+}
+
+create_corps_commander = {
+	name = "Alexey Pesterev"
+	desc = "MILITARY_ALEXEY_PESTEREV_DESC"
+	picture = "Portrait_Krasnoyarsk_Alexey_Pesterev.dds"
+	traits = { brilliant_strategist trait_engineer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 3652
+}
+
+create_corps_commander = {
+	name = "Nikolai Lyashchenko"
+	desc = "MILITARY_NIKOLAI_LYASHCHENKO_DESC"
+	picture = "Portrait_Krasnoyarsk_Nikolai_Lyashchenko.dds"
+	traits = { commando ranger }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3653
+}
+
+create_corps_commander = {
+	name = "Aleksandra Samusenko"
+	desc = "MILITARY_ALEKSANDRA_SAMUSENKO_DESC"
+	picture = "Portrait_Krasnoyarsk_Aleksandra_Samusenko.dds"
+	traits = { media_personality panzer_leader winter_specialist }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 3
+	female = yes
+	id = 3654
+}

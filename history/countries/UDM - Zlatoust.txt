@@ -1,0 +1,89 @@
+﻿capital = 573
+
+oob = ""
+
+diplomatic_relation = { country = KOM relation = non_aggression_pact }
+
+add_offsite_building = { type = arms_factory level = 1 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 9
+	ultranational_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 68
+	democratic = 0
+	social_conservative = 10
+	neutrality = 13
+	despotist = 0
+	fascism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Yevgeny Dragunov"
+	desc = "POLITICS_YEVGENY_DRAGUNOV_DESC"
+	picture = "Portrait_Zlatoust_Yevgeny_Dragunov.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Mikhail Kalashnikov"
+	picture = "Portrait_Zlatoust_Mikhail_Kalashnikov.dds"
+	traits = { politically_connected media_personality organisational_leader trait_engineer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3545
+}
+
+create_corps_commander = {
+	name = "Pavel Shiryaev"
+	picture = "Portrait_Zlatoust_Pavel_Shiryaev.dds"
+	traits = { career_officer infantry_officer infantry_leader }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3546
+}
+
+create_corps_commander = {
+	name = "Vasily Boyarshinov"
+	picture = "Portrait_Zlatoust_Vasily_Boyarshinov.dds"
+	traits = { trait_cautious trait_mountaineer hill_fighter adaptable }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3547
+}
+
+create_corps_commander = {
+	name = "Lev Gitman"
+	picture = "Portrait_Zlatoust_Lev_Gitman.dds"
+	traits = { trait_reckless trickster }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+	id = 3548
+}

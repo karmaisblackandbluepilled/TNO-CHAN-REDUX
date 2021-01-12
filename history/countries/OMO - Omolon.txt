@@ -1,0 +1,31 @@
+﻿capital = 644
+
+oob = ""
+
+set_politics = {
+	ruling_party = socialist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	socialist = 100
+	despotist = 0
+}
+
+create_country_leader = {
+	name = "No Authority"
+	desc = "POLITICS_NO_AUTHORITY_DESC"
+	picture = "gfx/leaders/OMO/Portrait_Kamchatka_No_Authority.tga"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+}
+
+create_country_leader = {
+	name = "Alexander Men"
+	desc = "POLITICS_ALEXANDER_MEN_DESC"
+	picture = "gfx/leaders/OMO/Portrait_Kamchatka_Father_Men.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}

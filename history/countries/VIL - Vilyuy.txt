@@ -1,0 +1,33 @@
+﻿capital = 890
+
+oob = ""
+
+set_politics = {
+	ruling_party = socialist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 100
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 0
+	despotist = 0
+	fascism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "No Authority"
+	desc = "POLITICS_NO_AUTHORITY_DESC"
+	picture = "gfx/leaders/OMO/Portrait_Kamchatka_No_Authority.tga"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+}

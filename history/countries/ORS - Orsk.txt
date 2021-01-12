@@ -1,0 +1,94 @@
+﻿capital = 846
+
+set_war_support = 0.6
+add_manpower = 20000
+oob = ""
+add_manpower = 2000
+
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	socialist = 14
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 40
+	fascism = 5
+	national_socialism = 41
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+ORS = {
+	set_cosmetic_tag = ORS_DIR
+}
+
+set_research_slots = 2
+
+### Country Leader ###
+create_country_leader = {
+	name = "Oskar Dirlewanger"
+	desc = "POLITICS_OSKAR_DIRLEWANGER_DESC"
+	picture = "Portrait_Orsk_Oskar_Dirlewanger.dds"
+	expire = "1999.1.1"
+	ideology = national_socialism_subtype
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Oskar Dirlewanger"
+	picture = "Portrait_Orsk_Oskar_Dirlewanger.dds"
+	traits = { winter_specialist harsh_leader trait_reckless }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3521
+}
+
+create_corps_commander = {
+	name = "Fritz Schmedes"
+	picture = "Portrait_ORS_Fritz_Schmedes.dds"
+	traits = { infantry_officer trait_engineer }
+	desc = "LEADER_FRITZ_SCHMEDES_DESC"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3522
+}
+
+create_corps_commander = {
+	name = "Gennady Karkov"
+	picture = "Portrait_Dirlewanger_Gennady_Karkov.dds"
+	traits = { harsh_leader }
+	#desc = "LEADER_GENNADY_KARKOV_DESC"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+	id = 3523
+}
+
+create_corps_commander = {
+	name = "Kallistros Thielecke"
+	picture = "Portrait_Dirlewanger_Kallistros_Thielecke.dds"
+	traits = { trait_reckless }
+	#desc = "LEADER_KALLISTROS_THIELECKE_DESC"
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3524
+}

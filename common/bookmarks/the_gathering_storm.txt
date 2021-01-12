@@ -1,16 +1,16 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
+		name = "THENEWORDER_NAME"
+		desc = "THENEWORDER_DESC"
 		date = 1962.1.1.12
-		picture = "GFX_select_date_1936"
+		picture = "GFX_select_date_1939"
 		default_country = "GER"
 		default = yes
 		
 
 		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
+			history = "GER_THENEWORDER_DESC"
+			ideology = national_socialism
 			ideas = {
 
 			}

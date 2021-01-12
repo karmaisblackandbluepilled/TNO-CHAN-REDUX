@@ -1,0 +1,58 @@
+﻿capital = 574
+
+oob = ""
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 6
+	ultranational_socialism = 0
+	national_socialism = 3
+	socialist = 4
+	social_democrat = 5
+	social_liberal = 66
+	democratic = 0
+	social_conservative = 11
+	neutrality = 5
+	despotist = 0
+	fascism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Georgy Basharin"
+	desc = "POLITICS_GEORGY_BASHARIN_DESC"
+	picture = "Portrait_Yakutia_Georgy_Basharin.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+}
+
+### Generals ###
+create_corps_commander = {
+	name = "Fyodor Okhlopov"
+	picture = "Portrait_Yakutia_Fyodor_Okhlopov.dds"
+	traits = { winter_specialist adaptable }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+	id = 3736
+}
+
+create_corps_commander = {
+	name = "Ivan Fyodorov"
+	picture = "Portrait_Yakutia_Ivan_Fyodorov.dds"
+	traits = { trait_cautious infantry_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+	id = 3737
+}

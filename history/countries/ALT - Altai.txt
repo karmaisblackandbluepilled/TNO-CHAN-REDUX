@@ -1,0 +1,62 @@
+﻿capital = 654
+
+oob = ""
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	ultranational_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 11
+	democratic = 0
+	social_conservative = 15
+	neutrality = 65
+	despotist = 0
+	fascism = 9
+	national_socialism = 0
+	burgundian_system = 0
+}
+
+### Country Leader ###
+create_country_leader = {
+	name = "Ivan Zavoloko"
+	desc = "POLITICS_IVAN_ZAVOLOKO_DESC"
+	picture = "Portrait_Oyrotia_Ivan_Zavoloko.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+### Generals ###
+create_corps_commander = {
+	name = "Lazar Semyonov"
+	picture = "Portrait_Oyrotia_Lazar_Semyonov.dds"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+	traits = { war_hero infantry_leader }
+	id = 3681
+}
+
+create_corps_commander = {
+	name = "Temirey Kazakov"
+	picture = "Portrait_Oyrotia_Temirey_Kazakov.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+	traits = { trait_cautious organizer }
+	id = 3682
+}

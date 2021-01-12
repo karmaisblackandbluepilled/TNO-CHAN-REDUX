@@ -1,0 +1,94 @@
+﻿capital = 848
+
+oob = ""
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 13
+	socialist = 11
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 76
+	fascism = 0
+	national_socialism = 0
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+### Country Leader ###
+create_country_leader = {
+	name = "Janis Mendriks"
+	desc = "POLITICS_JANIS_MENDRIKS_DESC"
+	picture = "Portrait_Ural_Janis_Mendriks.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Aleksey Kukhtikov"
+	picture = "Portrait_Ural_League_Alexey_Kukhitov.dds"
+	traits = { trait_cautious defensive_doctrine organizer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+	id = 3506
+}
+
+create_field_marshal = {
+	name = "Ilya Starinov"
+	picture = "Portrait_Ural_League_Ilya_Starinov.dds"
+	traits = { organisational_leader war_hero commando skirmisher }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3507
+}
+
+create_corps_commander = {
+	name = "Vasily Zaytsev"
+	picture = "Portrait_Ural_League_Vasily_Zaytsev.dds"
+	traits = { war_hero trickster expert_improviser }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+	id = 3508
+}
+
+create_corps_commander = {
+	name = "Mikhail Fomichyov"
+	picture = "Portrait_Ural_League_Mikhail_Fomichyov.dds"
+	traits = { war_hero panzer_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3509
+}
+
+create_corps_commander = {
+	name = "Mikhail Maltsev"
+	picture = "Portrait_Ural_League_Mikhail_Maltsev.dds"
+	traits = { trickster expert_improviser }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3510
+}

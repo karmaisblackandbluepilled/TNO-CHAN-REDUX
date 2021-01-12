@@ -1,0 +1,246 @@
+﻿capital = 400
+
+set_research_slots = 2
+set_stability = 0.4
+set_war_support = 0.35
+
+oob = ""
+
+add_offsite_building = { type = arms_factory level = 2 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_politics = {
+	ruling_party = despotist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 12
+	democratic = 0
+	social_conservative = 15
+	neutrality = 14
+	despotist = 49
+	fascism = 10
+	burgundian_system = 0
+}
+
+puppet = MAR
+
+MAR = {
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		communism = 7
+		ultranational_socialism = 0
+		national_socialism = 3
+		socialist = 0
+		social_democrat = 0
+		social_liberal = 0
+		democratic = 0
+		social_conservative = 0
+		neutrality = 0
+		despotist = 42
+		fascism = 48
+		burgundian_system = 0
+	}
+}
+
+create_country_leader = {
+	name = "Vladimir III"
+	desc = "POLITICS_TSAR_VLADIMIR_DESC"
+	picture = "Portrait_Vyatka_Vladimir_III.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Vladimir III"
+	desc = "POLITICS_TSAR_VLADIMIR_DESC"
+	picture = "Portrait_Vyatka_Vladimir_III.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Vladimir III"
+	desc = "POLITICS_TSAR_VLADIMIR_DESC"
+	picture = "Portrait_Vyatka_Vladimir_III.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Vladimir III"
+	desc = "POLITICS_TSAR_VLADIMIR_DESC"
+	picture = "Portrait_Vyatka_Vladimir.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Vladimir III"
+	desc = "POLITICS_TSAR_VLADIMIR_DESC"
+	picture = "Portrait_Vyatka_Vladimir_III.dds"
+	expire = "1999.1.1"
+	ideology = fascism_subtype
+	traits = {
+
+	}
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Evgeny Messner"
+	picture = "Portrait_Vyatka_Yevgeny_Messner.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	traits = { organizer old_guard harsh_leader	}
+	id = 3401
+}
+
+create_field_marshal = {
+	name = "Boris Smyslovsky"
+	picture = "Portrait_Vyatka_Boris_Smyslovsky.dds"
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+	traits = { logistics_wizard old_guard career_officer skilled_staffer }
+	id = 3402
+}
+
+create_corps_commander = {
+	name = "Aleksander Kalinin"
+	picture = "Portrait_Vyatka_Aleksander_Kalinin.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	traits = { ranger trait_cautious }
+	id = 3404
+}
+
+create_corps_commander = {
+	name = "Georgiy Zagaynov"
+	picture = "Portrait_Vyatka_Georgey_Zagainov.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+	traits = { infantry_officer trait_engineer }
+	id = 3405
+}
+
+create_corps_commander = {
+	name = "Adrian Lyubishchev"
+	picture = "Portrait_Vyatka_Adrian_Lyubishchev.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	traits = { media_personality armor_officer }
+	id = 3406
+}
+
+create_corps_commander = {
+	name = "Mikhail Levitov"
+	picture = "Portrait_Vyatka_Mikhail_Levitov.dds"
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+	traits = { politically_connected war_hero winter_specialist	old_guard }
+	id = 3407
+}
+
+create_corps_commander = {
+	name = "Vladimir Kharzhevsky"
+	picture = "Portrait_Vyatka_Vladimir_Kharzhevsky.dds"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	traits = { war_hero old_guard }
+	id = 3408
+}
+
+create_corps_commander = {
+	name = "Vladimir Vygran"
+	picture = "Portrait_Vyatka_Vladimir_Vygran.dds"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	traits = { infantry_officer	trait_cautious old_guard }
+	id = 3409
+}
+
+create_corps_commander = {
+	name = "Boris Lyubishchev"
+	picture = "Portrait_Vyatka_Boris_Lyubishchev.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	traits = { bearer_of_artillery trait_reckless }
+	id = 3410
+}
+
+create_corps_commander = {
+	name = "Igor Sakharov"
+	picture = "Portrait_Vyatka_Igor_Sakharov.dds"
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+	traits = { trickster trait_reckless	}
+	id = 3411
+}
+
+create_corps_commander = {
+	name = "Vladimir Granitov"
+	picture = "Portrait_Vyatka_Vladimir_Granitov.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	traits = { inflexible_strategist infantry_leader }
+	id = 3412
+}

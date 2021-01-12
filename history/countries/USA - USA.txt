@@ -379,29 +379,3 @@ create_navy_leader = {
 	skill = 4
 	id = 1100
 }
-
-create_navy_leader = {
-	name = "Thomas H. Moorer"
-	picture = "Portrait_USA_ADM_Thomas_Hinman_Moorer.dds"
-	traits = { aviation_enthusiast air_controller dive_bomber }
-
-	skill = 4
-	id = 1101
-}
-
-create_navy_leader = {
-	name = "Horacio Rivero Jr."
-	picture = "Portrait_USA_ADM_Horacio_Rivero.dds"
-	traits = { navy_career_officer battleship_adherent gunnery_expert gentlemanly}
-
-	skill = 3
-	id = 1102
-}
-create_navy_leader = {
-	name = "John Thach"
-	picture = "Portrait_USA_John_Thach.dds"
-	traits = {}
-
-	skill = 1
-	id = 1113
-}

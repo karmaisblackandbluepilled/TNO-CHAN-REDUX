@@ -1,243 +1,241 @@
-﻿capital = 439
+﻿capital = 980
 
-oob = "RAJ_1936"
+oob = ""
 
 
-set_stability = 0.6
-set_war_support = 0.1
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_recon = 1
-	transport = 1
-	trench_warfare = 1
-	fleet_in_being = 1
-	CAS1 = 1
-	early_fighter = 1
-	fuel_silos = 1
-	fuel_refining = 1
-}
-
-if = {
-	limit = {
-		has_dlc = "Battle for the Bosporus"
-	}
-	set_technology = { camelry = 1 }
-}
-
-if = {
-	limit = { has_dlc = "Together for Victory" }
-
-	add_ideas = {
-		RAJ_princely_states
-		RAJ_marginalized_muslim_community
-		RAJ_agrarian_society
-		RAJ_risk_of_famine
-	}
-
-	add_to_tech_sharing_group = commonwealth_research
-}
-
-set_convoys = 20
-
-set_cosmetic_tag = RAJ_UK # British Raj
-
-1939.1.1 = {
-	
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		complete_national_focus = RAJ_lessons_of_the_great_war
-		complete_national_focus = RAJ_vickers_berthier_gun
-		complete_national_focus = RAJ_army_motorization
-		complete_national_focus = RAJ_british_pilot_training
-		complete_national_focus = RAJ_great_indian_peninsula_railway
-		complete_national_focus = RAJ_east_india_railways
-		complete_national_focus = RAJ_found_scindia_shipyard
-		complete_national_focus = RAJ_industrial_expansion
-		complete_national_focus = RAJ_ishapore_arsenal
-	}
-
-	add_political_power = 1198
-	oob = "RAJ_1939"
-
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-
-	add_ideas = {
-		#laws
-		volunteer_only
-		low_economic_mobilisation
-	}
-
-	
-	set_technology = {
-		
-		early_fighter = 1
-		fighter1 = 1
-		#doctrines
-		#Air
-		force_rotation = 1
-		fighter_baiting = 1
-		grand_battle_plan = 1
-
-		trench_warfare = 1
-		prepared_defense = 1
-		battlefleet_concentration = 1
-		subsidiary_carrier_role = 1
-		convoy_sailing = 1
-		convoy_escorts = 1
-		submarine_operations = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		decimetric_radar = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_refining2 = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-	}
-}
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1935.11.14"
-	election_frequency = 48
-	elections_allowed = no
+	ruling_party = social_democrat
+	last_election = "1959.9.6"
+	election_frequency = 57
+	elections_allowed = yes
 }
+
 set_popularities = {
-	democratic = 17
-	fascism = 2
-	communism = 1
-	neutrality = 80
+    communism = 10
+    socialist = 19
+    social_democrat = 40
+    social_liberal = 3
+    democratic = 0
+    social_conservative = 12
+    neutrality = 0
+    despotist = 0
+    fascism = 10
+    national_socialism = 6
+    ultranational_socialism = 0
+    burgundian_system = 0
 }
 
 create_country_leader = {
-	name = "Lord Linlithgow"
-	desc = "POLITICS_LORD_LINLITHGOW_DESC"
-	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	name = "Jawaharlal Nehru"
+	desc = "POLITICS_JAWAHARLAL_NEHRU_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_India_Nehru.dds"
+	ideology = social_democrat_subtype
 	traits = {
-		
-	}
-}
 
-# REVISIT Unclear if appropriate for this ideology
-create_country_leader = {
-	name = "V. D. Savarkar"
-	desc = "POLITICS_VD_SAVARKAR_DESC"
-	picture = "GFX_RAJ_veer_savarkar"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-		
 	}
 }
 
 create_country_leader = {
-	name = "P. Krishna Pillai"
-	desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
-	picture = "GFX_RAJ_krishna_pillai"
-	expire = "1965.1.1"
-	ideology = marxism
+	name = "Shripad Amrit Dange"
+	desc = "POLITICS_SA_DANGE_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_India_SA_Dange.dds"
+	ideology = communist_subtype
 	traits = {
-		
+
 	}
 }
 
 create_country_leader = {
-	name = "B. P. Sitaramayya"
-	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
-	picture = "GFX_RAJ_pattabhi_sitaramayya"
-	expire = "1965.1.1"
-	ideology = socialism
+	name = "Madhav Sadashiv Golwalkar"
+	desc = "POLITICS_MS_GOLWALKAR_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_India_MS_Golwalkar.dds"
+	ideology = national_socialism_subtype
 	traits = {
-		
+
 	}
 }
 
-create_corps_commander = {
-	name = "Noel Beresford-Peirse"
-	gfx = "GFX_RAJ_noel_beresford_peirse"
-	traits = { armor_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 1
+create_country_leader = {
+	name = "Deendayal Upadhyaya"
+	desc = "POLITICS_DEENDAYAL_UPADHYAYA_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_India_Deendayal_Upadhyaya.dds"
+	ideology = fascism_subtype
+	traits = {
+
+	}
 }
 
-create_corps_commander = {
-	name = "Frank Messervy"
-	gfx = "GFX_RAJ_frank_messervy"
-	traits = { hill_fighter }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
+create_country_leader = {
+	name = "Morarji Desai"
+	desc = "POLITICS_MORARJI_DESAI_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_India_Morarji_Desai.dds"
+	ideology = social_conservative_subtype
+	traits = {
+	}
 }
 
-create_corps_commander = {
-	name = "Douglas Gracey"
-	gfx = "GFX_RAJ_douglas_gracey"
-	traits = { desert_fox }
-	skill = 3
+create_country_leader = {
+	name = "Indira Gandhi"
+	desc = "POLITICS_INDIRA_GANDHI_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_India_Indira_Gandhi.dds"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+create_country_leader = {
+	name = "Chakravarti Rajagopalachari"
+	desc = "POLITICS_CHAKRAVARTI_RAJAGOPALACHARI_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_India_Chakravarti_Rajagopalachari.dds"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Jayprakash Narayan"
+	desc = "POLITICS_JAYAPRAKASH_NARAYAN_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_India_Jayprakash_Narayan.dds"
+	ideology = socialist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Savitri Devi"
+	desc = "POLITICS_SAVITRI_DEVI_DESC"
+	expire = "1999.1.1"
+	picture = "Portrait_India_Savitri_Devi.dds"
+	ideology = burgundian_system_subtype
+	traits = {
+	}
+}
+
+create_field_marshal = { 
+	name = "Brijmohan Kaul"
+	picture = "Portrait_India_Brijmohan_Kaul.dds"
+	traits = { old_guard politically_connected }
+	skill = 1
 	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3001
 }
 
-create_navy_leader = {
-	name = "Herbert Fitzherbert"
-	gfx = "GFX_RAJ_herbert_fitzherbert"
-	traits = { old_guard_navy }
+create_field_marshal = { 
+	name = "Pran Nath Thapar"
+	picture = "Portrait_India_Pran_Nath_Thapar.dds"
+	traits = { old_guard }
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
-	maneuvering_skill = 1
-	coordination_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3002
 }
 
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	create_operative_leader = {
-		name = "Noor Inayat Khan"
-		GFX = GFX_portrait_noor_inayat_khan
-		traits = {  }
-		bypass_recruitment = no
-		available_to_spy_master = yes
-		female = yes
-		nationalities = { RAJ }
-	}
+create_corps_commander = { 
+	name = "Kodandera Subayya Thimayya"
+	picture = "Portrait_India_Kodendera_Subayya_Thimayya.dds"
+	traits = { war_hero infantry_officer infantry_leader commando jungle_rat }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3003
 }
+
+create_corps_commander = { 
+	name = "Jayanto Nath Chaudhuri"
+	picture = "Portrait_India_Jayanto_Nath_Chaudhuri.dds"
+	traits = { war_hero career_officer cavalry_leader skilled_staffer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3004
+}
+
+create_corps_commander = { 
+	name = "Gopal Gurunath Bewoor"
+	picture = "Portrait_India_Gopal_Gurunath_Bewoor.dds"
+	traits = { career_officer inflexible_strategist }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3005
+}
+
+create_corps_commander = { 
+	name = "Yahya Khan"
+	picture = "Portrait_India_Yahya_Khan.dds"
+	traits = { politically_connected }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 3006
+}
+
+create_field_marshal = { 
+	name = "K.M. Cariappa"
+	picture = "Portrait_India_KM_Cariappa.dds"
+	traits = { old_guard brilliant_strategist harsh_leader aggressive_assaulter }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3007
+}
+
+create_corps_commander = { 
+	name = "Sam Manekshaw"
+	picture = "Portrait_India_Sam_Manekshaw.dds"
+	traits = { war_hero infantry_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3008
+}
+
+create_corps_commander = { 
+	name = "Paramasiva Prabhakar Kumaramangalam"
+	picture = "Portrait_India_P.P._Kumaramangalam.dds"
+	traits = { career_officer bearer_of_artillery paratrooper }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3009
+}
+
+create_navy_leader = { 
+	name = "Charles Pizey"
+	portrait_path = "Portrait_India_Charles_Pizey.dds"
+	traits = { war_hero }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 3 
+    id = 3010
+}
+
+add_stability = 0.74

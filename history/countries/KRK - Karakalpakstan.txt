@@ -1,0 +1,33 @@
+﻿capital = 750
+
+oob = ""
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 3
+	socialist = 0
+	social_democrat = 7
+	social_liberal = 37
+	democratic = 0
+	despotist = 0
+	social_conservative = 51
+	neutrality = 0
+	fascism = 2
+	national_socialism = 0
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Ibrahim Yusupov"
+	desc = "POLITICS_IBRAHIM_YUSUPOV_DESC"
+	picture = "Portrait_Karakalpakstan_Ibrahim_Yusupov.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+}

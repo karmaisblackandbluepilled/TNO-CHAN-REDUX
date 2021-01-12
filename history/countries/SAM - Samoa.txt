@@ -1,57 +1,251 @@
-﻿capital = 726
+﻿capital = 850
 
-#oob = ""
+oob = ""
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
+add_offsite_building = { type = arms_factory level = 2 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_stability = 0.67
+
+set_politics = {
+	ruling_party = despotist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
 }
 
-set_convoys = 20
+set_popularities = {
+	communism = 0
+	ultranational_socialism = 0
+	national_socialism = 6
+	socialist = 0
+	social_democrat = 5
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 27
+	despotist = 36
+	fascism = 26
+	burgundian_system = 0
+}
 
-1939.1.1 = {
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_technology = {
+### Country Leaders ###
 
-		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
+create_country_leader = {
+	name = "Andrey Vlasov"
+	picture = "Portrait_Samara_Andrey_Vlasov.dds"
+	desc = "SAM_ANDREY_VLASOV_DESC"
+	expire = "1999.1.1"
+	ideology = fascism_subtype
+	traits = {
 
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
 	}
 }
-set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
+
+create_country_leader = {
+	name = "Andrey Vlasov"
+	picture = "Portrait_Samara_Andrey_Vlasov.dds"
+	desc = "SAM_ANDREY_VLASOV_DESC"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+
+	}
 }
-set_popularities = {
-	democratic = 50
-	fascism = 6
-	communism = 6
-	neutrality = 38
+
+create_country_leader = {
+	name = "Andrey Vlasov"
+	picture = "Portrait_Samara_Andrey_Vlasov.dds"
+	desc = "SAM_ANDREY_VLASOV_DESC"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Andrey Vlasov"
+	picture = "Portrait_Samara_Andrey_Vlasov.dds"
+	traits = {
+		offensive_doctrine
+		inflexible_strategist
+		politically_connected
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3431
+}
+
+create_field_marshal = {
+	name = "Sergei Bunyachenko"
+	picture = "Portrait_Samara_Sergei_Bunyachenko.dds"
+	traits = {
+		offensive_doctrine
+		brilliant_strategist
+		aggressive_assaulter
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+	id = 3432
+}
+
+create_corps_commander = {
+	name = "Georgy Zhilenkov"
+	picture = "Portrait_Samara_Georgy_Zhilenkov.dds"
+	traits = {
+		infantry_leader
+		hill_fighter
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3433
+}
+
+create_corps_commander = {
+	name = "Fyodor Trukhin"
+	picture = "Portrait_Samara_Fyodor_Trukhin.dds"
+	traits = {
+		politically_connected
+		career_officer
+		infantry_leader
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3434
+}
+
+create_corps_commander = {
+	name = "Konstantin Kromiadi"
+	picture = "Portrait_Samara_Konstantin_Kromiadi.dds"
+	traits = {
+		old_guard
+		trait_reckless
+		trickster
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3435
+}
+
+create_corps_commander = {
+	name = "Mikhail Meandrov"
+	picture = "Portrait_Samara_Mikhail_Meandrov.dds"
+	traits = {
+		politically_connected
+		trait_cautious
+		winter_specialist
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+	id = 3436
+}
+
+create_corps_commander = {
+	name = "Nikolay Tarasov"
+	picture = "Portrait_Samara_Nikolay_Tarasov.dds"
+	traits = {
+		harsh_leader
+		infantry_leader
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3437
+}
+
+create_corps_commander = {
+	name = "Vladimir Bayersky"
+	picture = "Portrait_Samara_Vladimir_Bayersky.dds"
+	traits = {
+		politically_connected
+		trait_engineer
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 4
+	id = 3438
+}
+
+create_corps_commander = {
+	name = "Albert Ahrens"
+	picture = "Portrait_Samara_Albert_Ahrens.dds"
+	traits = {
+		inflexible_strategist
+		politically_connected
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3439
+}
+
+create_corps_commander = {
+	name = "Vasily Malyshkin"
+	picture = "Portrait_Samara_Vasily_Malyshkin.dds"
+	traits = {
+		trait_reckless
+		trickster
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3440
+}
+
+create_corps_commander = {
+	name = "Pavel Butkov"
+	picture = "Portrait_Samara_Pavel_Butkov.dds"
+	traits = {
+		trait_cautious
+		infantry_leader
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3441
+}
+
+create_corps_commander = {
+	name = "Alexander Scheglov"
+	picture = "Portrait_Samara_Alexander_Scheglov.dds"
+	traits = {
+		old_guard
+		organizer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+	id = 3442
 }

@@ -1,0 +1,146 @@
+﻿capital = 403
+
+oob = ""
+
+set_stability = 0.70
+
+add_offsite_building = { type = arms_factory level = 2 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+	communism = 68
+	ultranational_socialism = 9
+	socialist = 13
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 10
+	despotist = 0
+	fascism = 0
+	burgundian_system = 0
+}
+
+create_country_leader = {
+	name = "Lazar Kaganovich"
+	desc = "POLITICS_LAZAR_KAGANOVICH_DESC"
+	picture = "Portrait_Tyumen_Lazar_Kaganovich.dds"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+}
+
+create_field_marshal = {
+	name = "Ivan Konev"
+	picture = "Portrait_Tyumen_Ivan_Konev.dds"
+	traits = { brilliant_strategist aggressive_assaulter career_officer panzer_leader}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 5
+	id = 3571
+}
+
+create_field_marshal = {
+	name = "Filipp Golikov"
+	picture = "Portrait_Tyumen_Filipp_Golikov.dds"
+	traits = { logistics_wizard organizer inflexible_strategist career_officer }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+	id = 3572
+}
+
+create_corps_commander = {
+	name = "Ivan Fedyuninsky"
+	picture = "Portrait_Tyumen_Ivan_Fedyuninsky.dds"
+	traits = { infantry_leader career_officer war_hero urban_assault_specialist }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3573
+}
+
+create_corps_commander = {
+	name = "Oleg Losik"
+	picture = "Portrait_Tyumen_Oleg_Losik.dds"
+	traits = { organizer armor_officer panzer_leader }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3574
+}
+
+create_corps_commander = {
+	name = "Vasily Kuznetsov"
+	picture = "Portrait_Tyumen_Vasily_Kuznetsov.dds"
+	traits = { media_personality infantry_leader career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3575
+}
+
+create_corps_commander = {
+	name = "Artyom Sergeyev"
+	picture = "Portrait_Tyumen_Artyom_Sergeyev.dds"
+	traits = { infantry_leader career_officer skilled_staffer trait_mountaineer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 3576
+}
+
+create_corps_commander = {
+	name = "Alexander Logunov"
+	picture = "Portrait_Tyumen_Alexander_Logunov.dds"
+	traits = { infantry_officer  winter_specialist }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 3577
+}
+
+create_corps_commander = {
+	name = "Sergey Shtemenko"
+	picture = "Portrait_Tyumen_Sergey_Shtemenko.dds"
+	traits = { career_officer bearer_of_artillery }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3578
+}
+
+create_corps_commander = {
+	name = "Pyotr Lushev"
+	picture = "Portrait_Tyumen_Pyotr_Lushev.dds"
+	traits = { old_guard career_officer skilled_staffer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3579
+}

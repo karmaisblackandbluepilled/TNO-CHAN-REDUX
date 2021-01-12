@@ -1,0 +1,90 @@
+﻿capital = 562
+
+oob = ""
+
+set_war_support = 0.90
+set_stability = 0.75
+add_manpower = 12500
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1961.1.20"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	ultranational_socialism = 0
+	national_socialism = 22
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 6
+	despotist = 8
+	fascism = 64
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Mikhail Matkovsky"
+	desc = "POLITICS_MIKHAIL_MATKOVSKY_DESC"
+	picture = "Portrait_Magadan_Mikhail_Matkovsky.dds"
+	expire = "1999.1.1"
+	ideology = fascism_subtype
+	traits = { }
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Alexander Pavlov"
+	picture = "Portrait_Magadan_Alexander_Pavlov.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 2
+	traits = { career_officer trait_mountaineer infantry_leader defensive_doctrine }
+	id = 3771
+}
+
+create_corps_commander = {
+	name = "Andrey Vrastil"
+	picture = "Portrait_Magadan_Andrey_Vrastil.dds"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+	traits = { trait_reckless hill_fighter }
+	id = 3772
+}
+
+create_corps_commander = {
+	name = "Yuri Vitvitsky"
+	picture = "Portrait_Magadan_Yuri_Vitvitsky.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+	traits = { trait_cautious infantry_leader }
+	id = 3773
+}
+
+create_corps_commander = {
+	name = "Konstantin Kuznetsov"
+	picture = "Portrait_Magadan_Konstantin_Kuznetsov.dds"
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+	traits = { inflexible_strategist trickster }
+	id = 3774
+}
+
+### Admirals ###

@@ -1,0 +1,87 @@
+﻿capital = 652
+
+oob = ""
+add_manpower = 1000
+
+set_politics = {
+	ruling_party = socialist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 13
+	socialist = 66
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 0
+	neutrality = 21
+	fascism = 0
+	national_socialism = 0
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Worker's Council of Orenburg"
+	desc = "POLITICS_WORKERS_COUNCIL_ORENBURG_DESC"
+	picture = "Portrait_Orenburg_Workers_Council.dds"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+}
+
+create_country_leader = {
+	name = "Georgy Malenkov"
+	desc = "POLITICS_GEORGY_MALENKOV_DESC"
+	picture = "Portrait_Orenburg_Georgy_Malenkov.dds"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+}
+
+create_country_leader = {
+	name = "Aleksander Burba"
+	desc = "POLITICS_ALEKSANDER_BURBA_DESC"
+	picture = "Portrait_Orenburg_Aleksander_Burba.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+
+### Generals ###
+create_corps_commander = {
+	name = "Ludvig Svoboda"
+	picture = "Portrait_Orenburg_Ludvig_Svoboda.dds"
+	traits = { brilliant_strategist politically_connected trickster }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3516
+}
+
+create_corps_commander = {
+	name = "Alexander Rodimtsev"
+	picture = "Portrait_Orenburg_Alexander_Rodimtsev.dds"
+	traits = { war_hero infantry_leader }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+	id = 3517
+}
+
+create_corps_commander = {
+	name = "Musa Cälil"
+	picture = "Portrait_Orenburg_Musa_Calil.dds"
+	traits = { trickster guerilla_fighter }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	id = 3518
+}

@@ -1,108 +1,86 @@
 ﻿capital = 267
 
-oob = "AFG_1936"
-
-set_technology = {
-	infantry_weapons = 1
-	gwtank = 1
-	basic_light_tank = 1
-}
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = construction_effort_2
-	complete_national_focus = production_effort_2
-	complete_national_focus = infrastructure_effort
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "AFG_1939"
-	set_technology = {
-		early_fighter = 1
-		CAS1 = 1
-		gw_artillery = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_silos = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
+oob = ""
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1936.1.1"
+	last_election = "1960.8.29"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 15
-	communism = 10
-	neutrality = 75
+    communism = 0
+    socialist = 0
+    social_democrat = 18
+    social_liberal = 12
+    democratic = 0
+    social_conservative = 14
+    neutrality = 56
+    despotist = 0
+    fascism = 0
+    national_socialism = 0
+    ultranational_socialism = 0
+    burgundian_system = 0
 }
 
-# Mohammad Hashim Khan (Prime Minister) other potential candidate
 create_country_leader = {
-	name = "Mohammed Zahir Shah"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	name = "Nur Muhammad Taraki"
+	desc = "POLITICS_NUR_MUHAMMAD_TARAKI_DESC"
+	picture = "Portrait_Afghanistan_Nur_Muhammed_Taraki.dds"
+	expire = "1999.1.1"
+	ideology = communist_subtype
 	traits = {
 		#
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		fascism = 20
-		communism = 10
-		neutrality = 70
+create_country_leader = {
+	name = "Mohammad Daoud Khan"
+	desc = "POLITICS_MOHAMMAD_DAOUD_KHAN_DESC"
+	picture = "Portrait_Afghanistan_Mohammad_Daoud_Khan.dds"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
 	}
 }
 
-create_corps_commander = {
-	name = "Sardar Shah Wali Khan"
-	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
-	traits = { desert_fox }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
+create_country_leader = {
+	name = "Mohammad Musa Shafiq"
+	desc = "POLITICS_MOHAMMAD_MUSA_SHAFIQ_DESC"
+	picture = "Portrait_Afghanistan_Mohammad_Musa_Shafiq.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Abdul Hadi Dawi"
+	desc = "POLITICS_ABDUL_HADI_DAWI_DESC"
+	#picture = "Portrait_Afghanistan_Abdul_Hadi_Dawi.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mohammed Zahir Shah"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Gulbuddin Hekmatyar"
+	desc = "POLITICS_GULBUDDIN_HEKMATYAR_DESC"
+	picture = "Portrait_Afghanistan_Gulbuddin_Hekmatyar.dds"
+	expire = "1999.1.1"
+	ideology = ultranational_socialism_subtype
+	traits = {
+	}
 }

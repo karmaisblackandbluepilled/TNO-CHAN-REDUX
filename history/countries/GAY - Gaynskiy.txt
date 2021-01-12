@@ -1,0 +1,103 @@
+﻿capital = 866
+
+oob = ""
+
+add_manpower = 15000
+
+add_offsite_building = { type = arms_factory level = 1 }
+add_offsite_building = { type = industrial_complex level = 1 }
+
+set_politics = {
+	ruling_party = despotist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	ultranational_socialism = 0
+	national_socialism = 0
+	socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	social_conservative = 11
+	neutrality = 27
+	despotist = 62
+	fascism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Mikhail Antipin"
+	desc = "POLITICS_MIKHAIL_ANTIPIN_DESC"
+	picture = "Portrait_Gayny_Mikhail_Antipin.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+	traits = {
+
+	}
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Mikhail Antipin"
+	picture = "Portrait_Gayny_Mikhail_Antipin.dds"
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+	traits = { unyielding_defender trait_engineer inflexible_strategist }
+	id = 3301
+}
+
+create_corps_commander = {
+	name = "Cyril Pavlov"
+	picture = "Portrait_Gayny_Cyril_Pavlov.dds"
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+	traits = { war_hero winter_specialist }
+	id = 3302
+}
+
+create_corps_commander = {
+	name = "Ivan Kalinin"
+	picture = "Portrait_Gayny_Ivan_Kalinin.dds"
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+	traits = { ranger hill_fighter adaptable infantry_officer }
+	id = 3303
+}
+
+create_corps_commander = {
+	name = "Ilya Limonov"
+	picture = "Portrait_Gayny_Ilya_Limonov.dds"
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	traits = { organizer career_officer }
+	id = 3304
+}
+
+create_corps_commander = {
+	name = "Frol Vaskin"
+	picture = "Portrait_Gayny_Frol_Vaskin.dds"
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+	traits = { infantry_leader harsh_leader }
+	id = 3305
+}

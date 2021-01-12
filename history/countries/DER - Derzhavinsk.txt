@@ -1,0 +1,92 @@
+﻿capital = 583
+
+oob = ""
+
+set_stability = 1.0
+set_war_support = 1.0
+
+add_manpower = 15000
+
+set_research_slots = 2
+set_stability = 0.7
+
+set_politics = {
+	ruling_party = despotist
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+	communism = 0
+	socialist = 14
+	social_democrat = 0
+	social_liberal = 0
+	democratic = 0
+	despotist = 68
+	social_conservative = 5
+	neutrality = 0
+	fascism = 10
+	national_socialism = 3
+	ultranational_socialism = 0
+	burgundian_system = 0
+}
+
+### Country Leaders ###
+create_country_leader = {
+	name = "Nikolai Zabelkin"
+	desc = "POLITICS_NIKOLAI_ZABELKIN_DESC"
+	picture = "Portrait_DER_Nikolai_Zabelkin.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}
+
+### Generals ###
+create_field_marshal = {
+	name = "Nikolai Zabelkin"
+	picture = "Portrait_DER_Nikolai_Zabelkin.dds"
+	traits = { war_hero defensive_doctrine inspirational_leader  }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	id = 3486
+}
+
+create_corps_commander = {
+	name = "Sergei Gundenko"
+	picture = "Portrait_DER_Sergei_Gudenko.dds"
+	traits = { infantry_leader desert_fox }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+	id = 3487
+}
+
+create_corps_commander = {
+	name = "Seytkasim Ashirov"
+	picture = "Portrait_DER_Seytkasim_Ashirov.dds"
+	traits = { cavalry_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+	id = 3488
+}
+
+create_corps_commander = {
+	name = "Vasily Afanasyev"
+	picture = "Portrait_DER_Vasily_Afanasyev.dds"
+	traits = { trickster guerilla_fighter }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+	id = 3489
+}
