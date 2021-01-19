@@ -1,9 +1,9 @@
-﻿capital = 603
+﻿capital = 605
 
 oob = ""
 
 set_politics = {	
-	ruling_party = neutrality
+	ruling_party = despotist
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
@@ -17,18 +17,29 @@ set_popularities = {
     social_liberal = 10
     democratic = 0
     social_conservative = 20
-    neutrality = 40
-    despotist = 15
+    neutrality = 15
+    despotist = 40
     fascism = 3
     burgundian_system = 0
 }
 
 create_country_leader = {
 	name = "He Yingqin"
-    desc = "POLITICS_HE_YINGQIN_DESC"
+        desc = "POLITICS_HE_YINGQIN_DESC"
 	picture = "Portrait_Guizhou_He_Yingqin.dds"
 	expire = "2000.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chiang Kai-shek"
+        desc = "POLITICS_KAISHEK_DESC"
+	picture = "Portrait_Guizhou_Chiang.dds"
+	expire = "2000.1.1"
+	ideology = despotism_subtype
 	traits = {
 		#
 	}

@@ -3,7 +3,7 @@
 oob = ""
 
 set_politics = {	
-	ruling_party = despotist
+	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -11,7 +11,7 @@ set_politics = {
 }
 
 set_popularities = {
-    communism = 21
+    communism = 0
     ultranational_socialism = 0
     national_socialism = 3
     socialist = 0
@@ -20,8 +20,8 @@ set_popularities = {
     democratic = 0
     social_conservative = 0
     neutrality = 0
-    despotist = 76
-    fascism = 0
+    despotist = 21
+    fascism = 76
     burgundian_system = 0
 }
 
@@ -31,6 +31,17 @@ create_country_leader = {
 	picture = "Portrait_Guangxi_Xia_Wei.dds"
 	expire = "2000.1.1"
 	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Li Zongren"
+        desc = "POLITICS_LI_ZONGREN_DESC"
+	picture = "Portrait_Guangxi_Li_Zongren.dds"
+	expire = "2000.1.1"
+	ideology = fascism_subtype
 	traits = {
 		#
 	}

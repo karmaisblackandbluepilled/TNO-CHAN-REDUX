@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = SIC
-		add_core_of = SIC
+		owner = GUZ
+		add_core_of = GUZ
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 4

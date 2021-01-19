@@ -306,7 +306,7 @@ VEN = {
 }
 
 YUN = {
-	color = rgb { 135 81 103 }
+	color = rgb { 155 91 103 }
 	color_ui = rgb { 135 81 103 }
 }
 
@@ -376,18 +376,18 @@ CRO = {
 }
 
 PRC = {
-	color = rgb { 245 12 55 }
-	color_ui = rgb { 178 34 60 }
+	color = rgb { 134 29 25 }
+	color_ui = rgb { 163 37 33 }
 }
 
 GXC = {
-	color = rgb { 137 74 82 }
-	color_ui = rgb { 137 74 82 }
+	color = rgb { 83 69 69 }
+	color_ui = rgb { 83 69 69 }
 }
 
 SHX = {
-	color = rgb { 193 52 87 }
-	color_ui = rgb { 193 52 87 }
+	color = rgb { 15 126 144 }
+	color_ui = rgb { 15 126 144 }
 }
 
 XSM = {
@@ -1273,18 +1273,18 @@ CHK = {
 }
 
 HUI = {
-	color = rgb { 140 72 89 }
-	color_ui = rgb { 140 72 89 }
+	color = rgb { 106 111 145 }
+	color_ui = rgb { 86 91 125 }
 }
 
 SIC = {
-	color = rgb { 193 90 125 }
-	color_ui = rgb { 193 90 125 }
+	color = rgb { 110 110 133 }
+	color_ui = rgb { 110 110 133 }
 }
 
 GUZ = {
-	color = rgb { 165 81 87 }
-	color_ui = rgb { 165 81 87 }
+	color = rgb { 8 99 156 }
+	color_ui = rgb { 8 99 156 }
 }
 
 YAA = {

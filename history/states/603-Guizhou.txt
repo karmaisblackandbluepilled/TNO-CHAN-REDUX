@@ -3,8 +3,8 @@ state={
 	id=603
 	name="STATE_603"
 	resources={
-		aluminium = 24.000
-		tungsten = 24.000
+		aluminium=24.000
+		tungsten=24.000
 	}
 
 	history={
@@ -16,17 +16,25 @@ state={
 			arms_factory = 2
 
 		}
-		victory_points = { 10616 20 }
-		victory_points = { 4325 10 }
-		victory_points = { 5072 5 }
-		victory_points = { 1884 5 }
+		victory_points = {
+			10616 20 
+		}
+		victory_points = {
+			4325 10 
+		}
+		victory_points = {
+			5072 5 
+		}
+		victory_points = {
+			1884 5 
+		}
 
 	}
 
 	provinces={
-		911 1010 1884 4141 4192 4325 4431 4504 4532 5072 7549 8095 9939 10616 10763 10819 11972 12841
+		911 1010 1884 4141 4325 4431 4532 7549 8095 9939 10616 10763 11972 
 	}
 	manpower=19926400
-	buildings_max_level_factor = 2.000
+	buildings_max_level_factor=2.000
 	state_category=city
 }

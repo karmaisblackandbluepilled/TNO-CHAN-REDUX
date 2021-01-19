@@ -2,9 +2,9 @@
 state={
 	id=955
 	name="STATE_955"
-	resources = {
-		steel = 7.000
-		aluminium = 3.000
+	resources={
+		steel=7.000
+		aluminium=3.000
 	}
 
 	history={
@@ -13,12 +13,16 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
-		victory_points = { 10451 20 }
+		victory_points = {
+			10451 20 
+		}
+
 	}
 
 	provinces={
-		1959 3427 4960 4986 10451 10854 12706
+		1959 3427 4960 4986 10451 10854 12706 
 	}
 	manpower=1383700
 	buildings_max_level_factor=1.000

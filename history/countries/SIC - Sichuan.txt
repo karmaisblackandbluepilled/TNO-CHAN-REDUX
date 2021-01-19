@@ -4,7 +4,7 @@ oob = ""
 
 
 set_politics = {	
-	ruling_party = despotist
+	ruling_party = neutrality
 	last_election = "1962.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -18,8 +18,8 @@ set_popularities = {
     social_liberal = 0
     democratic = 0
     social_conservative = 0
-    neutrality = 25
-    despotist = 60
+    neutrality = 60
+    despotist = 25
     fascism = 3
     burgundian_system = 0
 }
@@ -30,6 +30,17 @@ create_country_leader = {
 	picture = "Portrait_Sichuan_Tian_Songyao.dds"
 	expire = "2000.1.1"
 	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Xue Yue"
+        desc = "POLITICS_XUE_YUE_DESC"
+	picture = "Portrait_Sichuan_Xue_Yue.dds"
+	expire = "2000.1.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}

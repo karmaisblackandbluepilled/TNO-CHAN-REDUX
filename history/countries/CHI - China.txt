@@ -35,9 +35,9 @@ set_popularities = {
 set_cosmetic_tag = CHI_JAP
 
 create_country_leader = {
-	name = "Gao Zongwu"
-	picture = "Portrait_China_Gao_Zongwu.tga"
-	desc = "POLITICS_GAO_ZONGWU_DESC"
+	name = "Zhou Fohai"
+	picture = "Portrait_China_Zhou_Fohai.tga"
+	desc = "POLITICS_ZHOU_FOHAI_DESC"
 	expire = "2000.1.1"
 	ideology = fascism_subtype
 	traits = {
@@ -209,10 +209,4 @@ create_navy_leader = {
 	coordination_skill = 2
 	id = 2450
 }
-
-puppet = SIC
-puppet = SHX
-puppet = GXC
-puppet = GUZ
-puppet = YUN	
 
