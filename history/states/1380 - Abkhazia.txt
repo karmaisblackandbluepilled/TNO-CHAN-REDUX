@@ -1,9 +1,9 @@
-###POP DONE 
+###POP needs adjustments
 state={
-	id=233
-	name="STATE_233"
+	id=1380
+	name="STATE_1380"
+	
 	resources={
-		chromium=46.000
 	}
 
 	history={
@@ -11,19 +11,17 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-
 		}
-		victory_points = { 9628 5 }
-		victory_points = { 9649 1 }
+		victory_points = { 11617 2 }
 		
 		add_core_of = CAU
 		add_core_of = ADY
 	}
 
 	provinces={
-		666 670 685 1455 3667 3698 6674 6692 6721 9628 9632 9647 9649 9663 9674 11609 11614 11664 
+		11647 11617
 	}
-	manpower=719193
+	manpower= 1
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
