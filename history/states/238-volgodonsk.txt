@@ -4,15 +4,14 @@ state={
 	name="STATE_238"
 
 	history={
-		owner = MCW
+		owner = CAU
 		victory_points = { 6490 5 }
 		buildings = {
 			infrastructure = 4
 
 		}
 		
-		add_core_of = MCW
-		add_core_of = VRS
+		add_core_of = CAU
 
 	}
 
