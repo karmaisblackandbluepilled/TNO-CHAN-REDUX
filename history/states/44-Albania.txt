@@ -8,24 +8,21 @@ state={
 	}
 
 	history={
-		owner = ITA
-		add_core_of = ITA
+		owner = BRA
+		add_core_of = BRA
 		victory_points = { 9914 10 }
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 2
+			infrastructure = 2
+			industrial_complex = 1
 			arms_factory = 1
-			air_base = 3
+			air_base = 1
 		}
-		add_core_of = ALB
-		add_claim_by = ITA
-
 	}
 
 	provinces={
-		3884 9914
+		9914 4980
 	}
-	manpower=423333
+	manpower=42333
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category= pastoral
 }
